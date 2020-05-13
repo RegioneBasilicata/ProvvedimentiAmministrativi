@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<datiDocumento>
+<oggetto></oggetto>
+<testo></testo>
+<tabella nome_tabella="Documento_liquidazione" 
+         chiave_tabella="Dli_Documento" 
+         col_prog_registrazione="Dli_prog" 
+         col_data_registrazione="Dli_DataRegistrazione" 
+         col_operatore_registrazione="Dli_Operatore">
+	<Dli_Esercizio tipo="INT" compito="ISTRUTTORE"></Dli_Esercizio>	
+	<Dli_UPB compito="ISTRUTTORE"></Dli_UPB>
+	<Dli_Cap compito="ISTRUTTORE"></Dli_Cap>
+	<Dli_Costo tipo="FLOAT" compito="ISTRUTTORE"></Dli_Costo>
+	<Dli_NContabile tipo="INT" compito="ISTRUTTORE"></Dli_NContabile>
+	<Dli_TipoAssunzione tipo="INT" compito="ISTRUTTORE"></Dli_TipoAssunzione>
+	<Dli_Num_assunzione tipo="INT" compito="ISTRUTTORE"></Dli_Num_assunzione>
+	<Dli_Data_Assunzione tipo="DATA" compito="ISTRUTTORE"></Dli_Data_Assunzione>
+	<Dli_prog></Dli_prog>
+</tabella>
+<tabella nome_tabella="Documento_rag_liquidazione" 
+         chiave_tabella="DRL_Id_Documento" 
+         col_prog_registrazione="DRL_Prog" 
+         col_data_registrazione="DRL_DataRegistrazione" 
+         col_operatore_registrazione="DRL_Operatore">
+	<DRL_NLiquidazione tipo="INT" compito="*"></DRL_NLiquidazione>
+	<DRL_UPB compito="*"></DRL_UPB>
+	<DRL_Cap compito="*"></DRL_Cap>
+	<DRL_Esercizio tipo="INT" compito="*"></DRL_Esercizio>
+	<DRL_Costo tipo="FLOAT" compito="*"></DRL_Costo>
+	<DRL_NContabile tipo="INT" compito="*"></DRL_NContabile>
+	<DRL_TipoAssunzione tipo="INT" compito="*"></DRL_TipoAssunzione>
+	<DRL_NAssunzione tipo="INT" compito="*"></DRL_NAssunzione>
+	<DRL_Data tipo="DATA" compito="*"></DRL_Data>
+	<DRL_Prog></DRL_Prog>	
+</tabella>
+</datiDocumento> 

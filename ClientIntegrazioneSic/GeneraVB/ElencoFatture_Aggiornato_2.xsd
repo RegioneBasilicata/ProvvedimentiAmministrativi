@@ -1,0 +1,66 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="elenco_fatture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fattura" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:integer" name="id_univoco"/>
+              <xs:element type="String100Type" name="numero_fattura_beneficiario"/>
+              <xs:element type="String10Type" name="data_fattura_beneficiario"/>
+              <xs:element type="xs:integer" name="id_anagrafica"/>
+              <xs:element type="xs:integer" name="id_sede"/>
+              <xs:element type="String27Type" name="iban"/>
+              <xs:element type="xs:integer" name="id_iban"/>
+              <xs:element type="String4000Type" name="descrizione_fattura" minOccurs="0"/>
+              <xs:element type="Amount2DecimalType" name="importo_totale_fattura"/>
+              <xs:element type="xs:integer" name="id_metodo_di_pagamento"/>
+			  <xs:element name="allegato" minOccurs="0" maxOccurs="unbounded">			  
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="String100Type" name="nome_allegato"/>
+							<xs:element type="String10Type" name="formato_allegato"/>
+							<xs:element type="String1000Type" name="url_allegato"/>
+						</xs:sequence>
+					</xs:complexType>
+			  </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:float" name="versione"/>
+    </xs:complexType>
+  </xs:element>
+
+	<xs:simpleType name="Amount2DecimalType">
+		<xs:restriction base="xs:decimal">
+			<xs:pattern value="[\-]?[0-9]{1,11}\.[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String4000Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,4000})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String1000Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,1000})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String100Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,100})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String27Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,27})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String10Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,10})"/>
+		</xs:restriction>
+	</xs:simpleType>		
+
+</xs:schema>

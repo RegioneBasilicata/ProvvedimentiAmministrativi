@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<datiDocumento>
+<tabella nome_tabella="Documento_bilancio" chiave_tabella="Dbi_Documento" col_prog_registrazione="Dbi_prog" col_data_registrazione="Dbi_DataRegistrazione" col_operatore_registrazione="Dbi_Operatore">
+	<Dbi_Bilancio></Dbi_Bilancio>
+	<Dbi_UPB></Dbi_UPB>
+	<Dbi_Cap></Dbi_Cap>	
+</tabella>
+<tabella nome_tabella="Documento_liquidazione" chiave_tabella="Dli_Documento" col_prog_registrazione="Dli_prog" col_data_registrazione="Dli_DataRegistrazione" col_operatore_registrazione="Dli_Operatore">
+	<Dli_Esercizio></Dli_Esercizio>	
+	<Dli_UPB></Dli_UPB>
+	<Dli_Cap></Dli_Cap>
+	<Dli_NContabile></Dli_NContabile>
+	<Dli_TipoAssunzione></Dli_TipoAssunzione>
+	<Dli_Num_assunzione></Dli_Num_assunzione>
+</tabella>
+</datiDocumento>

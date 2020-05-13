@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog Upgraded = "True" >
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "DllSistema.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "DllSistema"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "DllSistema.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Sviluppo_A\LIBRERIE.NET\DllSistema\DllSistema.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Sviluppo_A\LIBRERIE\DllSistema\DllSistema.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "1"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\Sviluppo_A\Comuni_A\ClSistema.cls"
+        NewPath = "C:\Sviluppo_A\LIBRERIE.NET\DllSistema\DllSistema.NET\ClSistema.vb"
+        FileType = "Class Module"
+        Upgraded = "True"
+    >
+        <Section Name = "Registra_Log" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Impossibile risolvere la proprietà predefinita dell'oggetto DescrErr.</Issue>
+        </Section>
+        <Section Name = "GetFileIni" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "UCase"
+            >Impossibile risolvere la proprietà predefinita dell'oggetto ExeName.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Impossibile risolvere la proprietà predefinita dell'oggetto ProcIni.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "Dir"
+            >Dir ha un nuovo comportamento.</Issue>
+        </Section>
+        <Section Name = "Cripta" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Impossibile risolvere la proprietà predefinita dell'oggetto Hx.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Impossibile risolvere la proprietà predefinita dell'oggetto b.</Issue>
+        </Section>
+        <Section Name = "VerDataFile" >
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "Dir"
+            >Dir ha un nuovo comportamento.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Sviluppo_A\LIBRERIE\DllSistema\svrRoot.bas"
+        NewPath = "C:\Sviluppo_A\LIBRERIE.NET\DllSistema\DllSistema.NET\svrRoot.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <Issue
+        Type = "Global Warning"
+        Number = "1043"
+    >L'istanza della classe è stata cambiata in public.</Issue>
+</UpgradeLog>
+

@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{546BABD0-6DC4-48FE-9208-E61B89300133}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AttiDigitali</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>AttiDigitali</RootNamespace>
+    <StartupObject>AttiDigitali</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionInfer>Off</OptionInfer>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AttiDigitali.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AttiDigitali.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <Name>Accessibility</Name>
+    </Reference>
+    <Reference Include="DigitalSignatureUtils">
+      <HintPath>..\..\..\..\DigitalSignaturUtils.VbNet\DigitalSignatureUtils\bin\Debug\DigitalSignatureUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="DllArtifactProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllArtifactProvider\bin\DllArtifactProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="eWorld.UI">
+      <Name>eWorld.UI</Name>
+      <HintPath>C:\Program Files (x86)\Excentrics World\eWorld.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerie.net\varie\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerie.net\varie\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerie.net\varie\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Web.UI.WebControls, Version=1.0.2.226, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerie.net\varie\Microsoft.Web.UI.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerie.net\varie\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DataVisualization.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <ProjectReference Include="..\ClientIntegrazioneSic\ClientIntegrazioneSic.vbproj">
+      <Project>{6640BB29-5972-45FB-AA73-CF7E0F2AE603}</Project>
+      <Name>ClientIntegrazioneSic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DllDocumentale\DllDocumentale.vbproj">
+      <Project>{f84ac979-8294-4cbb-b2cf-3405653b7370}</Project>
+      <Name>DllDocumentale</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\librerie.net\DllAmbiente\DllAmbiente.vbproj">
+      <Project>{80E35F7E-F555-42DE-B17B-3E8B1AC1C52A}</Project>
+      <Name>DllAmbiente</Name>
+    </ProjectReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionMappings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AggiungiAllAlberoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AggiungiAllegatoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AllegatiDocumento.aspx.designer.vb">
+      <DependentUpon>AllegatiDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllegatiDocumento.aspx.vb">
+      <DependentUpon>AllegatiDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllegatiDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnnullaDocumento.aspx.designer.vb">
+      <DependentUpon>AnnullaDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnnullaDocumento.aspx.vb">
+      <DependentUpon>AnnullaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnnullaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnteprimaAllegatoArchivioCommand.vb" />
+    <Compile Include="AnteprimaAllegatoCommand.Alsia.vb" />
+    <Compile Include="AnteprimaAllegatoCommand.Regione.vb" />
+    <Compile Include="AnteprimaAllegatoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AnteprimaCertificatoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Arrivederci.aspx.vb">
+      <DependentUpon>Arrivederci.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssegnaDocumentiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssegnaNumerazione.aspx.vb">
+      <DependentUpon>AssegnaNumerazione.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AttiDigitaliWSProxy.vb" />
+    <Compile Include="AttiFinderWSProxy.vb" />
+    <Compile Include="AutenticatiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AvviaStampeDocumentiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AvvisoRedirect.aspx.designer.vb">
+      <DependentUpon>AvvisoRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AvvisoRedirect.aspx.vb">
+      <DependentUpon>AvvisoRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BeneficiariFromFile.aspx.designer.vb">
+      <DependentUpon>BeneficiariFromFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambiaPasswordCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CancellaAllegatiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CancellaMessaggiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BeneficiariFromFile.aspx.vb">
+      <DependentUpon>BeneficiariFromFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaricaDocumento.aspx.designer.vb">
+      <DependentUpon>CaricaDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreaODGCommand.vb" />
+    <Compile Include="DatiSeduta.aspx.designer.vb">
+      <DependentUpon>DatiSeduta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DatiSeduta.aspx.vb">
+      <DependentUpon>DatiSeduta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_DatiSedutaInfo.vb" />
+    <Compile Include="Ext_RelatoreInfo.vb" />
+    <Compile Include="Ext_UtenteInfo.vb" />
+    <Compile Include="GeneraReportCommand.vb" />
+    <Compile Include="GestioneODG.aspx.designer.vb">
+      <DependentUpon>GestioneODG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestioneODG.aspx.vb">
+      <DependentUpon>GestioneODG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NotificaFatturaOutput.vb" />
+    <Compile Include="ProfiloOperatore.aspx.designer.vb">
+      <DependentUpon>ProfiloOperatore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistraDatiSedutaCommand.vb" />
+    <Compile Include="RegistraoODGCommand.vb" />
+    <Compile Include="ReportisticaWaiting.aspx.designer.vb">
+      <DependentUpon>ReportisticaWaiting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportisticaWaiting.aspx.vb">
+      <DependentUpon>ReportisticaWaiting.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportistica.aspx.designer.vb">
+      <DependentUpon>Reportistica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportistica.aspx.vb">
+      <DependentUpon>Reportistica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportisticaCommand.vb" />
+    <Compile Include="DownloadAllegatoFatturaCommand.vb" />
+    <Compile Include="Ext_FatturaAllegato.vb" />
+    <Compile Include="Ext_DettaglioStorico.vb" />
+    <Compile Include="DatiContabiliPDFCommand.vb" />
+    <Compile Include="DownloadModelli.aspx.designer.vb">
+      <DependentUpon>DownloadModelli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadModelli.aspx.vb">
+      <DependentUpon>DownloadModelli.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Ext_BeneficiarioCronologiaInfo.vb" />
+    <Compile Include="Ext_DestinatarioInfo.vb" />
+    <Compile Include="Ext_ContrattoInfo.vb" />
+    <Compile Include="Ext_ContrattoInfoHeader.vb" />
+    <Compile Include="Ext_FatturaInfo.vb" />
+    <Compile Include="Ext_FatturaInfoHeader.vb" />
+    <Compile Include="Ext_SchedaContrattiFattureInfo.vb" />
+    <Compile Include="Ext_SchedaLeggeTrasparenzaInfo.vb" />
+    <Compile Include="Ext_MandatoAttoInfo.vb" />
+    <Compile Include="Contabile.aspx.designer.vb">
+      <DependentUpon>Contabile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabile.aspx.vb">
+      <DependentUpon>Contabile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ContabilePerRag.aspx.designer.vb">
+      <DependentUpon>ContabilePerRag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContabilePerRag.aspx.vb">
+      <DependentUpon>ContabilePerRag.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ContabileDisp.aspx.designer.vb">
+      <DependentUpon>ContabileDisp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContabileDisp.aspx.vb">
+      <DependentUpon>ContabileDisp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ContabileDispPerRag.aspx.designer.vb">
+      <DependentUpon>ContabileDispPerRag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContabileDispPerRag.aspx.vb">
+      <DependentUpon>ContabileDispPerRag.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AutenticamiIMSCommand.vb" />
+    <Compile Include="ConfermaFirmaMultiplaAX.aspx.vb">
+      <DependentUpon>ConfermaFirmaMultiplaAX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_AnagraficaInfo.vb" />
+    <Compile Include="Ext_AttributoInfo.vb" />
+    <Compile Include="Ext_ComuneInfo.vb" />
+    <Compile Include="Ext_DatiBancariInfo.vb" />
+    <Compile Include="Ext_DocumentoInfo.vb" />
+    <Compile Include="Ext_FileInfo.vb" />
+    <Compile Include="Ext_LegaleRappresentanteInfo.vb" />
+    <Compile Include="Ext_PCFInfo.vb" />
+    <Compile Include="Ext_SedeAnagraficaInfo.vb" />
+    <Compile Include="Ext_TipologiaDocumento.vb" />
+    <Compile Include="Ext_SchedaTipologiaProvvedimentoInfo.vb" />
+    <Compile Include="Ext_TipoPagamentoInfo.vb" />
+    <Compile Include="GestioneAnagrafica.aspx.designer.vb">
+      <DependentUpon>GestioneAnagrafica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestioneAnagrafica.aspx.vb">
+      <DependentUpon>GestioneAnagrafica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_MandatoBeneficiarioInfo.vb" />
+    <Compile Include="GestioneMandati.aspx.designer.vb">
+      <DependentUpon>GestioneMandati.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestioneMandati.aspx.vb">
+      <DependentUpon>GestioneMandati.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorArchivioWaiting.aspx.designer.vb">
+      <DependentUpon>MonitorArchivioWaiting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorArchivioWaiting.aspx.vb">
+      <DependentUpon>MonitorArchivioWaiting.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PopupDettaglioStorico.aspx.designer.vb">
+      <DependentUpon>PopupDettaglioStorico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopupDettaglioStorico.aspx.vb">
+      <DependentUpon>PopupDettaglioStorico.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProvvedimentiFinderWSProxy.vb" />
+    <Compile Include="RegistraTestoCommand.vb" />
+    <Compile Include="Editor.aspx.designer.vb">
+      <DependentUpon>Editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editor.aspx.vb">
+      <DependentUpon>Editor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InoltroDocumento.pulsanti.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RigettoDocumento.aspx.designer.vb">
+      <DependentUpon>RigettoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RigettoDocumento.aspx.vb">
+      <DependentUpon>RigettoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RigettoDocumento.contabile.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RigettoDocumento.pulsanti.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InoltroDocumento.aspx.designer.vb">
+      <DependentUpon>InoltroDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InoltroDocumento.aspx.vb">
+      <DependentUpon>InoltroDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_SuggerimentoInfo.vb" />
+    <Compile Include="search.ascx.designer.vb">
+      <DependentUpon>search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SetTotPagineAllegatiCommand.vb" />
+    <Compile Include="Suggerimenti.aspx.designer.vb">
+      <DependentUpon>Suggerimenti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suggerimenti.aspx.vb">
+      <DependentUpon>Suggerimenti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SetCachePinCommand.vb" />
+    <Compile Include="RegistraFirmaDocumentoAXCommand.vb" />
+    <Compile Include="FirmaDocumentoAX.aspx.vb">
+      <DependentUpon>FirmaDocumentoAX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SetFlagStampaDocumentiCommand.vb" />
+    <Compile Include="MonitorStampaArchivioCommand.vb" />
+    <Compile Include="searchStampa.ascx.vb">
+      <DependentUpon>searchStampa.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorArchivioStampa.aspx.vb">
+      <DependentUpon>MonitorArchivioStampa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorEnte.aspx.vb">
+      <DependentUpon>MonitorEnte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorArchivio.aspx.vb">
+      <DependentUpon>MonitorArchivio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_CF.aspx.vb">
+      <DependentUpon>Login_CF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_CFCommand.vb" />
+    <Compile Include="SelezionaUtenzaCommand.vb" />
+    <Compile Include="Login_CF_IMS.aspx.vb">
+      <DependentUpon>Login_CF_IMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_CF_IMSCommand.vb" />
+    <Compile Include="SceltaOperatore.aspx.designer.vb">
+      <DependentUpon>SceltaOperatore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SceltaOperatore.aspx.vb">
+      <DependentUpon>SceltaOperatore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errore.aspx.vb">
+      <DependentUpon>Errore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_SceltaOperatoreInfo.vb" />
+    <Compile Include="MonitorUfficio.aspx.vb">
+      <DependentUpon>MonitorUfficio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_PerentiInfo.vb" />
+    <Compile Include="Ext_TipoBase.vb" />
+    <Compile Include="MaggioriInfo.aspx.designer.vb">
+      <DependentUpon>MaggioriInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MaggioriInfo.aspx.vb">
+      <DependentUpon>MaggioriInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorArchivioCompetenza.aspx.vb">
+      <DependentUpon>MonitorArchivioCompetenza.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Osservazioni.aspx.designer.vb">
+      <DependentUpon>Osservazioni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Osservazioni.aspx.vb">
+      <DependentUpon>Osservazioni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreaProvvedimento.aspx.designer.vb">
+      <DependentUpon>CreaProvvedimento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreaProvvedimento.aspx.vb">
+      <DependentUpon>CreaProvvedimento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messaggistica.aspx.designer.vb">
+      <DependentUpon>Messaggistica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messaggistica.aspx.vb">
+      <DependentUpon>Messaggistica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_MessaggioInfo.vb" />
+    <Compile Include="MonitorCompetenzaUfficiCommand.vb" />
+    <Compile Include="ProxyNotificationMergePdf.vb" />
+    <Compile Include="ProxyNotificationService.vb" />
+    <Compile Include="searchCompetenza.ascx.vb">
+      <DependentUpon>searchCompetenza.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisilibitaSic.aspx.designer.vb">
+      <DependentUpon>VisibilitaSic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisilibitaSic.aspx.vb">
+      <DependentUpon>VisibilitaSic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_StrutturaInfo.vb" />
+    <Compile Include="MonitorEnteCommand.vb" />
+    <Compile Include="CambiaOpzioniEmailCommand.vb" />
+    <Compile Include="ExtJSFault.vb" />
+    <Compile Include="Ext_CapitoliAnnoInfo.vb" />
+    <Compile Include="CaricaDocumento.aspx.vb">
+      <DependentUpon>CaricaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaricaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChiudiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChiudiDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommandFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfermaCreaDocumento.aspx.vb">
+      <DependentUpon>ConfermaCreaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfermaCreaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfermaFirmaMultipla.aspx.vb">
+      <DependentUpon>ConfermaFirmaMultipla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controller.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CreaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeliberaOsservazioni.aspx.vb">
+      <DependentUpon>DeliberaOsservazioni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeliberaTesto.aspx.vb">
+      <DependentUpon>DeliberaTesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeterminaTesto.aspx.vb">
+      <DependentUpon>DeterminaTesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DettaglioitemContabile.aspx.vb">
+      <DependentUpon>DettaglioitemContabile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DisposizioneTesto.aspx.vb">
+      <DependentUpon>DisposizioneTesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentoTesto.aspx.vb">
+      <DependentUpon>DocumentoTesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ElencoFunzioni.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EsitoOperazione.aspx.vb">
+      <DependentUpon>EsitoOperazione.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ext_LiquidazioneInfo.vb" />
+    <Compile Include="Ext_MandatoInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FirmaBloccoDocumentiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FirmaDocumenti.aspx.vb">
+      <DependentUpon>FirmaDocumenti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmaDocumento.aspx.vb">
+      <DependentUpon>FirmaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="formStampa.aspx.vb">
+      <DependentUpon>formStampa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FunzWeb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Griglia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUAssegnazioni.aspx.vb">
+      <DependentUpon>GUAssegnazioni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUAssegnazioniCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUPrelazioni.aspx.vb">
+      <DependentUpon>GUPrelazioni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUPrelazioniCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUPrelievi.aspx.vb">
+      <DependentUpon>GUPrelievi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUPrelieviCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="header.ascx.vb">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePageCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InoltraBloccoDocumentiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InoltraDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JsonErrorHandler.vb" />
+    <Compile Include="JsonWebServiceHostFactory.vb" />
+    <Compile Include="LeggiDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogoutCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessaggiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessaggioErrore.aspx.vb">
+      <DependentUpon>MessaggioErrore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor.aspx.vb">
+      <DependentUpon>Monitor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorAltriUfficiCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MonitorCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MonitorConsultazione.aspx.vb">
+      <DependentUpon>MonitorConsultazione.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonitorUfficioCommand.vb" />
+    <Compile Include="OrdinaCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaginazioneCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrelazionaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrelevaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcAmm.svc.vb">
+      <DependentUpon>ProcAmm.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ProfiloOperatore.aspx.vb">
+      <DependentUpon>ProfiloOperatore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Redirect300Command.vb" />
+    <Compile Include="RedirectClearCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RedirectCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RedirectingCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraFirmaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraFirmaMultiplaCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraNumeroDefinitivoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraOsservazioniDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraTestoDeterminaCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegistraTestoDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RiepilogoContabile.aspx.designer.vb">
+      <DependentUpon>RiepilogoContabile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RiepilogoContabile.aspx.vb">
+      <DependentUpon>RiepilogoContabile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.ascx.vb">
+      <DependentUpon>search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SedutediGiunta.aspx.vb">
+      <DependentUpon>SedutediGiunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SedutediGiuntaCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SICInterface.vb" />
+    <Compile Include="StampaDocumento.aspx.vb">
+      <DependentUpon>StampaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StampaDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StoricoDocumento.aspx.vb">
+      <DependentUpon>StoricoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoricoDocumentoCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SuccessoCaricaDocumento.aspx.vb">
+      <DependentUpon>SuccessoCaricaDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuccessoDeterminaTesto.aspx.vb">
+      <DependentUpon>SuccessoDeterminaTesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tree.ascx.vb">
+      <DependentUpon>tree.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UfficiCompetenza.aspx.designer.vb">
+      <DependentUpon>UfficiCompetenza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UfficiCompetenza.aspx.vb">
+      <DependentUpon>UfficiCompetenza.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UtilityWord.vb" />
+    <Compile Include="WebHttpBehaviourEx.vb" />
+    <Compile Include="WebReport.aspx.designer.vb">
+      <DependentUpon>WebReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebReport.aspx.vb">
+      <DependentUpon>WebReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebSession.aspx.vb">
+      <DependentUpon>WebSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Worklist.aspx.vb">
+      <DependentUpon>Worklist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorklistArchivioCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorklistCommand.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WSMergePDFProxy.vb" />
+    <Content Include="AllegatiDocumento.aspx" />
+    <Content Include="AnnullaDocumento.aspx" />
+    <Content Include="Arrivederci.aspx" />
+    <Content Include="AssegnaNumerazione.aspx" />
+    <Content Include="AvvisoRedirect.aspx" />
+    <Content Include="BeneficiariFromFile.aspx" />
+    <Content Include="CaricaDocumento.aspx" />
+    <Content Include="ckeditor\ckeditor.js" />
+    <Content Include="ckeditor\config.js" />
+    <Content Include="ckeditor\contents.css" />
+    <Content Include="ckeditor\images\spacer.gif" />
+    <Content Include="ckeditor\lang\it.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\en.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\he.js" />
+    <Content Include="ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="ckeditor\plugins\adobeair\plugin.js" />
+    <Content Include="ckeditor\plugins\autogrow\plugin.js" />
+    <Content Include="ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="ckeditor\plugins\colordialog\dialogs\colordialog.js" />
+    <Content Include="ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="ckeditor\plugins\div\dialogs\div.js" />
+    <Content Include="ckeditor\plugins\find\dialogs\find.js" />
+    <Content Include="ckeditor\plugins\flash\dialogs\flash.js" />
+    <Content Include="ckeditor\plugins\flash\images\placeholder.png" />
+    <Content Include="ckeditor\plugins\forms\dialogs\button.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\checkbox.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\form.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\hiddenfield.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\radio.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\select.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\textarea.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\textfield.js" />
+    <Content Include="ckeditor\plugins\forms\images\hiddenfield.gif" />
+    <Content Include="ckeditor\plugins\iframedialog\plugin.js" />
+    <Content Include="ckeditor\plugins\iframe\dialogs\iframe.js" />
+    <Content Include="ckeditor\plugins\iframe\images\placeholder.png" />
+    <Content Include="ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="ckeditor\plugins\link\images\anchor.gif" />
+    <Content Include="ckeditor\plugins\liststyle\dialogs\liststyle.js" />
+    <Content Include="ckeditor\plugins\pagebreak\images\pagebreak.gif" />
+    <Content Include="ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="ckeditor\plugins\pastetext\dialogs\pastetext.js" />
+    <Content Include="ckeditor\plugins\placeholder\dialogs\placeholder.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\en.js" />
+    <Content Include="ckeditor\plugins\placeholder\placeholder.gif" />
+    <Content Include="ckeditor\plugins\placeholder\plugin.js" />
+    <Content Include="ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_address.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_blockquote.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_div.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h1.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h2.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h3.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h4.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h5.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h6.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_p.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_pre.png" />
+    <Content Include="ckeditor\plugins\smiley\dialogs\smiley.js" />
+    <Content Include="ckeditor\plugins\smiley\images\angel_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\angry_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\broken_heart.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\confused_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\cry_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\devil_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\embaressed_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\envelope.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\heart.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\kiss.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\lightbulb.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\omg_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\regular_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\sad_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\shades_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\teeth_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\thumbs_down.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\thumbs_up.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\tounge_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\wink_smile.gif" />
+    <Content Include="ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\en.js" />
+    <Content Include="ckeditor\plugins\styles\styles\default.js" />
+    <Content Include="ckeditor\plugins\tableresize\plugin.js" />
+    <Content Include="ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="ckeditor\plugins\templates\dialogs\templates.js" />
+    <Content Include="ckeditor\plugins\templates\templates\default.js" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template1.gif" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template2.gif" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template3.gif" />
+    <Content Include="ckeditor\plugins\uicolor\dialogs\uicolor.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\en.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\he.js" />
+    <Content Include="ckeditor\plugins\uicolor\plugin.js" />
+    <Content Include="ckeditor\plugins\uicolor\uicolor.gif" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\hue_bg.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\hue_thumb.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\picker_mask.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\picker_thumb.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\yui.css" />
+    <Content Include="ckeditor\plugins\uicolor\yui\yui.js" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="ckeditor\skins\office2003\dialog.css" />
+    <Content Include="ckeditor\skins\office2003\editor.css" />
+    <Content Include="ckeditor\skins\office2003\icons.png" />
+    <Content Include="ckeditor\skins\office2003\icons_rtl.png" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\office2003\images\mini.gif" />
+    <Content Include="ckeditor\skins\office2003\images\noimage.png" />
+    <Content Include="ckeditor\skins\office2003\images\sprites.png" />
+    <Content Include="ckeditor\skins\office2003\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\office2003\skin.js" />
+    <Content Include="ckeditor\skins\office2003\templates.css" />
+    <Content Include="ckeditor\themes\default\theme.js" />
+    <Content Include="ConfermaCreaDocumento.aspx" />
+    <Content Include="ConfermaFirmaMultipla.aspx" />
+    <Content Include="Contabile.aspx" />
+    <Content Include="ContabilePerRag.aspx" />
+    <Content Include="ContabileDisp.aspx" />
+    <Content Include="ContabileDispPerRag.aspx" />
+    <Content Include="ConfermaFirmaMultiplaAX.aspx" />
+    <Content Include="DatiSeduta.aspx" />
+    <Content Include="EXT\BeneficiarioLiquidazione_20170913.js" />
+    <Content Include="EXT\BeneficiariSearchPanel_20170913.js" />
+    <Content Include="EXT\CreaProvvedimentoREGIONE_20170913.js" />
+    <Content Include="EXT\CRUDAnagraficaBeneficiari_20150325.js" />
+    <Content Include="EXT\DisponibilitaImpegni_20170913.js" />
+    <Content Include="EXT\GestioneDatiSeduta.js" />
+    <Content Include="EXT\GestioneODG.js" />
+    <Content Include="EXT\GridAggiungiBeneficiario_20170913.js" />
+    <Content Include="EXT\GridAggiungiImpegnoPluriennale_20170913.js" />
+    <Content Include="EXT\GridAggiungiLiquidazione_20180122.js" />
+    <Content Include="EXT\GridAggiungiPreimpegnoPluriennale_20170913.js" />
+    <Content Include="EXT\GridContabili_20170913.js" />
+    <Content Include="EXT\GridImpegniRag_20170913.js" />
+    <Content Include="EXT\GridLiquidazioniRag_20170913.js" />
+    <Content Include="EXT\GridPerenti_20180122.js" />
+    <Content Include="EXT\OnReadyDatiSeduta.js" />
+    <Content Include="EXT\OnReadyDetermine_20170913.js" />
+    <Content Include="EXT\OnReadyGestioneODG.js" />
+    <Content Include="EXT\OnReadyUfficiCompetenza_20161111.js" />
+    <Content Include="EXT\PanelUfficiCompetenzaDettaglioDocumento_20161220.js" />
+    <Content Include="EXT\PanelUfficiCompetenzaDocumento_20161111.js" />
+    <Content Include="EXT\SchedaTipologiaREGIONE_20170913.js" />
+    <Content Include="GestioneODG.aspx" />
+    <Content Include="ReportisticaWaiting.aspx" />
+    <Content Include="Reportistica.aspx" />
+    <Content Include="DllArtifactProvider.vbproj" />
+    <Content Include="DownloadModelli.aspx" />
+    <Content Include="Editor.aspx" />
+    <Content Include="EXT\Attributi20150420.js" />
+    <Content Include="EXT\AlertIniziale.js" />
+    <Content Include="EXT\deployJava.js" />
+    <Content Include="EXT\GestioneAnagrafica_20150325.js" />
+    <Content Include="EXT\GestioneMandati.js" />
+    <Content Include="EXT\GridAggiungiRiduzionePluriennale.js" />
+    <Content Include="EXT\GridPreimpegniRag.js" />
+    <Content Include="EXT\IBANChecker.js" />
+    <Content Include="EXT\LinkButton.js" />
+    <Content Include="EXT\OnReadyDisposizione_20150325.js" />
+    <Content Include="EXT\OnReadyGestioneAnagrafica.js" />
+    <Content Include="EXT\OnReadyOsservazioni_20150428.js" />
+    <Content Include="EXT\Osservazioni_20150428.js" />
+    <Content Include="EXT\PanelComponentiUfficio.js" />
+    <Content Include="EXT\OnReadyGestioneMandati.js" />
+    <Content Include="EXT\PopupDettaglioStorico.js" />
+    <Content Include="EXT\RowAction.js" />
+    <Content Include="EXT\SchedaContrattiFattureREGIONE_20150909.js" />
+    <Content Include="EXT\SchedaLeggeTrasparenzaREGIONE_20150325.js" />
+    <Content Include="EXT\utilityNumber.js" />
+    <Content Include="EXT\WaitingPanel.js" />
+    <Content Include="GestioneAnagrafica.aspx" />
+    <Content Include="GestioneMandati.aspx" />
+    <Content Include="MonitorArchivioWaiting.aspx" />
+    <Content Include="PopupDettaglioStorico.aspx" />
+    <Content Include="RigettoDocumento.aspx" />
+    <Content Include="InoltroDocumento.aspx" />
+    <Content Include="risorse\albero_ordinanza.xml" />
+    <Content Include="risorse\albero_decreto.xml" />
+    <Content Include="risorse\bcmail-jdk16-1.45.jar" />
+    <Content Include="risorse\bcprov-jdk16-1.45.jar" />
+    <Content Include="risorse\DSApplet-0.7.3.jar" />
+    <Content Include="risorse\helpAggiuntaBeneficiarioLiquidazione.htm" />
+    <Content Include="risorse\helpBilancioPluriennale.htm" />
+    <Content Include="risorse\helpBilancioPluriennaleRiduz.htm" />
+    <Content Include="risorse\immagini\btnVisualizza\btnDatiContabili.png" />
+    <Content Include="risorse\immagini\btnVisualizza\btnDettaglio.png" />
+    <Content Include="risorse\immagini\btnVisualizza\btnMandati.png" />
+    <Content Include="risorse\immagini\btnVisualizza\btnStorico.png" />
+    <Content Include="risorse\immagini\btnVisualizza\esporta.png" />
+    <Content Include="risorse\immagini\btnVisualizza\NascondiAnnullati.png" />
+    <Content Include="risorse\immagini\btnVisualizza\visualizzaAnnullati.png" />
+    <Content Include="risorse\immagini\Download-Icon1.png" />
+    <Content Include="Suggerimenti.aspx" />
+    <Content Include="EXT\onReadySuggerimenti.js" />
+    <Content Include="EXT\Suggerimenti.js" />
+    <Content Include="FirmaDocumentoAX.aspx" />
+    <Content Include="EXT\resources\css\ext-all.css" />
+    <Content Include="risorse\immagini\warning.gif" />
+    <Content Include="searchStampa.ascx" />
+    <Content Include="MonitorArchivioStampa.aspx" />
+    <Content Include="EXT\CreaProvvedimentoALSIA.js" />
+    <Content Include="MonitorEnte.aspx" />
+    <Content Include="MonitorArchivio.aspx" />
+    <Content Include="Login_CF.aspx" />
+    <Content Include="EXT\LoginCF.js" />
+    <Content Include="EXT\LoginCFIMS.js" />
+    <Content Include="EXT\SceltaOperatore.js" />
+    <Content Include="EXT\onReadySceltaOperatore.js" />
+    <Content Include="Login_CF_IMS.aspx" />
+    <Content Include="SceltaOperatore.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Errore.aspx" />
+    <Content Include="MonitorUfficio.aspx" />
+    <Content Include="EXT\PanelVisualizzaRettifica.js" />
+    <Content Include="EXT\DisponibilitaLiquidazioni.js" />
+    <Content Include="EXT\GridRiduzioneLiqRag.js" />
+    <Content Include="EXT\GridAggiungiRiduzioneLIQ.js" />
+    <Content Include="EXT\GridRiduzionePreImpRag.js" />
+    <Content Include="EXT\GridAggiungiRiduzionePREIMP.js" />
+    <Content Include="EXT\ext-lang-it.js" />
+    <Content Include="EXT\OnReadyMaggioriInfo.js" />
+    <Content Include="GridSelezionaTutti.js" />
+    <Content Include="MaggioriInfo.aspx" />
+    <Content Include="MonitorArchivioCompetenza.aspx" />
+    <Content Include="Osservazioni.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="CreaProvvedimento.aspx" />
+    <Content Include="EXT\CreaProvvedimento.js" />
+    <Content Include="EXT\Messaggi.js" />
+    <Content Include="Messaggistica.aspx" />
+    <Content Include="EXT\onReadyMessaggi.js" />
+    <Content Include="searchCompetenza.ascx" />
+    <Content Include="VisibilitaSic.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="DeliberaOsservazioni.aspx" />
+    <Content Include="DeliberaTesto.aspx" />
+    <Content Include="DeterminaTesto.aspx" />
+    <Content Include="Determine.css" />
+    <Content Include="DettaglioitemContabile.aspx" />
+    <Content Include="DisposizioneTesto.aspx" />
+    <Content Include="DocumentoTesto.aspx" />
+    <Content Include="EsitoOperazione.aspx" />
+    <Content Include="EXT\adapter\ext\ext-base.js" />
+    <Content Include="EXT\adapter\jquery\ext-jquery-adapter.js" />
+    <Content Include="EXT\adapter\jquery\jquery.js" />
+    <Content Include="EXT\adapter\prototype\effects.js" />
+    <Content Include="EXT\adapter\prototype\ext-prototype-adapter.js" />
+    <Content Include="EXT\adapter\prototype\prototype.js" />
+    <Content Include="EXT\adapter\prototype\scriptaculous.js" />
+    <Content Include="EXT\adapter\yui\ext-yui-adapter.js" />
+    <Content Include="EXT\CheckColumn.js" />
+    <Content Include="EXT\onReadyDisponibilita.js" />
+    <Content Include="EXT\GroupSummary.js" />
+    <Content Include="EXT\MultiselectItemSelector\bottom2.gif" />
+    <Content Include="EXT\MultiselectItemSelector\DDView.js" />
+    <Content Include="EXT\MultiselectItemSelector\down2.gif" />
+    <Content Include="EXT\MultiselectItemSelector\left2.gif" />
+    <Content Include="EXT\MultiselectItemSelector\Multiselect.css" />
+    <Content Include="EXT\MultiselectItemSelector\Multiselect.js" />
+    <Content Include="EXT\MultiselectItemSelector\right2.gif" />
+    <Content Include="EXT\MultiselectItemSelector\top2.gif" />
+    <Content Include="EXT\MultiselectItemSelector\up2.gif" />
+    <Content Include="EXT\PanelFiltroStruttura.js" />
+    <Content Include="EXT\DisponibilitaPreImpegni.js" />
+    <Content Include="EXT\Euro.js" />
+    <Content Include="EXT\GridAccertamenti.js" />
+    <Content Include="EXT\GridRiduzioneRag.js" />
+    <Content Include="EXT\GridMandati.js" />
+    <Content Include="EXT\ListaCapitoli.js" />
+    <Content Include="EXT\display\Stile.css" />
+    <Content Include="EXT\ext-all-debug.js" />
+    <Content Include="EXT\Ext.ux.MonthPicker.js" />
+    <Content Include="EXT\Ext.ux.YearPicker.js" />
+    <Content Include="EXT\PanelDataMovimenti.js" />
+    <Content Include="EXT\resources\css\borders.css" />
+    <Content Include="EXT\resources\css\box.css" />
+    <Content Include="EXT\resources\css\button.css" />
+    <Content Include="EXT\resources\css\combo.css" />
+    <Content Include="EXT\resources\css\core.css" />
+    <Content Include="EXT\resources\css\date-picker.css" />
+    <Content Include="EXT\resources\css\dd.css" />
+    <Content Include="EXT\resources\css\debug.css" />
+    <Content Include="EXT\resources\css\dialog.css" />
+    <Content Include="EXT\resources\css\editor.css" />
+    <Content Include="EXT\resources\css\form.css" />
+    <Content Include="EXT\resources\css\grid.css" />
+    <Content Include="EXT\resources\css\layout.css" />
+    <Content Include="EXT\resources\css\menu.css" />
+    <Content Include="EXT\resources\css\panel.css" />
+    <Content Include="EXT\resources\css\progress.css" />
+    <Content Include="EXT\resources\css\qtips.css" />
+    <Content Include="EXT\resources\css\README.txt" />
+    <Content Include="EXT\resources\css\reset-min.css" />
+    <Content Include="EXT\resources\css\reset.css" />
+    <Content Include="EXT\resources\css\resizable.css" />
+    <Content Include="EXT\resources\css\slider.css" />
+    <Content Include="EXT\resources\css\tabs.css" />
+    <Content Include="EXT\resources\css\toolbar.css" />
+    <Content Include="EXT\resources\css\tree.css" />
+    <Content Include="EXT\resources\css\window.css" />
+    <Content Include="EXT\resources\css\xtheme-gray.css" />
+    <Content Include="EXT\resources\images\default\box\corners-blue.gif" />
+    <Content Include="EXT\resources\images\default\box\corners.gif" />
+    <Content Include="EXT\resources\images\default\box\l-blue.gif" />
+    <Content Include="EXT\resources\images\default\box\l.gif" />
+    <Content Include="EXT\resources\images\default\box\r-blue.gif" />
+    <Content Include="EXT\resources\images\default\box\r.gif" />
+    <Content Include="EXT\resources\images\default\box\tb-blue.gif" />
+    <Content Include="EXT\resources\images\default\box\tb.gif" />
+    <Content Include="EXT\resources\images\default\button\btn-arrow.gif" />
+    <Content Include="EXT\resources\images\default\button\btn-sprite.gif" />
+    <Content Include="EXT\resources\images\default\dd\drop-add.gif" />
+    <Content Include="EXT\resources\images\default\dd\drop-no.gif" />
+    <Content Include="EXT\resources\images\default\dd\drop-yes.gif" />
+    <Content Include="EXT\resources\images\default\editor\tb-sprite.gif" />
+    <Content Include="EXT\resources\images\default\form\checkbox.gif" />
+    <Content Include="EXT\resources\images\default\form\clear-trigger.gif" />
+    <Content Include="EXT\resources\images\default\form\date-trigger.gif" />
+    <Content Include="EXT\resources\images\default\form\error-tip-corners.gif" />
+    <Content Include="EXT\resources\images\default\form\exclamation.gif" />
+    <Content Include="EXT\resources\images\default\form\radio.gif" />
+    <Content Include="EXT\resources\images\default\form\search-trigger.gif" />
+    <Content Include="EXT\resources\images\default\form\text-bg.gif" />
+    <Content Include="EXT\resources\images\default\form\trigger-tpl.gif" />
+    <Content Include="EXT\resources\images\default\form\trigger.gif" />
+    <Content Include="EXT\resources\images\default\gradient-bg.gif" />
+    <Content Include="EXT\resources\images\default\grid\arrow-left-white.gif" />
+    <Content Include="EXT\resources\images\default\grid\arrow-right-white.gif" />
+    <Content Include="EXT\resources\images\default\grid\col-move-bottom.gif" />
+    <Content Include="EXT\resources\images\default\grid\col-move-top.gif" />
+    <Content Include="EXT\resources\images\default\grid\columns.gif" />
+    <Content Include="EXT\resources\images\default\grid\dirty.gif" />
+    <Content Include="EXT\resources\images\default\grid\done.gif" />
+    <Content Include="EXT\resources\images\default\grid\drop-no.gif" />
+    <Content Include="EXT\resources\images\default\grid\drop-yes.gif" />
+    <Content Include="EXT\resources\images\default\grid\footer-bg.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid-blue-hd.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid-blue-split.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid-hrow.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid-loading.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid-split.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid-vista-hd.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid3-hd-btn.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid3-hrow-over.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid3-hrow.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid3-special-col-bg.gif" />
+    <Content Include="EXT\resources\images\default\grid\grid3-special-col-sel-bg.gif" />
+    <Content Include="EXT\resources\images\default\grid\group-by.gif" />
+    <Content Include="EXT\resources\images\default\grid\group-expand-sprite.gif" />
+    <Content Include="EXT\resources\images\default\grid\hd-pop.gif" />
+    <Content Include="EXT\resources\images\default\grid\hmenu-asc.gif" />
+    <Content Include="EXT\resources\images\default\grid\hmenu-desc.gif" />
+    <Content Include="EXT\resources\images\default\grid\hmenu-lock.gif" />
+    <Content Include="EXT\resources\images\default\grid\hmenu-lock.png" />
+    <Content Include="EXT\resources\images\default\grid\hmenu-unlock.gif" />
+    <Content Include="EXT\resources\images\default\grid\hmenu-unlock.png" />
+    <Content Include="EXT\resources\images\default\grid\invalid_line.gif" />
+    <Content Include="EXT\resources\images\default\grid\loading.gif" />
+    <Content Include="EXT\resources\images\default\grid\mso-hd.gif" />
+    <Content Include="EXT\resources\images\default\grid\nowait.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-first-disabled.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-first.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-last-disabled.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-last.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-next-disabled.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-next.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-prev-disabled.gif" />
+    <Content Include="EXT\resources\images\default\grid\page-prev.gif" />
+    <Content Include="EXT\resources\images\default\grid\pick-button.gif" />
+    <Content Include="EXT\resources\images\default\grid\refresh.gif" />
+    <Content Include="EXT\resources\images\default\grid\row-check-sprite.gif" />
+    <Content Include="EXT\resources\images\default\grid\row-expand-sprite.gif" />
+    <Content Include="EXT\resources\images\default\grid\row-over.gif" />
+    <Content Include="EXT\resources\images\default\grid\row-sel.gif" />
+    <Content Include="EXT\resources\images\default\grid\sort_asc.gif" />
+    <Content Include="EXT\resources\images\default\grid\sort_desc.gif" />
+    <Content Include="EXT\resources\images\default\grid\wait.gif" />
+    <Content Include="EXT\resources\images\default\layout\collapse.gif" />
+    <Content Include="EXT\resources\images\default\layout\expand.gif" />
+    <Content Include="EXT\resources\images\default\layout\gradient-bg.gif" />
+    <Content Include="EXT\resources\images\default\layout\mini-bottom.gif" />
+    <Content Include="EXT\resources\images\default\layout\mini-left.gif" />
+    <Content Include="EXT\resources\images\default\layout\mini-right.gif" />
+    <Content Include="EXT\resources\images\default\layout\mini-top.gif" />
+    <Content Include="EXT\resources\images\default\layout\ns-collapse.gif" />
+    <Content Include="EXT\resources\images\default\layout\ns-expand.gif" />
+    <Content Include="EXT\resources\images\default\layout\panel-close.gif" />
+    <Content Include="EXT\resources\images\default\layout\panel-title-bg.gif" />
+    <Content Include="EXT\resources\images\default\layout\panel-title-light-bg.gif" />
+    <Content Include="EXT\resources\images\default\layout\stick.gif" />
+    <Content Include="EXT\resources\images\default\layout\stuck.gif" />
+    <Content Include="EXT\resources\images\default\layout\tab-close-on.gif" />
+    <Content Include="EXT\resources\images\default\layout\tab-close.gif" />
+    <Content Include="EXT\resources\images\default\menu\checked.gif" />
+    <Content Include="EXT\resources\images\default\menu\group-checked.gif" />
+    <Content Include="EXT\resources\images\default\menu\item-over.gif" />
+    <Content Include="EXT\resources\images\default\menu\menu-parent.gif" />
+    <Content Include="EXT\resources\images\default\menu\menu.gif" />
+    <Content Include="EXT\resources\images\default\menu\unchecked.gif" />
+    <Content Include="EXT\resources\images\default\panel\corners-sprite.gif" />
+    <Content Include="EXT\resources\images\default\panel\left-right.gif" />
+    <Content Include="EXT\resources\images\default\panel\light-hd.gif" />
+    <Content Include="EXT\resources\images\default\panel\tool-sprite-tpl.gif" />
+    <Content Include="EXT\resources\images\default\panel\tool-sprites.gif" />
+    <Content Include="EXT\resources\images\default\panel\tools-sprites-trans.gif" />
+    <Content Include="EXT\resources\images\default\panel\top-bottom.gif" />
+    <Content Include="EXT\resources\images\default\panel\top-bottom.png" />
+    <Content Include="EXT\resources\images\default\panel\white-corners-sprite.gif" />
+    <Content Include="EXT\resources\images\default\panel\white-left-right.gif" />
+    <Content Include="EXT\resources\images\default\panel\white-top-bottom.gif" />
+    <Content Include="EXT\resources\images\default\progress\progress-bg.gif" />
+    <Content Include="EXT\resources\images\default\qtip\bg.gif" />
+    <Content Include="EXT\resources\images\default\qtip\close.gif" />
+    <Content Include="EXT\resources\images\default\qtip\tip-sprite.gif" />
+    <Content Include="EXT\resources\images\default\s.gif" />
+    <Content Include="EXT\resources\images\default\shadow-c.png" />
+    <Content Include="EXT\resources\images\default\shadow-lr.png" />
+    <Content Include="EXT\resources\images\default\shadow.png" />
+    <Content Include="EXT\resources\images\default\shared\blue-loading.gif" />
+    <Content Include="EXT\resources\images\default\shared\calendar.gif" />
+    <Content Include="EXT\resources\images\default\shared\glass-bg.gif" />
+    <Content Include="EXT\resources\images\default\shared\hd-sprite.gif" />
+    <Content Include="EXT\resources\images\default\shared\large-loading.gif" />
+    <Content Include="EXT\resources\images\default\shared\left-btn.gif" />
+    <Content Include="EXT\resources\images\default\shared\loading-balls.gif" />
+    <Content Include="EXT\resources\images\default\shared\right-btn.gif" />
+    <Content Include="EXT\resources\images\default\shared\warning.gif" />
+    <Content Include="EXT\resources\images\default\sizer\e-handle-dark.gif" />
+    <Content Include="EXT\resources\images\default\sizer\e-handle.gif" />
+    <Content Include="EXT\resources\images\default\sizer\ne-handle-dark.gif" />
+    <Content Include="EXT\resources\images\default\sizer\ne-handle.gif" />
+    <Content Include="EXT\resources\images\default\sizer\nw-handle-dark.gif" />
+    <Content Include="EXT\resources\images\default\sizer\nw-handle.gif" />
+    <Content Include="EXT\resources\images\default\sizer\s-handle-dark.gif" />
+    <Content Include="EXT\resources\images\default\sizer\s-handle.gif" />
+    <Content Include="EXT\resources\images\default\sizer\se-handle-dark.gif" />
+    <Content Include="EXT\resources\images\default\sizer\se-handle.gif" />
+    <Content Include="EXT\resources\images\default\sizer\square.gif" />
+    <Content Include="EXT\resources\images\default\sizer\sw-handle-dark.gif" />
+    <Content Include="EXT\resources\images\default\sizer\sw-handle.gif" />
+    <Content Include="EXT\resources\images\default\slider\slider-bg.png" />
+    <Content Include="EXT\resources\images\default\slider\slider-thumb.png" />
+    <Content Include="EXT\resources\images\default\slider\slider-v-bg.png" />
+    <Content Include="EXT\resources\images\default\slider\slider-v-thumb.png" />
+    <Content Include="EXT\resources\images\default\tabs\scroll-left.gif" />
+    <Content Include="EXT\resources\images\default\tabs\scroll-right.gif" />
+    <Content Include="EXT\resources\images\default\tabs\scroller-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-btm-left-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-btm-right-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-close.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-strip-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tab-strip-bg.png" />
+    <Content Include="EXT\resources\images\default\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="EXT\resources\images\default\tabs\tabs-sprite.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\bg.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\btn-arrow-light.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\btn-arrow.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\btn-over-bg.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\gray-bg.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\tb-bg.gif" />
+    <Content Include="EXT\resources\images\default\toolbar\tb-btn-sprite.gif" />
+    <Content Include="EXT\resources\images\default\tree\arrows.gif" />
+    <Content Include="EXT\resources\images\default\tree\drop-add.gif" />
+    <Content Include="EXT\resources\images\default\tree\drop-between.gif" />
+    <Content Include="EXT\resources\images\default\tree\drop-no.gif" />
+    <Content Include="EXT\resources\images\default\tree\drop-over.gif" />
+    <Content Include="EXT\resources\images\default\tree\drop-under.gif" />
+    <Content Include="EXT\resources\images\default\tree\drop-yes.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-end-minus-nl.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-end-minus.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-end-plus-nl.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-end-plus.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-end.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-line.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-minus-nl.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-minus.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-plus-nl.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow-plus.gif" />
+    <Content Include="EXT\resources\images\default\tree\elbow.gif" />
+    <Content Include="EXT\resources\images\default\tree\folder-open.gif" />
+    <Content Include="EXT\resources\images\default\tree\folder.gif" />
+    <Content Include="EXT\resources\images\default\tree\leaf.gif" />
+    <Content Include="EXT\resources\images\default\tree\loading.gif" />
+    <Content Include="EXT\resources\images\default\tree\s.gif" />
+    <Content Include="EXT\resources\images\default\window\icon-error.gif" />
+    <Content Include="EXT\resources\images\default\window\icon-info.gif" />
+    <Content Include="EXT\resources\images\default\window\icon-question.gif" />
+    <Content Include="EXT\resources\images\default\window\icon-warning.gif" />
+    <Content Include="EXT\resources\images\default\window\left-corners.png" />
+    <Content Include="EXT\resources\images\default\window\left-right.png" />
+    <Content Include="EXT\resources\images\default\window\right-corners.png" />
+    <Content Include="EXT\resources\images\default\window\top-bottom.png" />
+    <Content Include="EXT\resources\images\gray\button\btn-arrow.gif" />
+    <Content Include="EXT\resources\images\gray\button\btn-sprite.gif" />
+    <Content Include="EXT\resources\images\gray\gradient-bg.gif" />
+    <Content Include="EXT\resources\images\gray\panel\corners-sprite.gif" />
+    <Content Include="EXT\resources\images\gray\panel\left-right.gif" />
+    <Content Include="EXT\resources\images\gray\panel\light-hd.gif" />
+    <Content Include="EXT\resources\images\gray\panel\tool-sprite-tpl.gif" />
+    <Content Include="EXT\resources\images\gray\panel\tool-sprites.gif" />
+    <Content Include="EXT\resources\images\gray\panel\tools-sprites-trans.gif" />
+    <Content Include="EXT\resources\images\gray\panel\top-bottom.gif" />
+    <Content Include="EXT\resources\images\gray\panel\top-bottom.png" />
+    <Content Include="EXT\resources\images\gray\panel\white-corners-sprite.gif" />
+    <Content Include="EXT\resources\images\gray\panel\white-left-right.gif" />
+    <Content Include="EXT\resources\images\gray\panel\white-top-bottom.gif" />
+    <Content Include="EXT\resources\images\gray\qtip\bg.gif" />
+    <Content Include="EXT\resources\images\gray\qtip\close.gif" />
+    <Content Include="EXT\resources\images\gray\qtip\tip-sprite.gif" />
+    <Content Include="EXT\resources\images\gray\s.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\scroll-left.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\scroll-right.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\scroller-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-btm-left-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-btm-right-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-close.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-strip-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-strip-bg.png" />
+    <Content Include="EXT\resources\images\gray\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="EXT\resources\images\gray\tabs\tabs-sprite.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\bg.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\btn-arrow-light.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\btn-arrow.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\btn-over-bg.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\gray-bg.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\tb-bg.gif" />
+    <Content Include="EXT\resources\images\gray\toolbar\tb-btn-sprite.gif" />
+    <Content Include="EXT\resources\images\gray\window\icon-error.gif" />
+    <Content Include="EXT\resources\images\gray\window\icon-info.gif" />
+    <Content Include="EXT\resources\images\gray\window\icon-question.gif" />
+    <Content Include="EXT\resources\images\gray\window\icon-warning.gif" />
+    <Content Include="EXT\resources\images\gray\window\left-corners.png" />
+    <Content Include="EXT\resources\images\gray\window\left-right.png" />
+    <Content Include="EXT\resources\images\gray\window\right-corners.png" />
+    <Content Include="EXT\resources\images\gray\window\top-bottom.png" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\bg-center.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\bg-left.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\bg-right.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\close.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\collapse.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\dlg-bg.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\e-handle.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\expand.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\hd-sprite.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\s-handle.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\se-handle.gif" />
+    <Content Include="EXT\resources\images\vista\basic-dialog\w-handle.gif" />
+    <Content Include="EXT\resources\images\vista\gradient-bg.gif" />
+    <Content Include="EXT\resources\images\vista\grid\grid-split.gif" />
+    <Content Include="EXT\resources\images\vista\grid\grid-vista-hd.gif" />
+    <Content Include="EXT\resources\images\vista\layout\collapse.gif" />
+    <Content Include="EXT\resources\images\vista\layout\expand.gif" />
+    <Content Include="EXT\resources\images\vista\layout\gradient-bg.gif" />
+    <Content Include="EXT\resources\images\vista\layout\ns-collapse.gif" />
+    <Content Include="EXT\resources\images\vista\layout\ns-expand.gif" />
+    <Content Include="EXT\resources\images\vista\layout\panel-close.gif" />
+    <Content Include="EXT\resources\images\vista\layout\panel-title-bg.gif" />
+    <Content Include="EXT\resources\images\vista\layout\panel-title-light-bg.gif" />
+    <Content Include="EXT\resources\images\vista\layout\stick.gif" />
+    <Content Include="EXT\resources\images\vista\layout\tab-close-on.gif" />
+    <Content Include="EXT\resources\images\vista\layout\tab-close.gif" />
+    <Content Include="EXT\resources\images\vista\qtip\bg.gif" />
+    <Content Include="EXT\resources\images\vista\qtip\tip-sprite.gif" />
+    <Content Include="EXT\resources\images\vista\s.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\e-handle-dark.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\e-handle.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\ne-handle-dark.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\ne-handle.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\nw-handle-dark.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\nw-handle.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\s-handle-dark.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\s-handle.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\se-handle-dark.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\se-handle.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\sw-handle-dark.gif" />
+    <Content Include="EXT\resources\images\vista\sizer\sw-handle.gif" />
+    <Content Include="EXT\resources\images\vista\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="EXT\resources\images\vista\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="EXT\resources\images\vista\tabs\tab-btm-left-bg.gif" />
+    <Content Include="EXT\resources\images\vista\tabs\tab-btm-right-bg.gif" />
+    <Content Include="EXT\resources\images\vista\tabs\tab-sprite.gif" />
+    <Content Include="EXT\resources\images\vista\toolbar\gray-bg.gif" />
+    <Content Include="EXT\resources\images\vista\toolbar\tb-btn-sprite.gif" />
+    <Content Include="EXT\ToolBarMenu.js" />
+    <Content Include="FirmaDocumenti.aspx" />
+    <Content Include="FirmaDocumenti.js" />
+    <Content Include="FirmaDocumentiMultipli.js" />
+    <Content Include="FirmaDocumento.aspx" />
+    <Content Include="formStampa.aspx" />
+    <Content Include="formStampa.htm" />
+    <Content Include="Global.asax" />
+    <Content Include="GUAssegnazioni.aspx" />
+    <Content Include="GUPrelazioni.aspx" />
+    <Content Include="GUPrelievi.aspx" />
+    <Content Include="header.ascx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="MessaggioErrore.aspx" />
+    <Content Include="Monitor.aspx" />
+    <Content Include="MonitorConsultazione.aspx" />
+    <Content Include="ProcAmm.svc" />
+    <Content Include="ProfiloOperatore.aspx" />
+    <Content Include="RiepilogoContabile.aspx" />
+    <Content Include="risorse\albero.xml" />
+    <Content Include="risorse\albero_delibera.xml" />
+    <Content Include="risorse\albero_determina.xml" />
+    <Content Include="risorse\albero_disposizione.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="risorse\ELE_LETACC_SEGDIP.xslt" />
+    <Content Include="risorse\immagini\aleft.gif" />
+    <Content Include="risorse\immagini\allegati.gif" />
+    <Content Include="risorse\immagini\annulla.gif" />
+    <Content Include="risorse\immagini\aright.gif" />
+    <Content Include="risorse\immagini\blist.gif" />
+    <Content Include="risorse\immagini\bold.gif" />
+    <Content Include="risorse\immagini\calcol.gif" />
+    <Content Include="risorse\immagini\center.gif" />
+    <Content Include="risorse\immagini\cestino.gif" />
+    <Content Include="risorse\immagini\copy.gif" />
+    <Content Include="risorse\immagini\cut.gif" />
+    <Content Include="risorse\immagini\discoSalva.gif" />
+    <Content Include="risorse\immagini\envelop3.gif" />
+    <Content Include="risorse\immagini\favicon.ico" />
+    <Content Include="risorse\immagini\firma.gif" />
+    <Content Include="risorse\immagini\giallo.gif" />
+    <Content Include="risorse\immagini\ileft.gif" />
+    <Content Include="risorse\immagini\inoltra.gif" />
+    <Content Include="risorse\immagini\iright.gif" />
+    <Content Include="risorse\immagini\italic.gif" />
+    <Content Include="risorse\immagini\logoRegione.gif" />
+    <Content Include="risorse\immagini\logoRegioneSD.gif" />
+    <Content Include="risorse\immagini\logReg.gif" />
+    <Content Include="risorse\immagini\nlist.gif" />
+    <Content Include="risorse\immagini\notaDaLeggere.gif" />
+    <Content Include="risorse\immagini\notaVuota.gif" />
+    <Content Include="risorse\immagini\note.gif" />
+    <Content Include="risorse\immagini\nuova.gif" />
+    <Content Include="risorse\immagini\ordineDelGiorno.gif" />
+    <Content Include="risorse\immagini\paste.gif" />
+    <Content Include="risorse\immagini\prepara.gif" />
+    <Content Include="risorse\immagini\redclip.gif" />
+    <Content Include="risorse\immagini\riceve.gif" />
+    <Content Include="risorse\immagini\rigetto.gif" />
+    <Content Include="risorse\immagini\rosso.gif" />
+    <Content Include="risorse\immagini\stampante.gif" />
+    <Content Include="risorse\immagini\timeOut.gif" />
+    <Content Include="risorse\immagini\under.gif" />
+    <Content Include="risorse\immagini\verde.gif" />
+    <Content Include="risorse\immagini\verifica.gif" />
+    <Content Include="risorse\LETACC_SEGDIP.xslt" />
+    <Content Include="risorse\LETAVV_BUR.xslt" />
+    <Content Include="risorse\LETAVV_CONSREG.xslt" />
+    <Content Include="risorse\LETAVV_GIUREG.xslt" />
+    <Content Include="risorse\LETAVV_PRESGIU.xslt" />
+    <Content Include="risorse\LETAVV_SEGDIP.xslt" />
+    <Content Include="risorse\ModelloDelibera.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="risorse\ModelloDetermina.xslt" />
+    <Content Include="risorse\ModelloDisposizione.xslt" />
+    <Content Include="risorse\ModelloLetteraAccompagnamento.xslt" />
+    <Content Include="risorse\xmlDatiRegistraDelibera.xml" />
+    <Content Include="risorse\xmlDatiRegistraDetermina.xml" />
+    <Content Include="risorse\xmlDatiRegistraDisposizione.xml" />
+    <Content Include="risorse\_ELE_LETACC_UFFPROP.xslt" />
+    <Content Include="risorse\_ModelloDelibera.xslt" />
+    <Content Include="risorse\_ModelloDetermina.xslt" />
+    <Content Include="search.ascx" />
+    <Content Include="SedutediGiunta.aspx" />
+    <Content Include="StampaDocumento.aspx" />
+    <Content Include="StoricoDocumento.aspx" />
+    <Content Include="Styles.css" />
+    <Content Include="SuccessoCaricaDocumento.aspx" />
+    <Content Include="SuccessoDeterminaTesto.aspx" />
+    <Content Include="testXmlRegistraDoc.xml" />
+    <Content Include="tree.ascx" />
+    <Content Include="UfficiCompetenza.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebReport.aspx" />
+    <Content Include="WebSession.aspx" />
+    <Content Include="Worklist.aspx" />
+    <EmbeddedResource Include="AllegatiDocumento.aspx.resx">
+      <DependentUpon>AllegatiDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arrivederci.aspx.resx">
+      <DependentUpon>Arrivederci.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssegnaNumerazione.aspx.resx">
+      <DependentUpon>AssegnaNumerazione.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvvisoRedirect.aspx.resx">
+      <DependentUpon>AvvisoRedirect.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeneficiariFromFile.aspx.resx">
+      <DependentUpon>BeneficiariFromFile.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaricaDocumento.aspx.resx">
+      <DependentUpon>CaricaDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfermaCreaDocumento.aspx.resx">
+      <DependentUpon>ConfermaCreaDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfermaFirmaMultipla.aspx.resx">
+      <DependentUpon>ConfermaFirmaMultipla.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfermaFirmaMultiplaAX.aspx.resx">
+      <DependentUpon>ConfermaFirmaMultiplaAX.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatiSeduta.aspx.resx">
+      <DependentUpon>DatiSeduta.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportistica.aspx.resx">
+      <DependentUpon>Reportistica.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RigettoDocumento.aspx.resx">
+      <DependentUpon>RigettoDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InoltroDocumento.aspx.resx">
+      <DependentUpon>InoltroDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaDocumentoAX.aspx.resx">
+      <DependentUpon>FirmaDocumentoAX.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchStampa.ascx.resx">
+      <DependentUpon>searchStampa.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorArchivioStampa.aspx.resx">
+      <DependentUpon>MonitorArchivioStampa.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorEnte.aspx.resx">
+      <DependentUpon>MonitorEnte.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorArchivio.aspx.resx">
+      <DependentUpon>MonitorArchivio.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errore.aspx.resx">
+      <DependentUpon>Errore.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorUfficio.aspx.resx">
+      <DependentUpon>MonitorUfficio.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliberaOsservazioni.aspx.resx">
+      <DependentUpon>DeliberaOsservazioni.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliberaTesto.aspx.resx">
+      <DependentUpon>DeliberaTesto.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeterminaTesto.aspx.resx">
+      <DependentUpon>DeterminaTesto.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisposizioneTesto.aspx.resx">
+      <DependentUpon>DisposizioneTesto.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentoTesto.aspx.resx">
+      <DependentUpon>DocumentoTesto.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsitoOperazione.aspx.resx">
+      <DependentUpon>EsitoOperazione.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaDocumenti.aspx.resx">
+      <DependentUpon>FirmaDocumenti.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaDocumento.aspx.resx">
+      <DependentUpon>FirmaDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formStampa.aspx.resx">
+      <DependentUpon>formStampa.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUAssegnazioni.aspx.resx">
+      <DependentUpon>GUAssegnazioni.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUPrelazioni.aspx.resx">
+      <DependentUpon>GUPrelazioni.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUPrelievi.aspx.resx">
+      <DependentUpon>GUPrelievi.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="header.ascx.resx">
+      <DependentUpon>header.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.aspx.resx">
+      <DependentUpon>HomePage.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.aspx.resx">
+      <DependentUpon>Index.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.aspx.resx">
+      <DependentUpon>login.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessaggioErrore.aspx.resx">
+      <DependentUpon>MessaggioErrore.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitor.aspx.resx">
+      <DependentUpon>Monitor.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorConsultazione.aspx.resx">
+      <DependentUpon>MonitorConsultazione.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfiloOperatore.aspx.resx">
+      <DependentUpon>ProfiloOperatore.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.ascx.resx">
+      <DependentUpon>search.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchCompetenza.ascx.resx">
+      <DependentUpon>searchCompetenza.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SedutediGiunta.aspx.resx">
+      <DependentUpon>SedutediGiunta.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StampaDocumento.aspx.resx">
+      <DependentUpon>StampaDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoricoDocumento.aspx.resx">
+      <DependentUpon>StoricoDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuccessoCaricaDocumento.aspx.resx">
+      <DependentUpon>SuccessoCaricaDocumento.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuccessoDeterminaTesto.aspx.resx">
+      <DependentUpon>SuccessoDeterminaTesto.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebSession.aspx.resx">
+      <DependentUpon>WebSession.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worklist.aspx.resx">
+      <DependentUpon>Worklist.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="EXT\resources\images\default\form\clear-trigger.psd" />
+    <None Include="EXT\resources\images\default\form\date-trigger.psd" />
+    <None Include="EXT\resources\images\default\form\search-trigger.psd" />
+    <None Include="EXT\resources\images\default\form\trigger.psd" />
+    <None Include="EXT\resources\images\default\shadow-c.psd" />
+    <None Include="EXT\resources\images\default\window\left-corners.psd" />
+    <None Include="EXT\resources\images\default\window\left-right.psd" />
+    <None Include="EXT\resources\images\default\window\right-corners.psd" />
+    <None Include="EXT\resources\images\default\window\top-bottom.psd" />
+    <None Include="EXT\resources\images\gray\window\left-corners.pspimage" />
+    <None Include="EXT\resources\resources.jsb" />
+    <Content Include="risorse\AppendiceDelibera_Preimpegni.pdf" />
+    <Content Include="risorse\AppendiceDelibera_Impegni.pdf" />
+    <None Include="My Project\PublishProfiles\ProvvAmmREGIONE.pubxml" />
+    <None Include="My Project\PublishProfiles\REG-BAS.pubxml" />
+    <None Include="My Project\PublishProfiles\RegBas.pubxml" />
+    <None Include="risorse\AppendiceDetermina_Impegni.pdf" />
+    <None Include="risorse\AppendiceDetermina_Liquidazioni.pdf" />
+    <None Include="risorse\AppendiceDetermina_Preimpegni.pdf" />
+    <None Include="risorse\AppendiceDetermina_Variazioni.pdf" />
+    <None Include="risorse\AppendiceDisposizione_Liquidazioni.pdf" />
+    <None Include="risorse\AppendiceNoteUP.pdf" />
+    <None Include="risorse\FIRMADIGITALE.zip" />
+    <None Include="risorse\immagini\Thumbs.db" />
+    <None Include="risorse\Modelli_20150216\Determina.zip" />
+    <None Include="risorse\Modelli_20150216\Determina_CICO.zip" />
+    <None Include="risorse\Modelli_20150216\Determina_CICO_pres.zip" />
+    <None Include="risorse\Modelli_20150216\Determina_dg.zip" />
+    <None Include="risorse\Modelli_20150216\Determina_StrutturePresidente.zip" />
+    <None Include="risorse\Modelli_20150216\Disposizione.zip" />
+    <None Include="risorse\Modelli_20150216\DisposizionePresidente.zip" />
+    <None Include="risorse\Modelli_20150216\Disposizione_CICO.zip" />
+    <None Include="risorse\Modelli_20150216\Disposizione_CICO_pres.zip" />
+    <None Include="risorse\Modelli_20150216\Disposizione_dg.zip" />
+    <Content Include="risorse\Tracciati_excel\Tracciato caricamento massivo beneficiari.xlsx" />
+    <Content Include="risorse\Tracciati_excel\Tracciato_caricamento_massivo_beneficiari.zip" />
+    <None Include="risorse\trasparenza\Allegato_obblighi_di_pubblicazione_05052014.pdf" />
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="temp\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4694</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/AttiDigitali</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

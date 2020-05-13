@@ -1,0 +1,13 @@
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\Interop.WINGRAPHVIZLib.dll
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\LibreriaGraph.vbproj.ResolveComReference.cache
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\LibreriaGraph.Resources.resources
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\LibreriaGraph.vbproj.GenerateResource.Cache
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll.config
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.pdb
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.xml
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\Interop.WINGRAPHVIZLib.dll
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\LibreriaGraph.dll
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\LibreriaGraph.xml
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\obj\Debug\LibreriaGraph.pdb

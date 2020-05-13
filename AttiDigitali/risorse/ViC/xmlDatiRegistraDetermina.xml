@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<datiDocumento>
+<oggetto></oggetto>
+<testo></testo>
+<tabella nome_tabella="Documento_bilancio" 
+         chiave_tabella="Dbi_Documento" 
+         col_prog_registrazione="Dbi_prog" 
+         col_data_registrazione="Dbi_DataRegistrazione" 
+         col_operatore_registrazione="Dbi_Operatore">
+	<Dbi_Bilancio tipo="INT" compito="ISTRUTTORE" ></Dbi_Bilancio>
+	<Dbi_UPB compito="ISTRUTTORE"></Dbi_UPB>
+	<Dbi_Cap compito="ISTRUTTORE"></Dbi_Cap>	
+	<Dbi_Costo tipo="FLOAT" compito="ISTRUTTORE"></Dbi_Costo>
+	<Dbi_prog></Dbi_prog>
+</tabella>
+<tabella nome_tabella="Documento_liquidazione" 
+         chiave_tabella="Dli_Documento" 
+         col_prog_registrazione="Dli_prog" 
+         col_data_registrazione="Dli_DataRegistrazione" 
+         col_operatore_registrazione="Dli_Operatore">
+	<Dli_Costo tipo="FLOAT" compito="*"></Dli_Costo>
+	<Dli_Cap compito="*"></Dli_Cap>
+	<Dli_UPB compito="*"></Dli_UPB>
+	<Dli_Esercizio tipo="INT" compito="*"></Dli_Esercizio>		
+	<Dli_NContabile tipo="INT" compito="*"></Dli_NContabile>
+	<Dli_TipoAssunzione tipo="INT" compito="*"></Dli_TipoAssunzione>
+	<Dli_Num_assunzione tipo="INT" compito="*"></Dli_Num_assunzione>
+	<Dli_Data_Assunzione tipo="DATA" compito="*"></Dli_Data_Assunzione>
+	<Dli_prog></Dli_prog>
+</tabella>
+<tabella nome_tabella="Documento_rag_assunzione" 
+         chiave_tabella="DRA_id_Documento" 
+         col_prog_registrazione="DRA_prog" 
+         col_data_registrazione="DRA_DataRegistrazione" 
+         col_operatore_registrazione="DRA_Operatore">
+	<DRA_NContabile tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRA_NContabile>
+	<DRA_UPB compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRA_UPB>
+	<DRA_Cap compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRA_Cap>
+	<DRA_Esercizio tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRA_Esercizio>
+	<DRA_Costo tipo="FLOAT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRA_Costo>
+	<DRA_prog></DRA_prog>
+</tabella>
+<tabella nome_tabella="Documento_rag_liquidazione" 
+         chiave_tabella="DRL_Id_Documento" 
+         col_prog_registrazione="DRL_Prog" 
+         col_data_registrazione="DRL_DataRegistrazione" 
+         col_operatore_registrazione="DRL_Operatore">
+	<DRL_NLiquidazione tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_NLiquidazione>
+	<DRL_UPB compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_UPB>
+	<DRL_Cap compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_Cap>
+	<DRL_Esercizio tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_Esercizio>
+	<DRL_Costo tipo="FLOAT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_Costo>
+	<DRL_NContabile tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_NContabile>
+	<DRL_TipoAssunzione tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_TipoAssunzione>
+	<DRL_NAssunzione tipo="INT" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_NAssunzione>
+	<DRL_Data tipo="DATA" compito="REV_RAGIONERIA;DIR_RAGIONERIA"></DRL_Data>
+	<DRL_Prog></DRL_Prog>	
+</tabella>
+<tabella nome_tabella="Documento_noteosservazioni" 
+         chiave_tabella="Dno_id_documento" 
+         col_prog_registrazione="Dno_prog" 
+         col_data_registrazione="Dno_DataRegistrazione" 
+         col_operatore_registrazione="Dno_Oparatore">
+	<Dno_testo></Dno_testo>
+	<Dno_tipo>DIRIGENTE UFFICIO</Dno_tipo>
+	<Dno_prog>1</Dno_prog>	
+</tabella>
+<tabella nome_tabella="Documento_noteosservazioni" 
+         chiave_tabella="Dno_id_documento" 
+         col_prog_registrazione="Dno_prog" 
+         col_data_registrazione="Dno_DataRegistrazione" 
+         col_operatore_registrazione="Dno_Oparatore">
+	<Dno_testo compito="REV_DIRIGENTEGEN"></Dno_testo>
+	<Dno_tipo>DIRIGENTE GENERALE</Dno_tipo>
+	<Dno_prog>2</Dno_prog>	
+</tabella>
+<tabella nome_tabella="Documento_noteosservazioni" 
+         chiave_tabella="Dno_id_documento" 
+         col_prog_registrazione="Dno_prog" 
+         col_data_registrazione="Dno_DataRegistrazione" 
+         col_operatore_registrazione="Dno_Oparatore">
+	<Dno_testo compito="DIR_CONTROLLOAMM;REV_CONTROLLOAMM"></Dno_testo>
+	<Dno_tipo>CONTROLLO AMM</Dno_tipo>
+	<Dno_prog>3</Dno_prog>	
+</tabella>
+</datiDocumento> 

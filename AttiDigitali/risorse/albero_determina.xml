@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<elenco ruoli="*" text="Elenco Determine Aperte">
+<istanza ruoli="*" text="Det. n.#numDocumento#">
+	<modificaDetermina NavigateUrl="CreaProvvedimento.aspx?tipo=0&amp;key=#codDocumento#" ruoli="DT009">Modifica</modificaDetermina>
+  <!--<editaTesto NavigateUrl="Editor.aspx" ruoli="DT009">Edita Testo Determina</editaTesto>-->
+	<testo  NavigateUrl="LeggiTestoDeterminaAction.aspx?key=#codDocumento#&amp;tipo=0" ruoli="DT009">Carica Determina</testo>
+    <osservazioni  NavigateUrl="Osservazioni.aspx?key=#codDocumento#" ruoli="DT018">Edita Osservazioni</osservazioni>
+	<documento NavigateUrl="AllegatiDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Visualizza Fascicolo</documento>
+	<inoltro NavigateUrl="InoltroDocumentoAction.aspx?key=#codDocumento#&amp;tipo=0" ruoli="DT002;DT005;DT008">Inoltra</inoltro>
+    <rigetto NavigateUrl="RigettoDocumentoAction.aspx?key=#codDocumento#&amp;tipo=0" ruoli="DT008">Rigetta</rigetto>
+    <annulla NavigateUrl="AnnullaDocumento.aspx?key=#codDocumento#&amp;tipo=0"  ruoli="DT005">Elimina</annulla>
+	<contabileprop NavigateUrl="Contabile.aspx?key=#codDocumento#&amp;tipo=0" ruoli="DC001">Dettaglio Contabile</contabileprop>
+	 <siccapitoli NavigateUrl="VisibilitaSic.aspx?key=#codDocumento#&amp;vis=0" ruoli="RT001">Disponibilità Capitoli</siccapitoli>
+  <sicpreimpegni NavigateUrl="VisibilitaSic.aspx?key=#codDocumento#&amp;vis=2" ruoli="RT001">Disponibilità PreImpegni</sicpreimpegni>
+  <sicimpegni NavigateUrl="VisibilitaSic.aspx?key=#codDocumento#&amp;vis=1" ruoli="RT001">Disponibilità Impegni</sicimpegni>
+  <sicliquidazioni NavigateUrl="VisibilitaSic.aspx?key=#codDocumento#&amp;vis=3" ruoli="RT001">Disponibilità Liquidazioni</sicliquidazioni>
+  <contabilerag NavigateUrl="ContabilePerRag.aspx?key=#codDocumento#&amp;tipo=0" ruoli="RT001">Dati Contabili Ragioneria</contabilerag>
+  <stampa NavigateUrl="StampaDocumentoAction.aspx?key=#codDocumento#" ruoli="PU001">Stampe</stampa>	
+	<storico NavigateUrl="StoricoDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Visualizza Storico</storico>
+	<definitivo NavigateUrl="AssegnaNumerazioneAction.aspx?key=#codDocumento#" ruoli="DT016">Assegna Numero Definitivo</definitivo>
+    <messaggiinviati NavigateUrl="ElencoMessaggiAction.aspx?key=#codDocumento#&amp;inv=1" ruoli="DT020">Messaggi Inviati</messaggiinviati>
+    <messaggi NavigateUrl="ElencoMessaggiAction.aspx?key=#codDocumento#" ruoli="*">Messaggi Ricevuti</messaggi>
+    <suggerimenti NavigateUrl="ElencoSuggerimentiAction.aspx?key=#codDocumento#" ruoli="RT001">Suggerimenti</suggerimenti>
+    <assegnaDetermina NavigateUrl="GUAssegnazioniAction.aspx?key=#codDocumento#&amp;tipo=0" ruoli="GT002;ADMUFF">Assegna</assegnaDetermina>
+	<chiudi NavigateUrl="ChiudiDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Chiudi</chiudi>
+	
+	
+
+</istanza>
+</elenco>
+</root>

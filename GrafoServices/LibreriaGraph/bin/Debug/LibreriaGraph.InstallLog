@@ -1,0 +1,132 @@
+﻿Installazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Installazione del servizio Service1 in corso...
+Installazione di Service1 completata.
+È in corso la creazione dell'origine di EventLog Service1 nel log Application...
+Commit dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Disinstallazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Rimozione dell'origine di EventLog Service1.
+È in corso la rimozione del servizio Service1 dal sistema...
+Rimozione del servizio Service1 dal sistema completata.
+Disinstallazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Rimozione dell'origine di EventLog Service1.
+Avviso: l'origine Service1 non è registrata nel computer locale.
+È in corso la rimozione del servizio Service1 dal sistema...
+Si è verificata un'eccezione durante la disinstallazione del programma di installazione di System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Il servizio specificato non esiste come servizio installato
+Si è verificata un'eccezione durante la disinstallazione. L'eccezione verrà ignorata e la disinstallazione continuerà, tuttavia è possibile che l'applicazione non venga disinstallata completamente al termine dell'operazione.
+Installazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Installazione del servizio Service1 in corso...
+Installazione di Service1 completata.
+È in corso la creazione dell'origine di EventLog Service1 nel log Application...
+Commit dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Disinstallazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Rimozione dell'origine di EventLog Service1.
+È in corso la rimozione del servizio Service1 dal sistema...
+Rimozione del servizio Service1 dal sistema completata.
+Installazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Installazione del servizio Service1 in corso...
+È in corso la creazione dell'origine di EventLog Service1 nel log Application...
+Ripristino dello stato precedente dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Ripristino del log eventi allo stato precedente per l'origine Service1.
+Installazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Installazione del servizio Service1 in corso...
+È in corso la creazione dell'origine di EventLog Service1 nel log Application...
+Ripristino dello stato precedente dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Ripristino del log eventi allo stato precedente per l'origine Service1.
+Disinstallazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Rimozione dell'origine di EventLog Service1.
+Avviso: l'origine Service1 non è registrata nel computer locale.
+È in corso la rimozione del servizio Service1 dal sistema...
+Si è verificata un'eccezione durante la disinstallazione del programma di installazione di System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Il servizio specificato non esiste come servizio installato
+Si è verificata un'eccezione durante la disinstallazione. L'eccezione verrà ignorata e la disinstallazione continuerà, tuttavia è possibile che l'applicazione non venga disinstallata completamente al termine dell'operazione.
+Installazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Installazione del servizio Service1 in corso...
+Installazione di Service1 completata.
+È in corso la creazione dell'origine di EventLog Service1 nel log Application...
+Commit dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Disinstallazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Rimozione dell'origine di EventLog Service1.
+È in corso la rimozione del servizio Service1 dal sistema...
+Rimozione del servizio Service1 dal sistema completata.
+Installazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Installazione del servizio Service1 in corso...
+Installazione di Service1 completata.
+È in corso la creazione dell'origine di EventLog Service1 nel log Application...
+Commit dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Disinstallazione dell'assembly 'C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   assemblypath = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.dll
+   logfile = C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\LibreriaGraph\bin\Debug\LibreriaGraph.InstallLog
+Rimozione dell'origine di EventLog Service1.
+È in corso la rimozione del servizio Service1 dal sistema...
+Rimozione del servizio Service1 dal sistema completata.

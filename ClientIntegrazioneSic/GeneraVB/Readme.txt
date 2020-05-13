@@ -1,0 +1,1 @@
+Per generare i .vb a partire dagli xsd utilizzare CreaLatoServer.bat

@@ -1,0 +1,211 @@
+2017-10-17 15:39:03,573; [381324]; DEBUG; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Inizio validazione dell'utente medico
+2017-10-17 15:39:03,687; [381324]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:39:46,779; [381324]; ERROR; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Errore in getoperatore : Si è verificato un errore di rete o specifico dell'istanza mentre si cercava di stabilire una connessione con il server SQL. Il server non è stato trovato o non è accessibile. Verificare che il nome dell'istanza sia corretto e che il server SQL sia configurato in modo da consentire connessioni remote. (provider: Provider Named Pipes, error: 40 - Impossibile aprire una connessione a SQL Server)
+2017-10-17 15:39:46,780; [381324]; ERROR; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Utente non registrato:root
+2017-10-17 15:40:08,082; [446048]; DEBUG; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Inizio validazione dell'utente medico
+2017-10-17 15:40:08,082; [446048]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:41:51,159; [444580]; DEBUG; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Inizio validazione dell'utente medico
+2017-10-17 15:41:51,178; [444580]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:41:51,424; [444580]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:41:51,469; [444580]; INFO ; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Fine validazione dell'utente medico,Medico autenticato:root
+2017-10-17 15:41:51,470; [444580]; DEBUG; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Fine validazione dell'utente medico
+2017-10-17 15:41:51,551; [444580]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:41:51,560; [444580]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:41:51,561; [444580]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:41:51,571; [444580]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:41:51,612; [444580]; DEBUG; Intema.Amministrazione.BLL.Applicazione; [(null)]; Inizio Lettura applicazioni
+2017-10-17 15:41:51,658; [444580]; DEBUG; Intema.Amministrazione.BLL.Applicazione; [(null)]; Fine Lettura applicazioni
+2017-10-17 15:41:51,661; [444580]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Inizio lettura Gruppi
+2017-10-17 15:41:51,692; [444580]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Fine lettura gruppi
+2017-10-17 15:41:51,694; [444580]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Inizio lettura Gruppi
+2017-10-17 15:41:51,708; [444580]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Fine lettura gruppi
+2017-10-17 15:41:51,710; [444580]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Dipartimenti
+2017-10-17 15:41:51,835; [444580]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Dipartimenti
+2017-10-17 15:41:51,840; [444580]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Inizio lettura Operatori
+2017-10-17 15:41:51,993; [444580]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Fine lettura Operatori
+2017-10-17 15:42:04,837; [410184]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:42:04,848; [410184]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:42:04,849; [410184]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:42:04,857; [410184]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:42:04,858; [410184]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Inizio lettura Operatori
+2017-10-17 15:42:04,935; [410184]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Fine lettura Operatori
+2017-10-17 15:42:10,186; [446188]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:42:10,193; [446188]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:42:10,194; [446188]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:42:10,201; [446188]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:42:10,202; [446188]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Inizio lettura Operatori
+2017-10-17 15:42:10,228; [446188]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Fine lettura Operatori
+2017-10-17 15:42:23,203; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:42:23,225; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:42:23,226; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:42:23,246; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:37,406; [445088]; DEBUG; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Inizio validazione dell'utente medico
+2017-10-17 15:43:37,425; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:37,482; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:37,500; [445088]; INFO ; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Fine validazione dell'utente medico,Medico autenticato:root
+2017-10-17 15:43:37,500; [445088]; DEBUG; Intema.TabCentr.Provider.TabCentrMembershipProvider; [(null)]; Fine validazione dell'utente medico
+2017-10-17 15:43:37,530; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:37,542; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:37,544; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:37,559; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:37,564; [445560]; DEBUG; Intema.Amministrazione.BLL.Applicazione; [(null)]; Inizio Lettura applicazioni
+2017-10-17 15:43:37,577; [445560]; DEBUG; Intema.Amministrazione.BLL.Applicazione; [(null)]; Fine Lettura applicazioni
+2017-10-17 15:43:37,578; [445560]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Inizio lettura Gruppi
+2017-10-17 15:43:37,609; [445560]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Fine lettura gruppi
+2017-10-17 15:43:37,611; [445560]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Inizio lettura Gruppi
+2017-10-17 15:43:37,630; [445560]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Fine lettura gruppi
+2017-10-17 15:43:37,632; [445560]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Dipartimenti
+2017-10-17 15:43:37,698; [445560]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Dipartimenti
+2017-10-17 15:43:37,703; [445560]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Inizio lettura Operatori
+2017-10-17 15:43:38,092; [445560]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Fine lettura Operatori
+2017-10-17 15:43:41,839; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:41,856; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:41,856; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:41,882; [445560]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:41,884; [445560]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Inizio lettura Operatori
+2017-10-17 15:43:41,920; [445560]; DEBUG; Intema.Amministrazione.BLL.Operatore; [(null)]; Fine lettura Operatori
+2017-10-17 15:43:45,914; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:45,930; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:45,930; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:45,943; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:45,946; [445088]; DEBUG; Intema.Amministrazione.BLL.Anagrafica; [(null)]; Inizio lettura Anagrafica 
+2017-10-17 15:43:46,137; [445088]; DEBUG; Intema.Amministrazione.BLL.Anagrafica; [(null)]; Fine lettura Anagrafica
+2017-10-17 15:43:46,140; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:46,155; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:46,156; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:46,166; [445088]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:47,493; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:47,503; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:47,503; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:47,512; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:47,680; [447368]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:47,689; [447368]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:47,690; [447368]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:43:47,702; [447368]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:43:47,736; [447368]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Inizio lettura Gruppi
+2017-10-17 15:43:47,756; [447368]; DEBUG; Intema.Amministrazione.BLL.Gruppo; [(null)]; Fine lettura gruppi
+2017-10-17 15:43:47,757; [447368]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Dipartimenti
+2017-10-17 15:43:47,766; [447368]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Dipartimenti
+2017-10-17 15:43:47,767; [447368]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Uffici associati ad un dipartimento
+2017-10-17 15:43:47,780; [447368]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Uffici associati ad un dipartimento
+2017-10-17 15:43:47,781; [447368]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Uffici associati ad un dipartimento
+2017-10-17 15:43:47,790; [447368]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Uffici associati ad un dipartimento
+2017-10-17 15:44:00,662; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:00,675; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:00,675; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:00,686; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:00,687; [442864]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Uffici associati ad un dipartimento
+2017-10-17 15:44:00,697; [442864]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Uffici associati ad un dipartimento
+2017-10-17 15:44:08,801; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:08,810; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:08,810; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:08,828; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:08,829; [441416]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Inizio Lettura Uffici associati ad un dipartimento
+2017-10-17 15:44:08,840; [441416]; DEBUG; Intema.Amministrazione.BLL.Struttura; [(null)]; Fine Lettura Uffici associati ad un dipartimento
+2017-10-17 15:44:13,391; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:13,399; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:13,400; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:13,409; [442864]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:13,473; [442864]; DEBUG; DllAmbiente.Ufficio; [(null)]; ***INIZIO Leggi_ResponsabileUfficio Ufficio: U310022 17/10/2017 15:44:13
+2017-10-17 15:44:13,488; [442864]; DEBUG; DllAmbiente.Ufficio; [(null)]; ***FINE Leggi_ResponsabileUfficio Ufficio: U310022 17/10/2017 15:44:13
+2017-10-17 15:44:13,489; [442864]; DEBUG; DllAmbiente.Operatore; [(null)]; ***INIZIO Leggi_Ufficio Operatore: donato.delcorso 17/10/2017 15:44:13
+2017-10-17 15:44:13,495; [442864]; DEBUG; DllAmbiente.Operatore; [(null)]; ***FINE Leggi_Ufficio Operatore: donato.delcorso 17/10/2017 15:44:13
+2017-10-17 15:44:13,496; [442864]; DEBUG; DllAmbiente.Ufficio; [(null)]; ***INIZIO Leggi_ResponsabileUfficio Ufficio: U310022 17/10/2017 15:44:13
+2017-10-17 15:44:13,510; [442864]; DEBUG; DllAmbiente.Ufficio; [(null)]; ***FINE Leggi_ResponsabileUfficio Ufficio: U310022 17/10/2017 15:44:13
+2017-10-17 15:44:13,511; [442864]; DEBUG; DllAmbiente.Operatore; [(null)]; ***INIZIO Leggi_Ufficio Operatore: donato.delcorso 17/10/2017 15:44:13
+2017-10-17 15:44:13,520; [442864]; DEBUG; DllAmbiente.Operatore; [(null)]; ***FINE Leggi_Ufficio Operatore: donato.delcorso 17/10/2017 15:44:13
+2017-10-17 15:44:13,536; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:13,545; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:13,546; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:13,556; [445256]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:17,020; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:17,027; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:17,028; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:17,038; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:17,040; [441416]; DEBUG; Intema.Amministrazione.BLL.Anagrafica; [(null)]; Inizio salvataggio Anagrafica
+2017-10-17 15:44:17,193; [441416]; ERROR; Intema.Amministrazione.SQLServerDAL.Anagrafica; [(null)]; String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   in System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   in System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   in System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   in System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   in System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   in System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   in System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   in System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   in System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   in Intema.DBUtility.SqlHelper.ExecuteNonQuery(SqlTransaction trans, CommandType cmdType, String cmdText, SqlParameter[] commandParameters, Int32 timeout) in L:\workspace_Provvedimenti\branches\Regione_Delibere\dbUtility\Intema.DBUtility\SQLHelper.vb:riga 133
+   in Intema.Amministrazione.SQLServerDAL.OperatoriGruppi.InsertOperatoriGruppi(SqlTransaction trans, OperatoreInfo operatore) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\OperatoriGruppi.vb:riga 56
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.GestioneListaOperatoreAnagrafica(SqlTransaction trans, AnagraficaInfo& Anagrafica, Boolean flagInserisciStruttutaGruppo_OP) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1205
+2017-10-17 15:44:17,220; [441416]; ERROR; Intema.Amministrazione.BLL.Anagrafica; [(null)]; Impossibile salvare l'Anagrafica
+Intema.Amministrazione.IDAL.DALException: String or binary data would be truncated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   in System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   in System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   in System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   in System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   in System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   in System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   in System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   in System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   in System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   in Intema.DBUtility.SqlHelper.ExecuteNonQuery(SqlTransaction trans, CommandType cmdType, String cmdText, SqlParameter[] commandParameters, Int32 timeout) in L:\workspace_Provvedimenti\branches\Regione_Delibere\dbUtility\Intema.DBUtility\SQLHelper.vb:riga 133
+   in Intema.Amministrazione.SQLServerDAL.OperatoriGruppi.InsertOperatoriGruppi(SqlTransaction trans, OperatoreInfo operatore) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\OperatoriGruppi.vb:riga 56
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.GestioneListaOperatoreAnagrafica(SqlTransaction trans, AnagraficaInfo& Anagrafica, Boolean flagInserisciStruttutaGruppo_OP) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1205
+   --- Fine dell'analisi dello stack dell'eccezione interna ---
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.GestioneListaOperatoreAnagrafica(SqlTransaction trans, AnagraficaInfo& Anagrafica, Boolean flagInserisciStruttutaGruppo_OP) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1219
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.UpdateOp(AnagraficaInfo Anagrafica) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1234
+   in Intema.Amministrazione.BLL.Anagrafica.Save(AnagraficaInfo Anagrafica) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.BLL\Anagrafica.vb:riga 71
+2017-10-17 15:44:24,013; [441416]; ERROR; Amministrazione.Global_asax; [(null)]; Errore imprevisto dell'applicazione: Generata eccezione di tipo 'System.Web.HttpUnhandledException'.
+System.Web.HttpUnhandledException: Generata eccezione di tipo 'System.Web.HttpUnhandledException'. ---> System.ApplicationException: Impossibile salvare l'Anagrafica ---> Intema.Amministrazione.IDAL.DALException: String or binary data would be truncated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   in System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   in System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   in System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   in System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   in System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   in System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   in System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   in System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   in System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   in Intema.DBUtility.SqlHelper.ExecuteNonQuery(SqlTransaction trans, CommandType cmdType, String cmdText, SqlParameter[] commandParameters, Int32 timeout) in L:\workspace_Provvedimenti\branches\Regione_Delibere\dbUtility\Intema.DBUtility\SQLHelper.vb:riga 133
+   in Intema.Amministrazione.SQLServerDAL.OperatoriGruppi.InsertOperatoriGruppi(SqlTransaction trans, OperatoreInfo operatore) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\OperatoriGruppi.vb:riga 56
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.GestioneListaOperatoreAnagrafica(SqlTransaction trans, AnagraficaInfo& Anagrafica, Boolean flagInserisciStruttutaGruppo_OP) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1205
+   --- Fine dell'analisi dello stack dell'eccezione interna ---
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.GestioneListaOperatoreAnagrafica(SqlTransaction trans, AnagraficaInfo& Anagrafica, Boolean flagInserisciStruttutaGruppo_OP) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1219
+   in Intema.Amministrazione.SQLServerDAL.Anagrafica.UpdateOp(AnagraficaInfo Anagrafica) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.SQLServerDAL\Anagrafica.vb:riga 1234
+   in Intema.Amministrazione.BLL.Anagrafica.Save(AnagraficaInfo Anagrafica) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.BLL\Anagrafica.vb:riga 71
+   --- Fine dell'analisi dello stack dell'eccezione interna ---
+   in Intema.Amministrazione.BLL.Anagrafica.Save(AnagraficaInfo Anagrafica) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Intema.Amministrazione.BLL\Anagrafica.vb:riga 76
+   in Amministrazione.CreazioneUtenza.CreateUserWizard1_CreatedUser(Object sender, EventArgs e) in L:\workspace_Provvedimenti\branches\Regione_Delibere\AmministrazioneSolution\Amministrazione\CreazioneUtenza.aspx.vb:riga 99
+   in System.Web.UI.WebControls.CreateUserWizard.OnCreatedUser(EventArgs e)
+   in System.Web.UI.WebControls.CreateUserWizard.AttemptCreateUser()
+   in System.Web.UI.WebControls.CreateUserWizard.OnNextButtonClick(WizardNavigationEventArgs e)
+   in System.Web.UI.WebControls.Wizard.OnBubbleEvent(Object source, EventArgs e)
+   in System.Web.UI.WebControls.CreateUserWizard.OnBubbleEvent(Object source, EventArgs e)
+   in System.Web.UI.WebControls.Wizard.WizardChildTable.OnBubbleEvent(Object source, EventArgs args)
+   in System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   in System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   in System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   in System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   in System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   in System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   in System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- Fine dell'analisi dello stack dell'eccezione interna ---
+   in System.Web.UI.Page.HandleError(Exception e)
+   in System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   in System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   in System.Web.UI.Page.ProcessRequest()
+   in System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   in System.Web.UI.Page.ProcessRequest(HttpContext context)
+   in ASP.creazioneutenza_aspx.ProcessRequest(HttpContext context)
+   in System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   in System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-10-17 15:44:24,016; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:24,025; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore
+2017-10-17 15:44:24,026; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Inizio caricamento operatore
+2017-10-17 15:44:24,032; [441416]; DEBUG; Intema.TabCentr.Provider.GestioneUtente; [(null)]; Fine del caricamento dell'operatore

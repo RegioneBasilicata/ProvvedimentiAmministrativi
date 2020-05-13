@@ -1,0 +1,194 @@
+<definitions name="FATTURAELETTRONICA"
+    targetNamespace="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA"
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:tns="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xs:schema targetNamespace="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA"
+     elementFormDefault="qualified">
+      <xs:element name="RICEZIONEFATTURAInput">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_URI_ALFRESCO-VARCHAR2-IN" type="xs:string"/>
+              <xs:element name="P_NUMERO_PROTOCOLLO-VARCHAR2-IN" type="xs:string"/>
+              <xs:element name="P_MESSAGGIO-VARCHAR2-OUT">
+                <xs:complexType/>
+              </xs:element>
+              <xs:element name="P_FILE_FATTURA-XMLTYPE-IN">
+                 <xs:complexType>
+                  <xs:sequence>
+                   <xs:any/>
+                  </xs:sequence>
+                 </xs:complexType>
+                </xs:element>
+              <xs:element name="P_ESITO-NUMBER-OUT">
+                <xs:complexType/>
+              </xs:element>
+              <xs:element name="P_DATA_PROTOCOLLO-DATE-IN" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+
+
+      <xs:element name="RICEZIONEFATTURAOutput">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_MESSAGGIO" type="xs:string"/>
+              <xs:element name="P_ESITO" type="xs:double"/>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+      <xs:element name="ELENCOFATTUREInput">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_RETURN-XMLTYPE-OUT">
+                <xs:complexType/>
+              </xs:element>
+              <xs:element name="P_CONTRATTO-VARCHAR2-IN" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+
+
+      <xs:element name="ELENCOFATTUREOutput">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_RETURN">
+                 <xs:complexType>
+                  <xs:sequence>
+                   <xs:element ref="tns:elenco_fatture"/>
+                  </xs:sequence>
+                 </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+	  
+	   <xs:element name="elenco_fatture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fattura" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:integer" name="id_univoco"/>
+              <xs:element type="tns:String100Type" name="numero_fattura_beneficiario"/>
+              <xs:element type="tns:String10Type" name="data_fattura_beneficiario"/>
+              <xs:element type="xs:integer" name="id_anagrafica"/>
+              <xs:element type="xs:integer" name="id_sede"/>
+              <xs:element type="tns:String27Type" name="iban"/>
+			  <xs:element type="xs:integer" name="id_iban"/>
+              <xs:element type="tns:String4000Type" name="descrizione_fattura" minOccurs="0"/>
+              <xs:element type="tns:Amount2DecimalType" name="importo_totale_fattura"/>
+              <xs:element type="xs:integer" name="id_metodo_di_pagamento"/>
+			  <xs:element name="allegato" minOccurs="0" maxOccurs="unbounded">			  
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="tns:String100Type" name="nome_allegato"/>
+							<xs:element type="tns:String10Type" name="formato_allegato"/>
+							<xs:element type="tns:String1000Type" name="url_allegato"/>
+						</xs:sequence>
+					</xs:complexType>
+			  </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:float" name="versione"/>
+    </xs:complexType>
+  </xs:element>
+
+	<xs:simpleType name="Amount2DecimalType">
+		<xs:restriction base="xs:decimal">
+			<xs:pattern value="[\-]?[0-9]{1,11}\.[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String4000Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,4000})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String1000Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,1000})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String100Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,100})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String27Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,27})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<xs:simpleType name="String10Type">
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="(\p{IsBasicLatin}{1,10})"/>
+		</xs:restriction>
+	</xs:simpleType>		
+   </xs:schema>
+  </types>
+
+  <message name="RICEZIONEFATTURAInputMessage">
+    <part name="parameters" element="tns:RICEZIONEFATTURAInput"/>
+  </message>
+
+  <message name="RICEZIONEFATTURAOutputMessage">
+    <part name="parameters" element="tns:RICEZIONEFATTURAOutput"/>
+  </message>
+
+  <message name="ELENCOFATTUREInputMessage">
+    <part name="parameters" element="tns:ELENCOFATTUREInput"/>
+  </message>
+
+  <message name="ELENCOFATTUREOutputMessage">
+    <part name="parameters" element="tns:ELENCOFATTUREOutput"/>
+  </message>
+
+  <portType name="FATTURAELETTRONICAPortType">
+  <operation name="RICEZIONEFATTURA">
+      <input message="tns:RICEZIONEFATTURAInputMessage"/>
+      <output message="tns:RICEZIONEFATTURAOutputMessage"/>
+    </operation>
+  <operation name="ELENCOFATTURE">
+      <input message="tns:ELENCOFATTUREInputMessage"/>
+      <output message="tns:ELENCOFATTUREOutputMessage"/>
+    </operation>
+  </portType>
+
+  <binding name="FATTURAELETTRONICABinding"
+           type="tns:FATTURAELETTRONICAPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="RICEZIONEFATTURA">
+      <soap:operation
+ soapAction="RICEZIONEFATTURA"/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+      </input>
+      <output>
+        <soap:body parts="parameters" use="literal"/>
+      </output>
+    </operation>
+    <operation name="ELENCOFATTURE">
+      <soap:operation
+ soapAction="ELENCOFATTURE"/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+      </input>
+      <output>
+        <soap:body parts="parameters" use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="FATTURAELETTRONICAService">
+    <documentation>Oracle Web Service</documentation>
+    <port name="FATTURAELETTRONICAPort" binding="tns:FATTURAELETTRONICABinding">
+       <soap:address 
+             location="http://sicmobile.regione.basilicata.it/orawsv/GAT2_WS/FATTURAELETTRONICA"/>
+     </port>
+  </service>
+
+</definitions>

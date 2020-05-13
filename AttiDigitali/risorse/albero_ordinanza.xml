@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+  <elenco ruoli="*" text="Elenco Ordinanze Aperti">
+    <istanza ruoli="*" text="Ord. n.#numDocumento#">
+      <modificaOrdinanza NavigateUrl="CreaProvvedimento.aspx?tipo=4&amp;key=#codDocumento#" ruoli="DO001">Modifica</modificaOrdinanza>
+      <testo  NavigateUrl="LeggiTestoOrdinanzaAction.aspx?key=#codDocumento#&amp;tipo=4" ruoli="DO001">Carica Ordinanza</testo>
+      <editaTesto NavigateUrl="Editor.aspx" ruoli="DT009">Edita Testo Ordinanza</editaTesto>
+      <documento NavigateUrl="AllegatiDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Visualizza Fascicolo</documento>
+      <inoltro NavigateUrl="InoltroDocumentoAction.aspx?key=#codDocumento#&amp;tipo=4" ruoli="DO002">Inoltra</inoltro>
+      <rigetto NavigateUrl="RigettoDocumentoAction.aspx?key=#codDocumento#&amp;tipo=4" ruoli="DO008">Rigetta</rigetto>
+      <annulla NavigateUrl="AnnullaDocumento.aspx?key=#codDocumento#&amp;tipo=4"  ruoli="DO005">Elimina</annulla>
+      <storico NavigateUrl="StoricoDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Visualizza Storico</storico>
+      <messaggiinviati NavigateUrl="ElencoMessaggiAction.aspx?key=#codDocumento#&amp;inv=1" ruoli="DO020">Messaggi Inviati</messaggiinviati>
+      <assegnaDelibera NavigateUrl="GUAssegnazioniAction.aspx?key=#codDocumento#&amp;tipo=4" ruoli="DO002;ADMUFF">Assegna</assegnaDelibera>
+      <chiudi NavigateUrl="ChiudiDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Chiudi</chiudi>
+    </istanza>
+  </elenco>
+</root>

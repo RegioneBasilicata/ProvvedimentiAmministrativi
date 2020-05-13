@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="FatturaElettronica" resourceRoot="" soapui-version="5.0.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="FATTURAELETTRONICABinding" type="wsdl" bindingName="{http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA}FATTURAELETTRONICABinding" soapVersion="1_1" anonymous="optional" definition="file:/C:/workspace_VisualStudio/ProvvedimentiRegione/trunk/ClientIntegrazioneSic/GeneraVB/FatturaElettronica.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/C:/workspace_VisualStudio/ProvvedimentiRegione/trunk/ClientIntegrazioneSic/GeneraVB/FatturaElettronica.wsdl"><con:part><con:url>file:/C:/workspace_VisualStudio/ProvvedimentiRegione/trunk/ClientIntegrazioneSic/GeneraVB/FatturaElettronica.wsdl</con:url><con:content><![CDATA[<definitions name="FATTURAELETTRONICA" targetNamespace="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xsd:schema targetNamespace="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA" elementFormDefault="qualified">
+      <xsd:element name="RICEZIONEFATTURAInput">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="P_URI_ALFRESCO-VARCHAR2-IN" type="xsd:string"/>
+            <xsd:element name="P_NUMERO_PROTOCOLLO-VARCHAR2-IN" type="xsd:string"/>
+            <xsd:element name="P_MESSAGGIO-VARCHAR2-OUT">
+              <xsd:complexType/>
+            </xsd:element>
+            <xsd:element name="P_FILE_FATTURA-XMLTYPE-IN">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:any/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="P_ESITO-NUMBER-OUT">
+              <xsd:complexType/>
+            </xsd:element>
+            <xsd:element name="P_DATA_PROTOCOLLO-DATE-IN" type="xsd:date"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="RICEZIONEFATTURAOutput">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="P_MESSAGGIO" type="xsd:string"/>
+            <xsd:element name="P_ESITO" type="xsd:double"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ELENCOFATTUREInput">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="P_RETURN-XMLTYPE-OUT">
+              <xsd:complexType/>
+            </xsd:element>
+            <xsd:element name="P_CONTRATTO-VARCHAR2-IN" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ELENCOFATTUREOutput">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="P_RETURN">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:any/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="RICEZIONEFATTURAInputMessage">
+    <part name="parameters" element="tns:RICEZIONEFATTURAInput"/>
+  </message>
+  <message name="RICEZIONEFATTURAOutputMessage">
+    <part name="parameters" element="tns:RICEZIONEFATTURAOutput"/>
+  </message>
+  <message name="ELENCOFATTUREInputMessage">
+    <part name="parameters" element="tns:ELENCOFATTUREInput"/>
+  </message>
+  <message name="ELENCOFATTUREOutputMessage">
+    <part name="parameters" element="tns:ELENCOFATTUREOutput"/>
+  </message>
+  <portType name="FATTURAELETTRONICAPortType">
+    <operation name="RICEZIONEFATTURA">
+      <input message="tns:RICEZIONEFATTURAInputMessage"/>
+      <output message="tns:RICEZIONEFATTURAOutputMessage"/>
+    </operation>
+    <operation name="ELENCOFATTURE">
+      <input message="tns:ELENCOFATTUREInputMessage"/>
+      <output message="tns:ELENCOFATTUREOutputMessage"/>
+    </operation>
+  </portType>
+  <binding name="FATTURAELETTRONICABinding" type="tns:FATTURAELETTRONICAPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="RICEZIONEFATTURA">
+      <soap:operation soapAction="RICEZIONEFATTURA"/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+      </input>
+      <output>
+        <soap:body parts="parameters" use="literal"/>
+      </output>
+    </operation>
+    <operation name="ELENCOFATTURE">
+      <soap:operation soapAction="ELENCOFATTURE"/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+      </input>
+      <output>
+        <soap:body parts="parameters" use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="FATTURAELETTRONICAService">
+    <documentation>Oracle Web Service</documentation>
+    <port name="FATTURAELETTRONICAPort" binding="tns:FATTURAELETTRONICABinding">
+      <soap:address location="http://sicmobile.regione.basilicata.it/orawsv/GAT2_WS/FATTURAELETTRONICA"/>
+    </port>
+  </service>
+</definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://clu-oracle-db.hosting.int:8080/orawsv/GAT2_WS/FATTURAELETTRONICA</con:endpoint><con:endpoint>http://sicmobile.regione.basilicata.it/orawsv/GAT2_WS/FATTURAELETTRONICA</con:endpoint></con:endpoints><con:operation isOneWay="false" action="ELENCOFATTURE" name="ELENCOFATTURE" bindingOperationName="ELENCOFATTURE" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://sicmobile.regione.basilicata.it/orawsv/GAT2_WS/FATTURAELETTRONICA</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:fat="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-40D5C6477299AD32B614192674175861">
+            <wsse:Username>gat2_ws</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">gat2_ws</wsse:Password>
+            <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">K70Cy6mSyf6xrW39Tu0P+g==</wsse:Nonce>
+            <wsu:Created>2014-12-22T16:56:57.581Z</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <fat:ELENCOFATTUREInput>
+         <fat:P_RETURN-XMLTYPE-OUT/>
+         <fat:P_CONTRATTO-VARCHAR2-IN>0010075</fat:P_CONTRATTO-VARCHAR2-IN>
+      </fat:ELENCOFATTUREInput>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>gat2_ws</con:username><con:password>gat2_ws</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="ELENCOFATTURE"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="RICEZIONEFATTURA" name="RICEZIONEFATTURA" bindingOperationName="RICEZIONEFATTURA" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://sicmobile.regione.basilicata.it/orawsv/GAT2_WS/FATTURAELETTRONICA</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fat="http://xmlns.oracle.com/orawsv/GAT2_WS/FATTURAELETTRONICA">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <fat:RICEZIONEFATTURAInput>
+         <fat:P_URI_ALFRESCO-VARCHAR2-IN>?</fat:P_URI_ALFRESCO-VARCHAR2-IN>
+         <fat:P_NUMERO_PROTOCOLLO-VARCHAR2-IN>?</fat:P_NUMERO_PROTOCOLLO-VARCHAR2-IN>
+         <fat:P_MESSAGGIO-VARCHAR2-OUT/>
+         <fat:P_FILE_FATTURA-XMLTYPE-IN>
+            <!--You may enter ANY elements at this point-->
+         </fat:P_FILE_FATTURA-XMLTYPE-IN>
+         <fat:P_ESITO-NUMBER-OUT/>
+         <fat:P_DATA_PROTOCOLLO-DATE-IN>?</fat:P_DATA_PROTOCOLLO-DATE-IN>
+      </fat:RICEZIONEFATTURAInput>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="RICEZIONEFATTURA"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>

@@ -1,0 +1,2 @@
+"C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\x64\wsdl"  FatturaElettronica.wsdl  /c /l:vb /namespace:Intema.WS.Risposta
+pause

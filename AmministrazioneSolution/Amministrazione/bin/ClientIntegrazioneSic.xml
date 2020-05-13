@@ -1,0 +1,2987 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClientIntegrazioneSic
+</name>
+</assembly>
+<members>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fatture">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fatture.fattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fatture.versione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fatture.versioneSpecified">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.id_univoco">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.numero_fattura_beneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.data_fattura_beneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.id_anagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.id_sede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.iban">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.descrizione_fattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.importo_totale_fattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.elenco_fattureFattura.id_metodo_di_pagamento">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.MessaggioRisposta_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.MessaggioRisposta_Types.Intestazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.MessaggioRisposta_Types.Item">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Intestazione_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Intestazione_Types.InfoMittDest">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Intestazione_Types.Applicazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Eccezione_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Eccezione_Types.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Eccezione_Types.Descrizione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Eccezione_Types.Exception">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_Types.Contratto">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_TypesContratto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_TypesContratto.Chiave">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_TypesContratto.NumeroRepertorio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_TypesContratto.Descrizione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_TypesContratto.CodiceCup">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneContratti_TypesContratto.CodiceCig">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_Types.Mandato">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.NumeroMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.DataMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.DataMandatoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.TipoAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.NumeroAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.DataAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.DataAttoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.Ufficio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.IdProvvedimento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.IdLiquidazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandato.Beneficiario">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.NomeFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.CodiceFiscalePartitaIvaFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.IndirizzoFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.ImportoLordoBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.ImportoLordoBeneficiarioSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.ImportoRitenuteBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.ImportoRitenuteBeneficiarioSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.ImportoNettoBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.ImportoNettoBeneficiarioSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.IdFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneMandatiTrasparenza_TypesMandatoBeneficiario.CodiceSedeFornitore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePCF_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePCF_Types.PianoDeiContiFina">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.PCF_Type">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.PCF_Type.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.PCF_Type.Descrizione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_Types.Mandato">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.IdDocumento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataEmissioneMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataEmissioneMandatoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.ValidoAnnullato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroStorno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroStornoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataStorno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataStornoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.ImportoTotaleMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.ImportoTotaleMandatoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.OggettoMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroLiquidazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroLiquidazioneSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroImpegnoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroImpegnoRifPerEnte">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroImpegnoRifPerEnteSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.ImportoImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.ImportoImpegnoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.TipoImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.EsercizioMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.EsercizioMandatoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.EsercizioImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.EsercizioImpegnoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.EsercizioImpegnoRifPerEnte">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.EsercizioImpegnoRifPerEnteSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.Dipartimento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.TipoAttoLiq">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroAttoLiq">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataAttoLiq">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataAttoLiqSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.TipoAttoImp">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroAttoImp">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataAttoImp">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataAttoImpSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroDistinta">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroDistintaSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.Incarico">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataIncarico">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataIncaricoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataQuietanza">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.DataQuietanzaSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroQuietanza">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.NumeroQuietanzaSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandato.Beneficiario">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.NomeFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.DataNascitaFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.DataNascitaFornitoreSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CodiceFiscaleFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.PartitaIvaFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RappresentanteLegale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CodiceFiscaleRappresentanteLegale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.DataNascitaRappresentanteLegale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.DataNascitaRappresentanteLegaleSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.IndirizzoFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CittaFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ProvinciaFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CapFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.NazioneFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.StatoFornitore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImportoLordoBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImportoLordoBeneficiarioSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImportoNettoBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImportoNettoBeneficiarioSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImponibileIrpef">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImponibileIrpefSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RitenutaIrpef">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RitenutaIrpefSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.AddizionaleComunale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.AddizionaleComunaleSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.AddizionaleRegionale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.AddizionaleRegionaleSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImponibilePrevidenziale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImponibilePrevidenzialeSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RitenutePrevidenzialiEnte">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RitenutePrevidenzialiEnteSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RitenutePrevidenzialiBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.RitenutePrevidenzialiBeneficiarioSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.AltreRitenute">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.AltreRitenuteSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImponibileIrap">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImponibileIrapSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImpostaIrap">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ImpostaIrapSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.MetodoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.InfoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.InfoAggiuntive">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.IBAN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ABI">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CAB">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.Banca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.IndirizzoBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CittaBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.NazioneBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CapBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.ProvinciaBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.DescrizionePagamentoTesoriere">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CodiceCup">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaMandatiBeneficiariAtto_TypesMandatoBeneficiario.CodiceCig">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_Types.Beneficiario">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_TypesBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_TypesBeneficiario.IdBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_TypesBeneficiario.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_TypesBeneficiario.ImportoOriginario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaBeneficiariLiq_TypesBeneficiario.ImportoResiduo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaReversaliCollegabili_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaReversaliCollegabili_Types.Reversale">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaReversaliCollegabili_TypesReversale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaReversaliCollegabili_TypesReversale.Numero">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaReversaliCollegabili_TypesReversale.Importo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCapitoloEntrata_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCapitoloEntrata_Types.Capitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCapitoloEntrata_TypesCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCapitoloEntrata_TypesCapitolo.AnnoBilancio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCapitoloEntrata_TypesCapitolo.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCapitoloEntrata_TypesCapitolo.DescrizioneCapitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCodiceSiope_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCodiceSiope_Types.Siope">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCodiceSiope_TypesSiope">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCodiceSiope_TypesSiope.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaCodiceSiope_TypesSiope.Descrizione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaTipologiaReddito_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaTipologiaReddito_Types.Tipologia">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaTipologiaReddito_TypesTipologia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaTipologiaReddito_TypesTipologia.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogaTipologiaReddito_TypesTipologia.Descrizione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types.Disponibilita">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types.OggettoImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types.Perenti">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types.Importo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaImpegno_Types.COG_Semplice">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_CreateDelDocumento_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_CreateDelDocumento_Types.NumeroDocumento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_CreateDelDocumento_Types.NumeroDocumento_Plur1">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_CreateDelDocumento_Types.NumeroDocumento_Plur2">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_CreateDelDocumento_Types.NumeroStorno">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_PrenotazionePreimpegni_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_PrenotazionePreimpegni_Types.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_PrenotazionePreimpegni_Types.Descrizione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_Types.ImpegnoPerente">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.Numero">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.Oggetto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.CapitoloOriginario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.CapitoloAttuale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.ImportoOriginario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.ImportoResiduo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniPerenti_TypesImpegnoPerente.PCF">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_Types.Liquidazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_TypesLiquidazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_TypesLiquidazione.Numero">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_TypesLiquidazione.Oggetto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_TypesLiquidazione.Capitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_TypesLiquidazione.Importo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneLiquidazioniAperte_TypesLiquidazione.ImportoResiduo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_Types.Impegno">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.Utilizzabile">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.MotivoNonUtilizzabile">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.TipoImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.DataImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.NumeroImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.ImportoIniziale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.ImportoDisponibile">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.OggettoImpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.TipoAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.DataAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.NumeroAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.COG_Semplice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneImpegniAperti_TypesImpegno.PCF">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_Types.Preimpegno">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.DataPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.NumeroPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.ImportoIniziale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.ImportoDisponibile">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.OggettoPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.TipoAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.DataAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.NumeroAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazionePreimpegniAperti_TypesPreimpegno.PCF">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.Disponibilita">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.DataPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.UPB">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.MissioneProgramma">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.TipoAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.DataAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.NumeroAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_DisponibilitaPreImpegno_Types.OggettoPreimpegno">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneObiettiviGestionali_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneObiettiviGestionali_Types.ObiettivoGestionale">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.COG_Type">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.COG_Type.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.COG_Type.Descrizione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.AnnoBilancio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.DescrizioneCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.Perenti">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.POR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.ContoEconomica1">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.ContoEconomica2">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.ContoEconomica3">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.ContoEconomica4">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.ContoEconomica5">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.Competenza">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.Residuo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.Cassa">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.PreImpegni">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.Impegni">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.Mandati">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.DispCompetenza">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.DispCassa">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneBilancio_Types.ListaCOG">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_Types.Capitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.AnnoBilancio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.DescrizioneCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.Perenti">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.UPB">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.MissioneProgramma">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.DisponibilitaCompetenza">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.DisponibilitaCassa">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.CodiceRisposta">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Risposta_InterrogazioneCapitoli_TypesCapitolo.DescrizioneRisposta">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.Successo_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Successo_Types.Item">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Risposta.Successo_Types.ItemElementName">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_CreateDelDocumento">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_DisponibilitaImpegno">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_DisponibilitaPreImpegno">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogaBeneficiariLiq">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogaCapitoloEntrata">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogaCodiceSiope">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogaMandatiBeneficiariAtto">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogaReversaliCollegabili">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogaTipologiaReddito">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneBilancio">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneCapitoli">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneCapitoliLiquidazioni">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneContratti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneImpegniAperti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneImpegniPerenti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneLiquidazioniAperte">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneListaContratti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneMandatiTrasparenza">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazioneObiettiviGestionali">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazionePCF">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_InterrogazionePreimpegniAperti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Risposta.ItemChoiceType.Risposta_PrenotazionePreimpegni">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_TIPODOCSICVARCHAR2IN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_STATONOTIFICAVARCHAR2IN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_NUMERODOCSICNUMBERIN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_MESSAGGIOVARCHAR2OUT">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_IDFATTURANUMBERIN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_IDATTOVARCHAR2IN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_ESITONUMBEROUT">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_DATADOCSICVARCHAR2IN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInput.P_IMPORTONUMBERIN">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInputP_MESSAGGIOVARCHAR2OUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICInputP_ESITONUMBEROUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICOutput">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICOutput.P_MESSAGGIO">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.NOTIFICAPROVVEDIMENTISICOutput.P_ESITO">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.MessaggioRichiesta_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.MessaggioRichiesta_Types.Intestazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.MessaggioRichiesta_Types.Richiesta">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.Intestazione_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Intestazione_Types.InfoMittDest">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Intestazione_Types.Applicazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePCF_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePCF_Types.Anno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePCF_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneCodiciSiope_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneCodiciSiope_Types.Anno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneCodiciSiope_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types.TipoAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types.NumeroAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types.DataAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types.Ufficio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types.NumeroLiquidazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaMandatiBeneficiariAtto_Types.NumeroLiquidazioneSpecified">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaBeneficiariLiq_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaBeneficiariLiq_Types.NumeroLiquidazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaReversaliCollegabili_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaReversaliCollegabili_Types.AnnoBilancio">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaCapitoloEntrata_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaCapitoloEntrata_Types.AnnoBilancio">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaCodiceSiope_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaCodiceSiope_Types.AnnoBilancio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogaCodiceSiope_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneListaContratti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneListaContratti_Types.Chiave">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneContratti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneContratti_Types.NumeroContratto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneContratti_Types.OggettoContratto">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneMandatiTrasparenza_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneMandatiTrasparenza_Types.Anno">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.VerificaStato_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.VerificaStato_Types.AnnoFinanziario">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.DisponibilitaImpegno_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.DisponibilitaImpegno_Types.NumeroImpegno">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.ReversaleColl_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.ReversaleColl_Types.NumeroReversale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.ReversaleColl_Types.ImportoReversale">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceBeneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceTipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceSIOPE">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceSIOPEAggiuntivo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceCUP">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.CodiceCIG">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.EsenzCommBonifico">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.StampaAvviso">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.Bollo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.ImportoLordo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.ImportoLordoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.ImponibileIrpef">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.ImponibileIrpefSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.RitenuteIrpef">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.RitenuteIrpefSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.RitenutePrevidenzialiBen">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.RitenutePrevidenzialiBenSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.AltreRitenute">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.AltreRitenuteSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.ImponibilePrevidenziale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.ImponibilePrevidenzialeSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.RitenutePrevidenzialiEnte">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.RitenutePrevidenzialiEnteSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.AddizionaleComunale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.AddizionaleComunaleSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.AddizionaleRegionale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.AddizionaleRegionaleSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.DatoSensibile">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Beneficiario_Types.DatoSensibileSpecified">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.Allegato_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Allegato_Types.CodiceProgetto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Allegato_Types.Causale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Allegato_Types.Importo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Allegato_Types.CodiceFiscaleBeneficiario">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.TipoDocumento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.DataMovimento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.DataMovimentoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Oggetto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.NumeroDocumentoPC">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.NumeroDocumentoSost">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Importo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImportoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Importo_Plur1">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Importo_Plur1Specified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Importo_Plur2">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Importo_Plur2Specified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.TipoAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.DataAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.DataAttoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.NumeroAtto">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Struttura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ContoEconomica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.CodiceFiscale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Valido770">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.TipologiaReddito">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Ratei">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.RateiSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImponibileIrap">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImponibileIrapSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImpostaIrap">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImpostaIrapSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Risconti">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.RiscontiSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImportoIVA">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ImportoIVASpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Allegato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.COG">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.COG_Plur1">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.COG_Plur2">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.CollegatoAMandato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.Beneficiari">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.ReversaliColl">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.PianoContiFina">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.PianoContiFina_Plur1">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_Types.PianoContiFina_Plur2">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.PREIMP">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.IMPDEF">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.IMPPER">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.LIQ">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELECO">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELLIQ">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELIMP">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELPREIMP">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARPREIMP">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARIMP">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARIMPDEF">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARIMPPER">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARLIQ">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.MAND">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.STMAND">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARMAND">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELMAND">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.SOSTMAND">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.ACC">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELACC">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.REV">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.STREV">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARREV">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELREV">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.REVCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARREVCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELREVCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.SOSTREVCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.ACCCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.VARACCCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.DELACCCOLL">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.INSUS">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.PREIMPDELIBERA">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.CreateDelDocumento_TypesTipoDocumento.IMPPROVV">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.PrenotazionePreimpegni_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.PrenotazionePreimpegni_Types.TipoOperazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.PrenotazionePreimpegni_Types.NumeroPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.PrenotazionePreimpegni_Types.Importo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniPerenti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniPerenti_Types.AnnoFinanziario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniPerenti_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePreimpegniAperti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePreimpegniAperti_Types.AnnoFinanziario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePreimpegniAperti_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazionePreimpegniAperti_Types.Struttura">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneLiquidazioniAperte_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneLiquidazioniAperte_Types.AnnoFinanziario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneLiquidazioniAperte_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniAperti_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniAperti_Types.AnnoFinanziario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniAperti_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneImpegniAperti_Types.Struttura">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.DisponibilitaPreImpegno_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.DisponibilitaPreImpegno_Types.NumeroPreimpegno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.DisponibilitaPreImpegno_Types.Struttura">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneObiettiviGestionali_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneObiettiviGestionali_Types.Anno">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneObiettiviGestionali_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneObiettiviGestionali_Types.Ufficio">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneBilancio_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneBilancio_Types.AnnoBilancio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneBilancio_Types.CodiceCapitolo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneBilancio_Types.Struttura">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneCapitoli_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneCapitoli_Types.AnnoBilancio">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.InterrogazioneCapitoli_Types.Struttura">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.Richiesta_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Richiesta_Types.Item">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Richiesta.Richiesta_Types.ItemElementName">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.CreateDelDocumento">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.DisponibilitaImpegno">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.DisponibilitaPreImpegno">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogaBeneficiariLiq">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogaCapitoloEntrate">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogaCodiceSiope">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogaMandatiBeneficiariAtto">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogaReversaliCollegabili">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneBilancio">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneCapitoli">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneCapitoliLiquidazioni">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneContratti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneImpegniAperti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneImpegniPerenti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneLiquidazioniAperte">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneListaContratti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneMandatiTrasparenza">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneObiettiviGestionali">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazionePCF">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazionePreimpegniAperti">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.InterrogazioneTipologiaReddito">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Richiesta.ItemChoiceType.PrenotazionePreimpegni">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.MessaggioRichiesta_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.MessaggioRichiesta_Types.Intestazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.MessaggioRichiesta_Types.Richiesta">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Intestazione_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Intestazione_Types.InfoMittDest">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Intestazione_Types.Applicazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.IdContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.ContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.ModalitaPrincipale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.CIN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.IBAN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_Types.CodiceFiscaleOperatore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_TypesModalitaPrincipale">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_TypesModalitaPrincipale.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaContoBancario_TypesModalitaPrincipale.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.Indirizzo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.Comune">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.CAP">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.Telefono">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.EMail">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.Fax">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.Bollo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.BolloSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.NomeSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.TipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_Types.CodiceFiscaleOperatore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_TypesBollo">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_TypesBollo.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaSede_TypesBollo.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.TipoAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.PartitaIva">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Denominazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.CognomeLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.NomeLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.SessoLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.SessoLRSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.ComuneNSLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.DataNascitaLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.DataNascitaLRSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.IndirizzoLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.ComuneRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.CAPRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.CodiceFiscaleLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.CodiceFiscale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Cognome">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Nome">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.AltriNomi">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Sesso">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.SessoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.ComuneNS">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.DataNascita">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.DataNascitaSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Pignoramento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.PignoramentoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.NotaPignoramento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Estero">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.EsteroSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.Commissioni">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.CommissioniSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_Types.CodiceFiscaleOperatore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesTipoAnagrafica">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesTipoAnagrafica.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesTipoAnagrafica.G">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesSessoLR">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesSessoLR.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesSessoLR.M">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesSesso">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesSesso.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesSesso.M">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesPignoramento">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesPignoramento.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesPignoramento.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesEstero">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesEstero.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesEstero.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesCommissioni">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesCommissioni.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ModificaAnagrafica_TypesCommissioni.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.InterrogaComuni_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.InterrogaComuni_Types.NomeComune">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaContoBancario_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaContoBancario_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaContoBancario_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaContoBancario_Types.DatiBancari">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaContoBancario_Types.CodiceFiscaleOperatore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.NomeBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.ContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.ModalitaPrincipale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.ModalitaPrincipaleSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.SedeAgenzia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.Indirizzo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.Citta">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.CAP">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.Provincia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.ABI">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.CAB">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.CIN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_Types.IBAN">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_TypesModalitaPrincipale">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_TypesModalitaPrincipale.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.DatiBancari_TypesModalitaPrincipale.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaSede_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaSede_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaSede_Types.Sede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaSede_Types.DatiBancari">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaSede_Types.CodiceFiscaleOperatore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.Indirizzo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.Comune">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.CAP">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.Telefono">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.EMail">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.Fax">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.Bollo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.BolloSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.NomeSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_Types.TipoPagamento">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_TypesBollo">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_TypesBollo.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Sede_TypesBollo.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaAnagrafica_Types.Anagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.CreaAnagrafica_Types.CodiceFiscaleOperatore">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.TipoAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.PartitaIva">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Denominazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.CognomeLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.NomeLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.SessoLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.SessoLRSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.ComuneNSLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.DataNascitaLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.DataNascitaLRSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.IndirizzoLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.ComuneRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.CAPRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.CodiceFiscaleLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.CodiceFiscale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Cognome">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Nome">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.AltriNomi">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Sesso">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.SessoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.ComuneNS">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.DataNascita">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.DataNascitaSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Pignoramento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.PignoramentoSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.NotaPignoramento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Estero">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.EsteroSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Commissioni">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.CommissioniSpecified">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.Sede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_Types.DatiBancari">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesTipoAnagrafica">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesTipoAnagrafica.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesTipoAnagrafica.G">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesSessoLR">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesSessoLR.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesSessoLR.M">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesSesso">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesSesso.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesSesso.M">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesPignoramento">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesPignoramento.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesPignoramento.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesEstero">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesEstero.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesEstero.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesCommissioni">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesCommissioni.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Anagrafica_TypesCommissioni.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.VerificaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.VerificaAnagrafica_Types.Anagrafica">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.InterrogaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.InterrogaAnagrafica_Types.Item">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.InterrogaAnagrafica_Types.ItemElementName">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ItemChoiceType">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ItemChoiceType.CodiceFiscale">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ItemChoiceType.Denominazione">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ItemChoiceType.IdAnagrafica">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ItemChoiceType.NumeroContratto">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.ItemChoiceType.PartitaIva">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Richiesta_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Richiesta.Richiesta_Types.Item">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.MessaggioRisposta_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.MessaggioRisposta_Types.Intestazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.MessaggioRisposta_Types.Item">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Intestazione_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Intestazione_Types.InfoMittDest">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Intestazione_Types.Applicazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Eccezione_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Eccezione_Types.Codice">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Eccezione_Types.Descrizione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Eccezione_Types.Exception">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaContoBancario_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaContoBancario_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaContoBancario_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaContoBancario_Types.IdContoCorrente">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaSede_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaSede_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaSede_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaSede_Types.IdTipoPagamento">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_ModificaAnagrafica_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_InterrogaComuni_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_InterrogaComuni_Types.Comune">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.IdComune">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.Descrizione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.CodiceIstat">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.CAP">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.CodiceBelFiore">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.CodProvincia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.Provincia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.CodRegione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.Regione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.CodRipartizioneGeografica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.DescRipartizioneGeografica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Comune_Types.Nazione">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaContoBancario_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaContoBancario_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaContoBancario_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaContoBancario_Types.IdTipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaContoBancario_Types.IdContoCorrente">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaSede_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaSede_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaSede_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaSede_Types.IdTipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaSede_Types.IdContoCorrente">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaAnagrafica_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaAnagrafica_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaAnagrafica_Types.IdTipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_CreaAnagrafica_Types.IdContoCorrente">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_VerificaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_VerificaAnagrafica_Types.Anagrafica">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.IdAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.TipoAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.PartitaIva">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Denominazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.CognomeLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.NomeLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.SessoLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.IdComuneNSLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.ComuneNSLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.DataNascitaLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.IndirizzoLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.IdComuneRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.ComuneRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.CAPRESLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.CodiceFiscaleLR">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.CodiceFiscale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Cognome">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Nome">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.AltriNomi">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Sesso">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.IdComuneNS">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.ComuneNS">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.DataNascita">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Pignoramento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.NotaPignoramento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Estero">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.Commissioni">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_Types.ListaSedi">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesTipoAnagrafica">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesTipoAnagrafica.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesTipoAnagrafica.G">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesSessoLR">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesSessoLR.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesSessoLR.M">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesSesso">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesSesso.F">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesSesso.M">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesPignoramento">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesPignoramento.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesPignoramento.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesEstero">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesEstero.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesEstero.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesCommissioni">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesCommissioni.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Anagrafica_TypesCommissioni.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.IdSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.Indirizzo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.IdComune">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.Comune">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.CAP">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.Telefono">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.EMail">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.Fax">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.Bollo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.DataCreazione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.NomeSede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.IdTipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.DescTipoPagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_Types.ListaDatiBancari">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_TypesBollo">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_TypesBollo.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Sede_TypesBollo.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.IdContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.NomeBanca">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.IdAgenzia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.ContoCorrente">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.ModalitaPrincipale">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.SedeAgenzia">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.Indirizzo">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.Citta">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.ABI">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.CAB">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.CIN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_Types.IBAN">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_TypesModalitaPrincipale">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_TypesModalitaPrincipale.S">
+<remarks/>
+</member>
+<member name="F:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.DatiBancari_TypesModalitaPrincipale.N">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_InterrogaAnagrafica_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Risposta_InterrogaAnagrafica_Types.Anagrafica">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Successo_Types">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.Intema.WS.Ana.Risposta.Successo_Types.Item">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.FATTURAELETTRONICAService">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.#ctor">
+<remarks/>
+</member>
+<member name="E:ClientIntegrazioneSic.FATTURAELETTRONICAService.RICEZIONEFATTURACompleted">
+<remarks/>
+</member>
+<member name="E:ClientIntegrazioneSic.FATTURAELETTRONICAService.ELENCOFATTURECompleted">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.RICEZIONEFATTURA(System.String,System.String,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_MESSAGGIOVARCHAR2OUT,System.Xml.XmlElement,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_ESITONUMBEROUT,System.DateTime,System.Double@)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.BeginRICEZIONEFATTURA(System.String,System.String,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_MESSAGGIOVARCHAR2OUT,System.Xml.XmlElement,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_ESITONUMBEROUT,System.DateTime,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.EndRICEZIONEFATTURA(System.IAsyncResult,System.Double@)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.RICEZIONEFATTURAAsync(System.String,System.String,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_MESSAGGIOVARCHAR2OUT,System.Xml.XmlElement,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_ESITONUMBEROUT,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.RICEZIONEFATTURAAsync(System.String,System.String,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_MESSAGGIOVARCHAR2OUT,System.Xml.XmlElement,ClientIntegrazioneSic.RICEZIONEFATTURAInputP_ESITONUMBEROUT,System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.ELENCOFATTURE(ClientIntegrazioneSic.ELENCOFATTUREInputP_RETURNXMLTYPEOUT,System.String)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.BeginELENCOFATTURE(ClientIntegrazioneSic.ELENCOFATTUREInputP_RETURNXMLTYPEOUT,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.EndELENCOFATTURE(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.ELENCOFATTUREAsync(ClientIntegrazioneSic.ELENCOFATTUREInputP_RETURNXMLTYPEOUT,System.String)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.ELENCOFATTUREAsync(ClientIntegrazioneSic.ELENCOFATTUREInputP_RETURNXMLTYPEOUT,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.FATTURAELETTRONICAService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.RICEZIONEFATTURAInputP_MESSAGGIOVARCHAR2OUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.RICEZIONEFATTURAInputP_ESITONUMBEROUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.ELENCOFATTUREInputP_RETURNXMLTYPEOUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.ELENCOFATTUREOutputP_RETURN">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.ELENCOFATTUREOutputP_RETURN.elenco_fatture">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.elenco_fatture">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fatture.fattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fatture.versione">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fatture.versioneSpecified">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.elenco_fattureFattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.id_univoco">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.numero_fattura_beneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.data_fattura_beneficiario">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.id_anagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.id_sede">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.iban">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.descrizione_fattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.importo_totale_fattura">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.id_metodo_di_pagamento">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFattura.allegato">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.elenco_fattureFatturaAllegato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFatturaAllegato.nome_allegato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFatturaAllegato.formato_allegato">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.elenco_fattureFatturaAllegato.url_allegato">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.RICEZIONEFATTURACompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.RICEZIONEFATTURACompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.RICEZIONEFATTURACompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.RICEZIONEFATTURACompletedEventArgs.P_ESITO">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.ELENCOFATTURECompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.ELENCOFATTURECompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.ELENCOFATTURECompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:ClientIntegrazioneSic.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:ClientIntegrazioneSic.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="T:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.#ctor">
+<remarks/>
+</member>
+<member name="E:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.NOTIFICAPROVVEDIMENTISICCompleted">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.NOTIFICAPROVVEDIMENTISIC(System.String,System.String,System.Double,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_MESSAGGIOVARCHAR2OUT,System.Double,System.String,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_ESITONUMBEROUT,System.String,System.Double,System.Double@)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.BeginNOTIFICAPROVVEDIMENTISIC(System.String,System.String,System.Double,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_MESSAGGIOVARCHAR2OUT,System.Double,System.String,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_ESITONUMBEROUT,System.String,System.Double,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.EndNOTIFICAPROVVEDIMENTISIC(System.IAsyncResult,System.Double@)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.NOTIFICAPROVVEDIMENTISICAsync(System.String,System.String,System.Double,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_MESSAGGIOVARCHAR2OUT,System.Double,System.String,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_ESITONUMBEROUT,System.String,System.Double)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.NOTIFICAPROVVEDIMENTISICAsync(System.String,System.String,System.Double,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_MESSAGGIOVARCHAR2OUT,System.Double,System.String,ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_ESITONUMBEROUT,System.String,System.Double,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.NOTIFICAATTOFATTURAService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_MESSAGGIOVARCHAR2OUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICInputP_ESITONUMBEROUT">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.NOTIFICAPROVVEDIMENTISICCompletedEventArgs.P_ESITO">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.SICAnagrafeInterface">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.#ctor(System.String)">
+<remarks/>
+</member>
+<member name="E:ClientIntegrazioneSic.SICAnagrafeInterface.queryAnagraficaCompleted">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.queryAnagrafica(ClientIntegrazioneSic.queryAnagrafica)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.BeginqueryAnagrafica(ClientIntegrazioneSic.queryAnagrafica,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.EndqueryAnagrafica(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.queryAnagraficaAsync(ClientIntegrazioneSic.queryAnagrafica)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.queryAnagraficaAsync(ClientIntegrazioneSic.queryAnagrafica,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICAnagrafeInterface.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.queryAnagrafica">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.queryAnagrafica.q">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.queryAnagraficaResponse">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.queryAnagraficaResponse.return">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.queryAnagraficaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.queryAnagraficaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.queryAnagraficaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.SICInterface">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.#ctor(System.String)">
+<remarks/>
+</member>
+<member name="E:ClientIntegrazioneSic.SICInterface.querySICCompleted">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.querySIC(ClientIntegrazioneSic.querySIC)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.BeginquerySIC(ClientIntegrazioneSic.querySIC,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.EndquerySIC(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.querySICAsync(ClientIntegrazioneSic.querySIC)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.querySICAsync(ClientIntegrazioneSic.querySIC,System.Object)">
+<remarks/>
+</member>
+<member name="M:ClientIntegrazioneSic.SICInterface.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.querySIC">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.querySIC.q">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.querySICResponse">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.querySICResponse.return">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.querySICCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ClientIntegrazioneSic.querySICCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ClientIntegrazioneSic.querySICCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

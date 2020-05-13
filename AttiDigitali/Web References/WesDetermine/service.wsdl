@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ElaboraQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UfficiodaLeggere" type="s0:Ufficio" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Ufficio">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codice_Ufficio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descrizione_Ufficio" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ElaboraQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ElaboraQueryResult" type="s0:Risposta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Risposta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Codice_Risposta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descrizione_Risposta" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Codice_Progressivo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Esercizio_Progressivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Determina" type="s0:Determine" />
+          <s:element minOccurs="0" maxOccurs="1" name="TabellaDati">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Determine">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="_Oggetto_Determine" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Codice_Ufficio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Decrizione_Ufficio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Codice_Esercizio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tipo_Determine" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Numero_Determine" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Data_Determine" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nota_determine" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Data_Di_Blocco" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Data_BUR" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Dipartimento" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descrizione_Dipartimento" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ElaboraRichiesta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RichiestaDaElaborare" type="s0:Richiesta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Richiesta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Codice_Richiesta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Determina" type="s0:Determine" />
+          <s:element minOccurs="0" maxOccurs="1" name="Codice_Operatore" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InterrogazioneGenerica" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ElaboraRichiestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ElaboraRichiestaResult" type="s0:Risposta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PROVA">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PROVA1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PROVAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PROVAResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="ElaboraQuerySoapIn">
+    <part name="parameters" element="s0:ElaboraQuery" />
+  </message>
+  <message name="ElaboraQuerySoapOut">
+    <part name="parameters" element="s0:ElaboraQueryResponse" />
+  </message>
+  <message name="ElaboraRichiestaSoapIn">
+    <part name="parameters" element="s0:ElaboraRichiesta" />
+  </message>
+  <message name="ElaboraRichiestaSoapOut">
+    <part name="parameters" element="s0:ElaboraRichiestaResponse" />
+  </message>
+  <message name="PROVASoapIn">
+    <part name="parameters" element="s0:PROVA" />
+  </message>
+  <message name="PROVASoapOut">
+    <part name="parameters" element="s0:PROVAResponse" />
+  </message>
+  <portType name="ServiceSoap">
+    <operation name="ElaboraQuery">
+      <input message="s0:ElaboraQuerySoapIn" />
+      <output message="s0:ElaboraQuerySoapOut" />
+    </operation>
+    <operation name="ElaboraRichiesta">
+      <input message="s0:ElaboraRichiestaSoapIn" />
+      <output message="s0:ElaboraRichiestaSoapOut" />
+    </operation>
+    <operation name="PROVA">
+      <input message="s0:PROVASoapIn" />
+      <output message="s0:PROVASoapOut" />
+    </operation>
+  </portType>
+  <binding name="ServiceSoap" type="s0:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ElaboraQuery">
+      <soap:operation soapAction="http://tempuri.org/ElaboraQuery" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ElaboraRichiesta">
+      <soap:operation soapAction="http://tempuri.org/ElaboraRichiesta" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="PROVA">
+      <soap:operation soapAction="http://tempuri.org/PROVA" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ServiceSoap12" type="s0:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <operation name="ElaboraQuery">
+      <soap12:operation soapAction="http://tempuri.org/ElaboraQuery" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+    <operation name="ElaboraRichiesta">
+      <soap12:operation soapAction="http://tempuri.org/ElaboraRichiesta" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+    <operation name="PROVA">
+      <soap12:operation soapAction="http://tempuri.org/PROVA" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service">
+    <port name="ServiceSoap" binding="s0:ServiceSoap">
+      <soap:address location="http://192.168.168.240/determine.server/service.asmx" />
+    </port>
+    <port name="ServiceSoap12" binding="s0:ServiceSoap12">
+      <soap12:address location="http://192.168.168.240/determine.server/service.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </port>
+  </service>
+</definitions>

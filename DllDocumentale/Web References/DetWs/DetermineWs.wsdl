@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.intemaweb.com/webservices/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.intemaweb.com/webservices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.intemaweb.com/webservices/">
+      <s:element name="Elabora">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ElaboraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ElaboraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ElaboraSoapIn">
+    <wsdl:part name="parameters" element="tns:Elabora" />
+  </wsdl:message>
+  <wsdl:message name="ElaboraSoapOut">
+    <wsdl:part name="parameters" element="tns:ElaboraResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DetermineWsSoap">
+    <wsdl:operation name="Elabora">
+      <wsdl:input message="tns:ElaboraSoapIn" />
+      <wsdl:output message="tns:ElaboraSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DetermineWsSoap" type="tns:DetermineWsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Elabora">
+      <soap:operation soapAction="http://www.intemaweb.com/webservices/Elabora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DetermineWsSoap12" type="tns:DetermineWsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="Elabora">
+      <soap12:operation soapAction="http://www.intemaweb.com/webservices/Elabora" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DetermineWs">
+    <wsdl:port name="DetermineWsSoap" binding="tns:DetermineWsSoap">
+      <soap:address location="http://172.16.10.1/DetermineWs/DetermineWs.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DetermineWsSoap12" binding="tns:DetermineWsSoap12">
+      <soap12:address location="http://172.16.10.1/DetermineWs/DetermineWs.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

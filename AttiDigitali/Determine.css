@@ -1,0 +1,721 @@
+body
+{
+	font-family:Verdana;
+	font-size:10px;
+	margin:0px ;
+	padding:0px;
+	color:#000000
+}
+
+table.griglia
+{
+	border-width:0px;
+	padding:0px;
+	margin:0px;
+	margin-bottom:10px;
+	width:100%;
+	font-size:10px;
+}
+
+td.hgriglia
+{
+	border-width:  0px 0px 1px 0px;
+	border-color:#0084d8  ;
+	border-style:solid;
+	color:#2c4878
+}
+a.hgriglia
+{
+	color:#2c4878;
+	text-decoration:none
+}
+
+td.griglia
+{
+	border-width:  0px 0px 1px 0px;
+	border-style:solid;
+	background-color:#99CCFF
+}
+td.grigliaRigaDispari
+{
+	border-width:  0px 0px 1px 0px;
+	border-style:solid;
+	background-color:#FFFFFF
+}
+	
+table.pagina
+{
+	border-width:0px 1px 1px 0px;
+	border-style:solid;
+	padding:0px;	
+    margin:0px;
+    vertical-align:top;
+    text-align:left;
+    font-size:10px;
+    width:730px;
+}
+
+td.pagina
+{
+	vertical-align:top;
+	border-width:0px 1px 0px 0px ;
+	border-style:solid;
+	font-size:10px;
+}
+
+td.intestPagina
+{
+	background-color:#99CCFF;
+	font-size:15px;
+	font-family:Verdana;
+	}
+
+table.determina
+{
+	border-width:0px;
+	border-style:solid;
+	padding:2px;	
+    margin:4px;
+    vertical-align:top;
+    font-size:10px;
+}
+
+tr.determina 
+{
+	vertical-align:bottom
+}
+
+
+td.determina
+{
+	vertical-align:bottom;
+	border-width:0px;
+	border-style:solid;    
+	font-size:12px;
+	font-size:10px;
+}
+
+span , p
+{
+	vertical-align:top;
+	font-size:14px;
+	font-family:Verdana
+}
+
+span.determina
+{
+	vertical-align:top;
+	font-size:12px;
+}
+
+table.tabTestata
+{
+	border-width:0px;
+	border-style:solid;
+    padding:0px;	
+    margin:0px;
+    vertical-align:top;
+    text-align:left;
+	background-color:#c5c5c5;
+	width:100%
+}
+	
+td.celTestataAlbero
+{
+	text-align:center;
+	height:20px;
+	background:url(./risorse/menuHead.gif) repeat;    
+}
+	
+td.celTestataContenuto
+{
+	text-align:center;
+	height:20px;
+	background:url(./risorse/menuHead.gif) repeat		
+}
+
+.tabellaAllegatiFattura 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.tabellaAllegatiFattura th {
+    background-color: #088A85;
+   font-family: Garamond;
+    color: white;
+ 
+}
+.tabellaAllegatiFattura td, th {
+    border: 1px solid #088A85;
+   font-family: Garamond;
+    padding : 3;
+}
+/*{
+    font: Garamond;    
+	border-width:0px;
+	border-style:solid;
+    padding:1px;	
+    margin:1px;
+    text-align:center;
+	background-color:#A9D0F5;
+	width:100%;
+}*/
+
+.chkbx label
+ {
+     margin-left: 6px;
+     margin-right: 6px;
+     font-family:Verdana; 
+     font-size:13px;
+ }
+
+input {
+	border-style: solid;
+	border-width: 1px ;
+	border-color: Gray
+}
+
+input.check {
+	border-style: solid;
+	border-width: 0px ;
+	border-color: Gray
+}
+
+input.optio {
+	border-style: solid;
+	border-width: 0px ;
+	border-color: Gray
+}
+
+input.sololinea 
+{
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: Gray
+}
+
+iframe.editorTesto{
+	border-style: solid;
+	border-width: 1px;
+	border-color: Gray
+}
+image.cssIcona
+{
+	width:20px;
+	height:20px;
+	float:none;
+}
+image.cssIconaIMG
+{
+	width:20px;
+	height:20px;
+	float:none;
+    border:none;
+}
+image.logo
+{
+	height:85px;
+	float:none;
+}
+.btn
+{
+	background: transparent url(./Ext/resources/images/gray/panel/white-top-bottom.gif) repeat-x 0 -1px;
+	text-align:center;
+	cursor:pointer;
+	border: solid thin #8494A5 ;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+	
+}
+.lblInfo
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:9px;
+	color:#000000;
+	text-align:center
+}
+.lblErrore
+{
+	width:680px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	color:#000000;
+	text-align:center;
+	font-weight:bold
+}
+.lblErroreRed
+{
+	width:680px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	color:#FF0000;
+	text-align:center;
+	font-weight:bold
+}
+.lblErroreGreen
+{
+	width:550px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	color:Green ;
+	text-align:center;
+	font-weight:bold
+}
+.lblWarning
+{
+	width:680px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	color:#000000;
+	text-align:center
+}
+.cellaPaginazione
+{
+	margin:5px 5px 5px 5px;
+	text-decoration: none;
+
+	}
+
+.cellaPaginazione a
+{
+	text-decoration: none;
+}
+	
+.lbl
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	color:#000000;
+	text-align:left;
+}
+.lblSearch
+{	
+	font-size:12px;
+	color:#000000;
+	text-align:left;
+	line-height:1em;
+}
+.radio input
+{
+    border-width: 0px;
+    border-style: solid;
+	border-width: 0px ;
+}
+.radio label
+{    
+   /* color: Red;*/
+	font-size:13px;
+}
+a
+{
+	text-decoration: none;
+	color:#0000a0;
+	font-family:Verdana;
+}
+a.linkMenu
+{
+	text-decoration: none;
+	color:#000000;
+}
+a:active
+{
+	color:#2c4878;
+}
+a:visited 
+{
+	color:#2c4878;
+}
+a:active 
+{
+	color:#2c4878;
+}
+a:hover
+{
+	color:#2c4878;
+	}
+ .add {
+    background-image:url(ext/resources/images/default/dd/drop-add.gif) !important;
+        }
+.arrow-right {
+	background-image:url(risorse/immagini/arrow_right_16x16.png) !important; 
+	}
+.remove {
+    background-image:url(ext/resources/images/default/dd/delete.gif) !important;
+        }
+.option {
+    background-image:url(ext/resources/images/default/dd/plugin.gif) !important;
+        }
+.open {
+    background-image:url(ext/resources/images/default/tree/folder-open.gif) !important;
+        }
+        
+ .save {
+    background-image:url(ext/resources/images/default/dd/save.gif) !important;
+        }
+ .upload {
+    background-image:url(ext/resources/images/default/dd/upload.gif) !important;
+        }
+  .edit {
+    background-image:url(risorse/immagini/edit.gif) !important;
+        }
+  .read {
+    background-image:url(risorse/immagini/visualizza.gif) !important;
+        }
+  .edit-pen {
+    background-image:url(risorse/immagini/edit-a-pen16x16.png) !important;
+        }
+   .pdf {
+        background-image:url(risorse/immagini/pdf.png) !important;
+   }
+   .coin {
+    background-image:url(risorse/immagini/contabile.gif) !important;
+   }
+   .search {
+    background-image:url(risorse/immagini/search.png) !important;
+   }
+   .help 
+   {
+       background-image:url(risorse/immagini/help.png) !important;
+   }
+
+ .x-panel-headerwhite {
+    overflow:hidden;
+    color:#000000;
+	font:bold 11px tahoma,arial,verdana,sans-serif;
+    padding:5px 3px 4px 5px;
+    border:1px solid #99bbe8;
+    line-height: 15px;
+    /*background: transparent url(./Ext/resources/images/default/panel/white-top-bottom.gif) repeat-x 0 -1px;*/
+}
+.x-tree-header {
+    overflow:hidden;
+    color:#15428b;
+	font:bold 12px tahoma,arial,verdana,sans-serif;
+    padding:5px 3px 4px 5px;
+    border:1px solid #99bbe8;
+    line-height: 20px;
+    width:100%;
+     text-align:center;
+    background: transparent url(./Ext/resources/images/gray/panel/white-top-bottom.gif) repeat-x 0 -1px;
+    
+}
+.x-contenuto-header {
+    overflow:hidden;
+    color:#15428b;
+	font:bold 12px tahoma,arial,verdana,sans-serif;
+    padding:5px 3px 4px 5px;
+    border:1px solid #99bbe8;
+    line-height: 20px;
+    width:100%;
+     text-align:center;
+   background: transparent url(./Ext/resources/images/gray/panel/white-top-bottom.gif) repeat-x 0 -1px;
+}
+  .ux-grid3-row-action-cell .x-grid3-cell-inner {
+    padding: 1px 0 0 0;
+}
+.ux-grid3-row-action-cell .x-grid3-cell-inner div {
+    background-repeat:no-repeat;
+    width:16px;
+    height:16px;
+    cursor:pointer;
+}
+.x-grid3-row-red {
+   background-color: #d1eac3 !important;
+}
+
+.lblRed
+{
+    font-size:12px;
+	color:#FF0000;
+}
+.lblRFirma
+{
+    font-size:12px;
+	color:#FF0000;
+}
+.lblSRed
+{
+    font-size:12px;
+	color:#FF0000;
+}
+.boxInfo
+{
+    font-size:10px;
+	color:#000000;
+	background-color:#DFE8F6;
+	padding: 10px;
+	text-align:justify;
+	width:600px;
+}
+
+.pannelliDettaglio .x-toolbar .x-panel-body
+{
+    background-image : none;
+    background-color: Transparent;
+    }
+.pannelliDettaglio .x-panel-body
+{
+   
+    background-color: Transparent;
+    }
+.pannelliDettaglio  .x-btn-center 
+{
+    border: 1;
+}
+
+.pannelliDettaglio .x-table-layout .x-table-layout-cell
+{
+    margin : 1px;    
+    padding : 1px;
+    width : 200px;
+}
+
+.pannelliDettaglio .x-panel-header-text 
+{
+    font-size: 12px;
+}
+
+.pannelliMultiColumnsDettaglio .x-toolbar .x-panel-body
+{
+    background-image : none;
+    background-color: Transparent;
+    }
+.pannelliMultiColumnsDettaglio .x-panel-body
+{   
+    background-color: Transparent;
+}
+
+.pannelliMultiColumnsDettaglio  .x-btn-center 
+{
+    border: 1;
+}
+
+.pannelliMultiColumnsDettaglio .x-table-layout .x-table-layout-cell
+{
+    margin : 1px;    
+    padding : 1px 15px 1px 1px;
+    width : 100px;    
+}
+
+.pannelliMultiColumnsDettaglio .x-panel-header-text 
+{
+    font-size: 12px;
+}
+
+
+
+.row-summary-style .x-grid3-summary-row TD .x-grid3-col-importoDaLiquidare
+{
+    background-color: White;
+    
+}
+
+/*Inizio GridBeneficiariRag*/
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-CodiceSiope
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-CodiceSiopeAggiuntivo
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-ImponibileIrpef
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-RitenuteIrpef
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-RitenutePrevidenzialiBen
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-AltreRitenute
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-ImponibilePrevidenziale
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-RitenutePrevidenzialiEnte
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-AddizionaleComunale
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-AddizionaleRegionale
+{
+       background-color: #fffb8a;
+}
+
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-PianoDeiContiFinanziario
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-ContoEconomico
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-Ratei
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-Irap
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-row-table .x-grid3-td-Risconti
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridBeneficiariRag .x-grid3-summary-row td
+{
+       background-color: White;
+}
+/*Fine GridBeneficiariRag*/
+
+/*Inizio GridLiquidazioneRag*/
+.row-summary-style-GridLiquidazioneRag .x-grid3-row-table .x-grid3-td-PianoDeiContiFinanziario
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridLiquidazioneRag .x-grid3-row-table .x-grid3-td-ContoEconomico
+{
+       background-color: #fffb8a;
+}
+.row-summary-style-GridLiquidazioneRag .x-grid3-summary-row td
+{
+       background-color: White;
+}
+.row-summary-style-GridLiquidazioneRag .x-grid3-row-table .x-grid3-td-ImportoIva
+{
+       background-color: #fffb8a;
+}
+/*Fine GridLiquidazioneRag*/
+.highlightColor
+{
+	  background-color :#fffb8a;
+}
+
+.x-combo-list-item 
+{
+    
+    overflow: visible; 
+    text-wrap: normal; 
+    text-overflow: normal;
+    white-space: normal; 
+}
+
+
+
+input#btnFirma,input#btnInoltra
+{
+	width: 140px;
+}
+
+input#btnFirma
+{
+	background: #fff url(risorse/immagini/btnFirma2.png) repeat-x top left;
+	color: #fff;
+}
+
+.textBold 
+{
+	font-weight: bold;
+	font-size: 12px;	
+}
+
+.alertMessage img
+{
+	vertical-align: text-top;
+}
+.alertMessage
+{
+	vertical-align: text-top;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}		
+
+@media print
+{
+body
+{
+	font-family:Verdana;
+	font-size:15px;
+	margin:2px ;
+	padding:5px;
+	color:#000000
+}
+
+    .PrintClass{
+        display:none;
+    }
+   /*  #tdAlbero
+    {  display:none;
+    	
+    }
+   */
+   table.pagina
+{
+	border-width:0px 0px 0px 0px;
+	border-style:none;
+	padding:5px;	
+    margin:2px;
+    vertical-align:middle;
+    text-align:justify;
+    font-size:15px;
+}
+td.pagina
+{
+	vertical-align:top;
+	border-width:0px 0px 0px 0px ;
+	border-style:none;
+	font-size:15px;
+}
+.barraNavigazione{
+    background-color:#CBDDF3;
+}
+image.imgBar{
+    white-space:normal
+   
+}
+
+}
+ 
+@media screen
+{
+    .PrintClass{
+    /*  display:block;*/
+    }
+    
+   
+  
+}
+
+table.x-btn .x-btn-small td.x-btn-mc em a {
+    text-decoration: none;
+    display: block;
+    height: 12px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+body.ext-opera  table.x-btn .x-btn-small td.x-btn-mc em a,
+body.ext-chrome table.x-btn .x-btn-small td.x-btn-mc em a {
+    padding-top: 1px;
+}
+
+body.ext-chrome table.x-btn .x-btn-small td.x-btn-mc em a {
+    padding-bottom: 3px;
+}

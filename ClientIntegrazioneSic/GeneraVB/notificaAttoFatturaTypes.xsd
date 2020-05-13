@@ -1,0 +1,31 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+      <xs:element name="NOTIFICAPROVVEDIMENTISICInput">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_TIPODOCSIC-VARCHAR2-IN" type="xs:string"/>
+              <xs:element name="P_STATONOTIFICA-VARCHAR2-IN" type="xs:string"/>
+              <xs:element name="P_NUMERODOCSIC-NUMBER-IN" type="xs:double"/>
+              <xs:element name="P_MESSAGGIO-VARCHAR2-OUT">
+                <xs:complexType/>
+              </xs:element>
+              <xs:element name="P_IDFATTURA-NUMBER-IN" type="xs:double"/>
+              <xs:element name="P_IDATTO-VARCHAR2-IN" type="xs:string"/>
+              <xs:element name="P_ESITO-NUMBER-OUT">
+                <xs:complexType/>
+              </xs:element>
+              <xs:element name="P_DATADOCSIC-VARCHAR2-IN" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+
+
+      <xs:element name="NOTIFICAPROVVEDIMENTISICOutput">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_MESSAGGIO" type="xs:string"/>
+              <xs:element name="P_ESITO" type="xs:double"/>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+   </xs:schema>

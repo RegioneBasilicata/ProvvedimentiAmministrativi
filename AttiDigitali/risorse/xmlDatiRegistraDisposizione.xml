@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<datiDocumento>
+	<tabella nome_tabella="Documento_noteosservazioni"
+         chiave_tabella="Dno_id_documento"
+         col_prog_registrazione="Dno_prog"
+         col_data_registrazione="Dno_DataRegistrazione"
+         col_operatore_registrazione="Dno_Oparatore">
+		<Dno_testo compito="DIRIGENTEUP"></Dno_testo>
+		<Dno_tipo>DIRIGENTE UFFICIO</Dno_tipo>
+		<Dno_Oparatore compito="DIRIGENTEUP"></Dno_Oparatore>
+		<Dno_prog>1</Dno_prog>
+	</tabella>
+	<tabella nome_tabella="Documento_noteosservazioni"
+			 chiave_tabella="Dno_id_documento"
+			 col_prog_registrazione="Dno_prog"
+			 col_data_registrazione="Dno_DataRegistrazione"
+			 col_operatore_registrazione="Dno_Oparatore">
+		<Dno_testo compito="REV_DIRIGENTEGEN"></Dno_testo>
+		<Dno_tipo>DIRIGENTE GENERALE</Dno_tipo>
+		<Dno_Oparatore compito="REV_DIRIGENTEGEN"></Dno_Oparatore>
+		<Dno_prog>2</Dno_prog>
+	</tabella>
+	<tabella nome_tabella="Documento_noteosservazioni"
+			 chiave_tabella="Dno_id_documento"
+			 col_prog_registrazione="Dno_prog"
+			 col_data_registrazione="Dno_DataRegistrazione"
+			 col_operatore_registrazione="Dno_Oparatore">
+		<Dno_testo compito="DIR_CONTROLLOAMM;REV_CONTROLLOAMM"></Dno_testo>
+		<Dno_tipo>CONTROLLO AMM</Dno_tipo>
+		<Dno_Oparatore compito="DIR_CONTROLLOAMM;REV_CONTROLLOAMM;CONTROLLOAMM"></Dno_Oparatore>
+		<Dno_prog>3</Dno_prog>
+	</tabella>
+	<tabella nome_tabella="Documento_noteosservazioni"
+			 chiave_tabella="Dno_id_documento"
+			 col_prog_registrazione="Dno_prog"
+			 col_data_registrazione="Dno_DataRegistrazione"
+			 col_operatore_registrazione="Dno_Oparatore">
+		<Dno_testo compito="DIRIGENTERAG;DIR_RAGIONERIA;REV_RAGIONERIA"></Dno_testo>
+		<Dno_tipo>DIRIGENZA RAG</Dno_tipo>
+		<Dno_Oparatore compito="DIR_CONTROLLOAMM;REV_CONTROLLOAMM"></Dno_Oparatore>
+		<Dno_prog>4</Dno_prog>
+	</tabella>
+</datiDocumento> 

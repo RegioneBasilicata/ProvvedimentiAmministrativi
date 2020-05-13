@@ -1,0 +1,208 @@
+        .img
+          {
+          padding : 2px 2px;
+          height : 15px;
+          width : 15px;
+          }
+          .thd {
+          color: #191970;
+          font-weight: normal;
+          text-decoration: none;
+          cursor: hand;
+          background : #E5E5E5;
+          padding-left : 5px;
+          text-align : left;
+          font-size :9px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          }
+          .thdsel {
+          color: #cc0033;
+          font-weight: normal;
+          text-decoration: none;
+          cursor: hand;
+          background : #E5E5E5;
+          padding-left : 5px;
+          text-align : left;
+          font-size : 9px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          }
+          .thdtes {
+          color: #191970;
+          font-weight:bold;
+          text-decoration: none;
+          cursor: default;
+          background : #FFFFFF;
+          padding-left : 5px;
+          text-align : left;
+          font-size : 10px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          }  
+          .thd1 {
+          color: #191970;
+          font-weight: normal;
+          text-decoration: none;
+          cursor: default;
+          background : #E5E5E5;
+          padding-left : 5px;
+          text-align : left;
+          font-size : 9px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+          }
+          
+          .thdsel1 {
+          color: #cc0033;
+          font-weight: normal;
+          text-decoration: none;
+          cursor: wait;
+          background : #E5E5E5;
+          padding-left : 5px;
+          text-align : left;
+          font-size : 9px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+          }
+          
+          .body {
+          background-color :#FFFFFF;
+		  margin-left : 8px;
+          }
+          .titfis
+          {color:#0000A0;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+          font-size : 10px; 
+          font-weight: bold;  
+          }
+          .titvar
+          {color:#FF0000;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+          font-size : 10px; 
+          font-weight: bold;  
+          }  
+          .btn 
+          { background-color : #DADADA;
+          color: #000000; 
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+          font-size : 10px; 
+          font-weight: bold; 
+          text-align : right; 
+          } 
+          .intestav
+          {
+          color: #191970;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  
+          font-size :9px; 
+          font-weight: bold; 
+          text-align : left; 
+          }
+          .outv
+          {
+          background : #FDF5E6;
+          color: #191970;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          font-size : 9px;
+          text-align : left;
+          }
+          .inp
+          {
+          color: #191970;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          font-size : 9px;
+          }
+          .nor
+          {
+          color: #191970;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          font-size : 9px;
+          font-weight: bold;
+          text-align : left;
+          font-style : italic;
+          }
+          .nore
+          {
+          color: #191970;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  
+          font-size : 9px; 
+          font-weight: bold; 
+          font-style : italic;
+          }
+          .rhd {
+          color: #191970;
+          font-weight: normal;
+          text-decoration: none;
+          cursor: hand;
+          padding-left : 5px;
+          text-align : left;
+          font-size : 9px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          }
+          .rhdsel {
+          color: #cc0033;
+          font-weight: normal;
+          text-decoration: none;
+          cursor: hand;
+          padding-left : 5px;
+          text-align : left;
+          font-size : 9px;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          }
+          .btnred 
+          {
+          background-color : #FF0000;
+          color: #FFFFFF;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          font-size : 10px;
+          font-weight: bold;
+          cursor: hand;
+          text-align : left;
+          height : 10px;
+          width : 80px;
+          padding-bottom : 0px;
+          padding-top : 0px;
+          } 
+          .btnblu
+          {
+          background-color : #336699;
+          color: #FFFFFF;
+          font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+          font-size : 10px;
+          font-weight: bold;
+          cursor: hand;
+          text-align : left;
+          height : 10px;
+          width : 80px;
+          padding-bottom : 0px;
+          padding-top : 0px;
+          } 
+          .btnico 
+          {
+          background-color : #C5C5C5;
+          height : 10px;
+          font-weight: bold;
+          cursor: hand;
+          text-align : left;
+          padding-bottom : 0px;
+          padding-top : 0px;
+          } 
+          .btnicob 
+          {
+          background-color : #99FFFF;
+          height : 10px;
+          font-weight: bold;
+          cursor: hand;
+          text-align : left;
+          padding-bottom : 0px;
+          padding-top : 0px;
+          }  
+          .btnbrown
+          {
+         	background-color : #8B4513;
+         	color: #FFFFFF;
+         	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+         	font-size : 10px;
+         	font-weight: bold;
+         	cursor: hand;
+         	text-align : left;
+         	height : 10px;
+         	width : 80px;
+         	padding-bottom : 0px;
+         	padding-top : 0px;
+         }

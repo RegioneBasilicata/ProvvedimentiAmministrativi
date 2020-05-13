@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DigitalSignatureUtils
+</name>
+</assembly>
+<members>
+<member name="T:DigitalSignatureUtils.SignerData">
+	<summary>
+ Classe che contiene i riferimenti anagrafici dei firmatari 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.Test.LoadData(System.String)">
+	<summary>
+ Restituisce un file come vettore di byte
+ </summary>
+	<param name="filePath">path del file da caricare</param>
+	<returns>File come vettore di byte</returns>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.Test.WriteFile(System.String,System.Byte[])">
+	<summary>
+ Scrive il vettore di byte data nel file filePath
+ </summary>
+	<param name="filePath">path del file su cui scrivere</param>
+	<param name="data">vettore di byte da scrivere</param>
+	<remarks></remarks>
+</member><member name="T:DigitalSignatureUtils.Test">
+	<summary>
+ Test della classe DSUtils
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.CAdESUtils.CheckSignature">
+	<summary>
+ Verifica che i data passati siano correttamente firmati 
+ secondo il formato CAdES-BES. 
+ 
+ TODO: Manca il controllo di revoca 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.CAdESUtils.CheckKeyUsage(Org.BouncyCastle.X509.X509Certificate)">
+	<summary>
+ Verifica che il certificato abbia key usage critico di non ripudio
+ </summary>
+	<param name="cert">Certificato per cui verificare il keyusage</param>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.CAdESUtils.GetDocument">
+	<summary>
+ Restituisce il documento contenuto nella busta CAdES-BES
+ </summary>
+	<returns>contenuto del file come vettore di byte</returns>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.CAdESUtils.GetFirmatari">
+	<summary>
+ Restituisce una lista di <code>SignerData</code> contentente il dati anagrafici di tutti i 
+ firmatari
+ </summary>
+	<returns>dati anagrafici di tutti i firmatari</returns>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.CAdESUtils.GetRawCertificates">
+	<summary>
+ Restituisce tutti i certificati dei firmatari come vettori di byte
+ </summary>
+	<returns>certificati dei firmatari in bytes</returns>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.CAdESUtils.GetCertificates">
+	<summary>
+ Restituisce tutti i certificati dei firmatari 
+ </summary>
+	<returns>certificati dei firmatari</returns>
+	<remarks></remarks>
+</member><member name="T:DigitalSignatureUtils.CAdESUtils">
+	<summary>
+ Classe di utilità per la gestione dei file firmati 
+ in formato CAdES-BES
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.PKCS7Utils.#ctor(System.Byte[])">
+	<summary>
+ Costrutture 
+ </summary>
+	<param name="data">vettore di dati pkcs7</param>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.PKCS7Utils.CheckSignature">
+	<summary>
+ Verifica che i data passati siano correttamente firmati 
+ secondo la sintassi pkcs#7. In caso di firma non valida viene generata una 
+ eccezione di tipo <code>System.Security.Cryptography.CryptographicException</code>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.PKCS7Utils.CheckKeyUsage">
+	<summary>
+ Verifica che il key usage di tutti i firmatari sia critico di non ripudio
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.PKCS7Utils.CheckKeyUsage(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+	<summary>
+ Verifica che il certificato abbia key usage critico di non ripudio
+ </summary>
+	<param name="cert">Certificato per cui verificare il keyusage</param>
+	<remarks></remarks>
+</member><member name="M:DigitalSignatureUtils.PKCS7Utils.GetFirmatari">
+	<summary>
+ Restituisce una lista di <code>SignerData</code> contentente il dati anagrafici di tutti i 
+ firmatari
+ </summary>
+	<returns>dati anagrafici di tutti i firmatari</returns>
+	<remarks></remarks>
+</member><member name="T:DigitalSignatureUtils.PKCS7Utils">
+	<summary>
+ Classe di utilità per la firma digitale.
+ 
+ TODO:
+ 1. Aggiungere verifica del certificatore riconosciuto dal CNIPA
+ </summary>
+	<remarks></remarks>
+</member><member name="P:DigitalSignatureUtils.My.Resources.Resources.ResourceManager">
+	<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member><member name="P:DigitalSignatureUtils.My.Resources.Resources.Culture">
+	<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member><member name="T:DigitalSignatureUtils.My.Resources.Resources">
+	<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+</members>
+</doc>

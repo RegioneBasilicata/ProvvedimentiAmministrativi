@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<script language="JavaScript"><!--
+function printAll() {
+alert('')
+	num=parent.document.all.tags("FRAME").length;
+   
+    //document.all['slide']
+   
+   var act=new ActiveXObject("StampaDocumentiProvvedimenti.StampaProvvedimenti")
+var vclient = new Array(); 
+    
+vclient[0]=""
+vclient[1]=""
+vclient[2]=""
+
+
+var col_array=window.location.search.replace("?ids=","").split("-");
+var link= window.location.href.replace("formStampa.htm" + window.location.search ,"AnteprimaAllegatoAction.aspx?key=");
+
+var part_num=0;
+while (part_num < col_array.length)
+ {
+ vclient[0]=link + col_array[part_num]+'&prn=1'
+act.stampaDocumenti(vclient.join("||") )
+
+  if (col_array[part_num]!="")
+//var w=  window.open(link + col_array[part_num],'all'+part_num,'top=-10,left=-10,toolbar=no,location=no-directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=1,height=1')
+ //window.open('Http://localhost/AttiDigitali/AnteprimaAllegatoAction.aspx?key='+ col_array[part_num]+','all','width=300,height=200,resizable=yes'); 
+ 
+  part_num+=1;
+  
+}
+
+
+ act=null;
+ 
+ /*
+   for (i=0;i<num;i++)
+    {
+		if ("principale" != parent.frames[i].name)
+		 {
+			//parent.document.frames[i].focus();
+			alert(parent.document.frames[i]);
+		//	window.print();     
+			
+         }    
+    }       
+*/
+}
+//--></script>
+		<link rel="shortcut icon" href=risorse/immagini/favicon.ico type="image/x-icon" /></head>
+	<body  onload="printAll()" bgcolor=#3366cc ><div style="color:#ffffff">Stampa in corso...</div><script language="javascript">parent.close()</script> </body>
+</html>

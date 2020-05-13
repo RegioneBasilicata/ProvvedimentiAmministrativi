@@ -1,0 +1,81 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - document-management
+  - e-signature
+  - office
+  - warehouse-management
+  - web-collaboration
+  - workflow-management
+description:
+  it:
+    features:
+      - Gestione Flusso Atti Amministrativi
+      - Ingegrazione con il Sistema Contabile
+    genericName: ProvvedimentiAmministrativi
+    longDescription: >
+      Provvedimenti Amministrativi è utilizzato dalla Regione Basilicata dal 2008. 
+      Gestisce il flusso degli atti amministrativi: determine, disposizioni e delbiere, partendo dalla fase istruttoria sino ad arrivare alla fase di approvazione e archiviazione.
+      Grazie alla sua integrazione con il Sistema Informativo Contabile (SIC) della Regione Basilicata permette di gestire anche atti amministrativi che prevedono documenti contabili.
+    shortDescription: >-
+      E' il sistema per la gestione del flusso documentale degli atti amministrativi 
+      realizzato dalla società Intema s.r.l. per la Regione Basilicata.
+developmentStatus: stable
+intendedAudience:
+  scope:
+    - government
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: true
+  riuso:
+    codiceIPA: r_basili
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Basilicata
+  repoOwner: Regione Basilicata
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: gianfranco.misuriello@intemaweb.com
+      name: 'Gianfranco Misuriello'
+      phone: '+393334711383'
+    - email: stefania.prudente@intemaweb.com
+      name: 'Stefania Prudente'
+      phone: '+390971651090'
+  contractors:
+    - name: Intema s.r.l.
+      until: '2008-01-01'
+  type: contract
+name: Provvedimenti Amministrativi
+platforms:
+  - web
+  - windows
+  - mac
+  - linux
+releaseDate: '2008-01-01'
+softwareType: standalone/web
+softwareVersion: '2.4.7'
+url: 'https://github.com/RegioneBasilicata/ProvvedimentiAmministrativi'
+usedBy:
+  - Regione Basilicata
+  - Consiglio Regionale della Basilicata
+  - Azienda Ospedaliera Regionale San Carlo Potenza
+  - ASP - Azienda Sanitaria Locale di Potenza
+  - ALSIA – Agenzia Lucana di Sviluppo e di Innovazione in Agricoltura
+  - ARPA Basilicata - Agenzia Regionale per la Protezione dell'Ambiente
+  - IRCCS CROB di Rionero 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<elenco ruoli="*" text="Elenco Disposizioni Aperte">
+<istanza ruoli="*" text="Disp. n.#numDocumento#">
+	<modificaDisposizione NavigateUrl="CreaProvvedimento.aspx?tipo=2&amp;key=#codDocumento#" ruoli="DS012">Modifica</modificaDisposizione>
+	<testo  NavigateUrl="LeggiTestoDisposizioneAction.aspx?key=#codDocumento#&amp;tipo=2" ruoli="DS012">Carica Disposizione</testo>
+	<osservazioni  NavigateUrl="Osservazioni.aspx?key=#codDocumento#" ruoli="DS018">Edita Osservazioni</osservazioni>
+    <documento NavigateUrl="AllegatiDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Visualizza Fascicolo</documento>
+	<inoltro NavigateUrl="InoltroDocumentoAction.aspx?key=#codDocumento#&amp;tipo=2" ruoli="DS015">Inoltra</inoltro>
+    <rigetto NavigateUrl="RigettoDocumentoAction.aspx?key=#codDocumento#&amp;tipo=2" ruoli="DS017">Rigetta</rigetto>
+    <annulla NavigateUrl="AnnullaDocumento.aspx?key=#codDocumento#&amp;tipo=2"  ruoli="DS016">Elimina</annulla>
+	<contabileprop NavigateUrl="ContabileDisp.aspx?key=#codDocumento#&amp;tipo=2" ruoli="DC001">Dettaglio Contabile</contabileprop>
+    <siccapitoli NavigateUrl="VisibilitaSic.aspx?key=#codDocumento#&amp;vis=0" ruoli="RT001">Disponibilità Capitoli</siccapitoli>
+    <sicimpegni NavigateUrl="VisibilitaSic.aspx?key=#codDocumento#&amp;vis=1" ruoli="RT001">Disponibilità Impegni</sicimpegni>
+    <contabilerag NavigateUrl="ContabileDispPerRag.aspx?key=#codDocumento#&amp;tipo=2" ruoli="RS001">Dati Contabili Ragioneria</contabilerag>
+    <stampa NavigateUrl="StampaDocumentoAction.aspx?key=#codDocumento#" ruoli="PU001">Stampa</stampa>
+	<storico NavigateUrl="StoricoDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Visualizza Storico</storico>
+    <messaggiinviati NavigateUrl="ElencoMessaggiAction.aspx?key=#codDocumento#&amp;inv=1" ruoli="DS020">Messaggi Inviati</messaggiinviati>
+    <messaggi NavigateUrl="ElencoMessaggiAction.aspx?key=#codDocumento#" ruoli="*">Messaggi Ricevuti</messaggi>
+   <suggerimenti NavigateUrl="ElencoSuggerimentiAction.aspx?key=#codDocumento#" ruoli="*">Suggerimenti</suggerimenti>
+    <assegnadisposizione NavigateUrl="GUAssegnazioniAction.aspx?key=#codDocumento#&amp;tipo=2" ruoli="GS012;ADMUFF">Assegna</assegnadisposizione>
+	<chiudi NavigateUrl="ChiudiDocumentoAction.aspx?key=#codDocumento#" ruoli="*">Chiudi</chiudi>
+</istanza>
+</elenco>
+</root>

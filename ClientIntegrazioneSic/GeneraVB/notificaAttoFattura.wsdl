@@ -1,0 +1,80 @@
+<definitions name="NOTIFICAATTOFATTURA"
+    targetNamespace="http://xmlns.oracle.com/orawsv/GAT2_WS/NOTIFICAATTOFATTURA"
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:tns="http://xmlns.oracle.com/orawsv/GAT2_WS/NOTIFICAATTOFATTURA"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xsd:schema targetNamespace="http://xmlns.oracle.com/orawsv/GAT2_WS/NOTIFICAATTOFATTURA"
+     elementFormDefault="qualified">
+      <xsd:element name="NOTIFICAPROVVEDIMENTISICInput">
+        <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="P_TIPODOCSIC-VARCHAR2-IN" type="xsd:string"/>
+              <xsd:element name="P_STATONOTIFICA-VARCHAR2-IN" type="xsd:string"/>
+              <xsd:element name="P_NUMERODOCSIC-NUMBER-IN" type="xsd:double"/>
+              <xsd:element name="P_MESSAGGIO-VARCHAR2-OUT">
+                <xsd:complexType/>
+              </xsd:element>
+              <xsd:element name="P_IDFATTURA-NUMBER-IN" type="xsd:double"/>
+              <xsd:element name="P_IDATTO-VARCHAR2-IN" type="xsd:string"/>
+              <xsd:element name="P_ESITO-NUMBER-OUT">
+                <xsd:complexType/>
+              </xsd:element>
+              <xsd:element name="P_DATADOCSIC-VARCHAR2-IN" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+      </xsd:element>
+
+
+      <xsd:element name="NOTIFICAPROVVEDIMENTISICOutput">
+        <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="P_MESSAGGIO" type="xsd:string"/>
+              <xsd:element name="P_ESITO" type="xsd:double"/>
+            </xsd:sequence>
+          </xsd:complexType>
+      </xsd:element>
+   </xsd:schema>
+  </types>
+
+  <message name="NOTIFICAPROVVEDIMENTISICInputMessage">
+    <part name="parameters" element="tns:NOTIFICAPROVVEDIMENTISICInput"/>
+  </message>
+
+  <message name="NOTIFICAPROVVEDIMENTISICOutputMessage">
+    <part name="parameters" element="tns:NOTIFICAPROVVEDIMENTISICOutput"/>
+  </message>
+
+  <portType name="NOTIFICAATTOFATTURAPortType">
+  <operation name="NOTIFICAPROVVEDIMENTISIC">
+      <input message="tns:NOTIFICAPROVVEDIMENTISICInputMessage"/>
+      <output message="tns:NOTIFICAPROVVEDIMENTISICOutputMessage"/>
+    </operation>
+  </portType>
+
+  <binding name="NOTIFICAATTOFATTURABinding"
+           type="tns:NOTIFICAATTOFATTURAPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="NOTIFICAPROVVEDIMENTISIC">
+      <soap:operation
+ soapAction="NOTIFICAPROVVEDIMENTISIC"/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+      </input>
+      <output>
+        <soap:body parts="parameters" use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="NOTIFICAATTOFATTURAService">
+    <documentation>Oracle Web Service</documentation>
+    <port name="NOTIFICAATTOFATTURAPort" binding="tns:NOTIFICAATTOFATTURABinding">
+	
+	<soap:address   location="http://sicmobile.regione.basilicata.it/orawsv/GAT2_WS/NOTIFICAATTOFATTURA"/>
+     <!--  <soap:address   location="http://clu-oracle-db.hosting.int:8080/orawsv/GAT2_WS/NOTIFICAATTOFATTURA"/>-->
+     </port>
+  </service>
+
+</definitions>

@@ -1,0 +1,16 @@
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\ServizioGeneraGraph.exe
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\ServizioGeneraGraph.pdb
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\ServizioGeneraGraph.xml
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.Resources.resources
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.vbproj.GenerateResource.Cache
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.exe
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.xml
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.pdb
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.GestioneGraph.resources
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\obj\Debug\ServizioGeneraGraph.ProjectInstaller.resources
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\LibreriaGraph.dll
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\Interop.WINGRAPHVIZLib.dll
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\LibreriaGraph.pdb
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\LibreriaGraph.xml
+C:\Users\Intema\Documents\Visual Studio 2008\Projects\GrafoServices\ServizioGeneraGraph\bin\Debug\ServizioGeneraGraph.exe.config

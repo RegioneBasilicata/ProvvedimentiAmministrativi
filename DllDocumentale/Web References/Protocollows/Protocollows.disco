@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://192.168.168.240/Protocollows/Protocollows.asmx?wsdl" docRef="http://192.168.168.240/Protocollows/Protocollows.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://192.168.168.240/Protocollows/Protocollows.asmx" xmlns:q1="http://www.intemaweb.com/webservices/" binding="q1:ProtocolloWs" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://192.168.168.240/Protocollows/Protocollows.asmx" xmlns:q2="http://www.intemaweb.com/webservices/" binding="q2:ProtocolloWs1" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

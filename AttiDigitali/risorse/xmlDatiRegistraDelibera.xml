@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<datiDocumento>
+<oggetto compito="ISTRUTTORE;POC_ISTRUTTORE"></oggetto>
+<testo ></testo>
+<!--
+<tabella nome_tabella="Documento_Componenti_Giunta" 
+         chiave_tabella="Dcg_id" col_prog_registrazione="Dcg_Ordine_Apparizione">
+	<Dcg_Nome></Dcg_Nome>
+	<Dcg_Cognome></Dcg_Cognome>
+	<Dcg_Ordine_Apparizione></Dcg_Ordine_Apparizione>
+	<Dcg_Carica></Dcg_Carica>
+</tabella> 
+-->
+<tabella nome_tabella="Documento_bilancio" 
+         chiave_tabella="Dbi_Documento" 
+         col_prog_registrazione="Dbi_prog" 
+         col_data_registrazione="Dbi_DataRegistrazione" 
+         col_operatore_registrazione="Dbi_Operatore">
+	<Dbi_Bilancio tipo="INT" compito="POC_ISTRUTTORE"></Dbi_Bilancio>
+	<Dbi_UPB  compito="POC_ISTRUTTORE"></Dbi_UPB>
+	<Dbi_Cap  compito="POC_ISTRUTTORE"></Dbi_Cap>	
+	<Dbi_Costo tipo="FLOAT" compito="POC_ISTRUTTORE"></Dbi_Costo>
+	<Dbi_prog>1</Dbi_prog>
+</tabella>
+<tabella nome_tabella="Documento_rag_prenotazione" 
+         chiave_tabella="Drp_id_Documento" 
+         col_prog_registrazione="Drp_prog" 
+         col_data_registrazione="Drp_DataRegistrazione" 
+         col_operatore_registrazione="Drp_Operatore">
+	<Drp_NImpegno tipo="INT" compito="*"></Drp_NImpegno>
+	<Drp_UPB compito="*"></Drp_UPB>
+	<Drp_Cap compito="*"></Drp_Cap>
+	<Drp_Costo tipo="FLOAT" compito="*"></Drp_Costo>
+	<Drp_prog>1</Drp_prog>
+</tabella>
+<tabella nome_tabella="Documento_rag_assunzione" 
+         chiave_tabella="Dra_id_Documento" 
+         col_prog_registrazione="Dra_prog" 
+         col_data_registrazione="Dra_DataRegistrazione" 
+         col_operatore_registrazione="Dra_Operatore">
+	<Dra_NContabile tipo="INT" compito="*"></Dra_NContabile>
+	<Dra_UPB compito="*"></Dra_UPB>
+	<Dra_Cap compito="*"></Dra_Cap>
+	<Dra_Esercizio tipo="INT" compito="*"></Dra_Esercizio>
+	<Dra_Costo tipo="FLOAT" compito="*"></Dra_Costo>
+	<Dra_prog>1</Dra_prog>
+</tabella>
+<tabella nome_tabella="Documento_rag_liquidazione" 
+         chiave_tabella="DRL_Id_Documento" 
+         col_prog_registrazione="DRL_Prog" 
+         col_data_registrazione="DRL_DataRegistrazione" 
+         col_operatore_registrazione="DRL_Operatore">
+	<DRL_NLiquidazione tipo="INT" compito="*"></DRL_NLiquidazione>
+	<DRL_UPB compito="*"></DRL_UPB>
+	<DRL_Cap compito="*"></DRL_Cap>
+	<DRL_Esercizio tipo="INT" compito="*"></DRL_Esercizio>
+	<DRL_Costo tipo="FLOAT" compito="*"></DRL_Costo>
+	<DRL_NContabile tipo="INT" compito="*"></DRL_NContabile>
+	<DRL_TipoAssunzione tipo="INT" compito="*"></DRL_TipoAssunzione>
+	<DRL_NAssunzione tipo="INT" compito="*"></DRL_NAssunzione>
+	<DRL_Data tipo="DATA" compito="*"></DRL_Data>
+	<DRL_Prog>1</DRL_Prog>	
+</tabella>
+<tabella nome_tabella="Documento_noteosservazioni" 
+         chiave_tabella="Dno_id_documento" 
+         col_prog_registrazione="Dno_prog" 
+         col_data_registrazione="Dno_DataRegistrazione" 
+         col_operatore_registrazione="Dno_Oparatore">
+	<Dno_testo></Dno_testo>
+	<Dno_tipo>DIRIGENTE GENERALE</Dno_tipo>
+	<Dno_prog>1</Dno_prog>	
+</tabella>
+<!--
+<tabella nome_tabella="Documento_accessori_delibere" 
+         chiave_tabella="DAD_id_Documento" 
+         col_prog_registrazione="DAD_prog" 
+         col_data_registrazione="DAD_DataRegistrazione" 
+         col_operatore_registrazione="DAD_Operatore">
+	<DAD_id_Documento></DAD_id_Documento>	
+	<DAD_logo></DAD_logo>
+	<DAD_DataGiunta></DAD_DataGiunta>
+	<DAD_SoggPubblicp></DAD_SoggPubblicp>
+	<DAD_DataTrasm></DAD_DataTrasm>
+	<DAD_EnteTrasm></DAD_EnteTrasm>
+</tabella>
+
+<tabella nome_tabella="Documento_compito_utente" 
+         chiave_tabella="Dco_id_Documento" 
+         col_data_registrazione="Dco_DataRegistrazione" 
+         col_operatore_registrazione="Dco_Operatore">
+	<Dco_id_Documento></Dco_id_Documento>	
+	<Dco_Operatore></Dco_Operatore>
+	<Dco_Compito></Dco_Compito>
+	<Dco_DataRegistrazione></Dco_DataRegistrazione>
+</tabella>
+-->
+</datiDocumento> 

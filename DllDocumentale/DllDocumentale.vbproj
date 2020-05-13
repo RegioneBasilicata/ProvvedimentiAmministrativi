@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F84AC979-8294-4CBB-B2CF-3405653B7370}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DllDocumentale</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>DllDocumentale</RootNamespace>
+    <StartupObject>DllDocumentale.%28Nessuno%29</StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/DllDocumentale/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DllDocumentale.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>Win32 = True</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DllDocumentale.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>Win32 = True</DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADODB">
+      <Name>adodb</Name>
+      <HintPath>..\..\..\Programmi\Microsoft.NET\Primary Interop Assemblies\adodb.dll</HintPath>
+      <AssemblyFolderKey>hklm\primary interop assemblies</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="AxMany2PDFX">
+      <Name>AxMany2PDFX</Name>
+      <HintPath>..\librerie.net\varie\AxMany2PDFX.dll</HintPath>
+    </Reference>
+    <Reference Include="DataTypes.DetermineWs">
+      <Name>DataTypes.DetermineWs</Name>
+      <HintPath>..\librerie.net\varie\DataTypes.DetermineWs.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalSignatureUtils">
+      <HintPath>..\..\..\..\DigitalSignaturUtils.VbNet\DigitalSignatureUtils\obj\Debug\DigitalSignatureUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerie.net\varie\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.StdFormat">
+      <Name>Microsoft.stdformat</Name>
+      <HintPath>..\..\..\Programmi\Microsoft.NET\Primary Interop Assemblies\Microsoft.stdformat.dll</HintPath>
+      <AssemblyFolderKey>hklm\primary interop assemblies</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Name>Microsoft.VisualBasic.Compatibility.Data</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="DAO">
+      <Guid>{00025E01-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="..\ClientIntegrazioneSic\ClientIntegrazioneSic.vbproj">
+      <Project>{6640bb29-5972-45fb-aa73-cf7e0f2ae603}</Project>
+      <Name>ClientIntegrazioneSic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dbUtility\Intema.DBUtility\Intema.DBUtility.vbproj">
+      <Name>Intema.DBUtility</Name>
+      <Project>{127B1FB4-035B-43C4-AC99-11FDB848A59C}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\librerie.net\DllAmbiente\DllAmbiente.vbproj">
+      <Project>{80E35F7E-F555-42DE-B17B-3E8B1AC1C52A}</Project>
+      <Name>DllAmbiente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\librerie.net\DllGestDBNET\DllGestDBNet.vbproj">
+      <Project>{ac9aa772-8bd2-437d-9416-85e6f5dccb53}</Project>
+      <Name>DllGestDBNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\librerie.net\DllSistemaNET\DllSistemaNet.vbproj">
+      <Name>DllSistemaNet</Name>
+      <Project>{22040BCE-A5CB-481E-BBA2-AD313285B144}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\librerie.net\DllStrumenti\DllStrumenti.vbproj">
+      <Name>DllStrumenti</Name>
+      <Project>{008972D0-4C4E-4F3E-B448-87F92EB69332}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractSvrDocumenti.vb" />
+    <Compile Include="AllegatoInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BeneficiarioCronologia.vb" />
+    <Compile Include="ConservazioneAttiServices.vb" />
+    <Compile Include="ItemAzioneUtenteDocumento.vb" />
+    <Compile Include="ItemDatiSeduta.vb" />
+    <Compile Include="ItemDatiSedutaInfo.vb" />
+    <Compile Include="ItemAnagrafica.vb" />
+    <Compile Include="ItemDocumentoConservazione.vb" />
+    <Compile Include="ItemDocumentoInfo.vb" />
+    <Compile Include="ItemDocumentoBeneficiarioExcel.vb" />
+    <Compile Include="ItemDaImpegnare.vb" />
+    <Compile Include="ItemLiquidazioneImpegnoBeneficiarioInfo.vb" />
+    <Compile Include="ItemODGInfo.vb" />
+    <Compile Include="ItemRelatore.vb" />
+    <Compile Include="ItemReportGraficoAtti.vb" />
+    <Compile Include="ItemReportAtti.vb" />
+    <Compile Include="ItemFatturaAllegato.vb" />
+    <Compile Include="ItemDettaglioStorico.vb" />
+    <Compile Include="ItemContrattoInfo.vb" />
+    <Compile Include="ItemContrattoInfoHeader.vb" />
+    <Compile Include="ItemDestinatarioInfo.vb" />
+    <Compile Include="ItemFatturaInfoHeader.vb" />
+    <Compile Include="ItemLiquidazioneBeneficiarioInfo.vb" />
+    <Compile Include="ItemSchedaContrattiFattureInfo.vb" />
+    <Compile Include="ItemSchedaLeggeTrasparenzaInfo.vb" />
+    <Compile Include="ItemSchedaTipologiaProvvedimentoInfo.vb" />
+    <Compile Include="ItemTipologiaDocumento.vb" />
+    <Compile Include="ItemTipoSceltaAttributo.vb" />
+    <Compile Include="ItemSceltaPossibile.vb" />
+    <Compile Include="ItemAttivita.vb" />
+    <Compile Include="Documento_attributo.vb" />
+    <Compile Include="ItemAttributoInfo.vb" />
+    <Compile Include="ItemSuggerimento.vb" />
+    <Compile Include="Page.vb" />
+    <Compile Include="svrAltriAttiBase.vb" />
+    <Compile Include="svrAltriAttiRegione.vb" />
+    <Compile Include="svrDocumentiAlsia.vb" />
+    <Compile Include="svrDocumentiRegione.vb" />
+    <Compile Include="DocumentaleException.vb" />
+    <Compile Include="Graph.vb" />
+    <Compile Include="svrDelibereAlsia.vb" />
+    <Compile Include="svrDetermineAlsia.vb" />
+    <Compile Include="svrDelibereRegione.vb" />
+    <Compile Include="svrDetermineBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemContaDocumenti.vb" />
+    <Compile Include="ItemEstensione.vb" />
+    <Compile Include="ItemRiduzioneLiqInfo.vb" />
+    <Compile Include="ItemDelega.vb" />
+    <Compile Include="ItemTipoBase.vb" />
+    <Compile Include="OsservazioneInfo.vb" />
+    <Compile Include="MessaggioInfo.vb" />
+    <Compile Include="Dichiarazioni.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dic_Documentale.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentoInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnumDocumenti.vb" />
+    <Compile Include="ItemAssunzioneInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemContatoreInfo.vb" />
+    <Compile Include="ItemImpegnoInfo.vb" />
+    <Compile Include="ItemContabileInfo.vb" />
+    <Compile Include="ItemLiquidazioneInfo.vb" />
+    <Compile Include="ItemMandatoInfo.vb" />
+    <Compile Include="ItemRiduzioneInfo.vb" />
+    <Compile Include="Mail.vb" />
+    <Compile Include="MessageMaker.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProtoWs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProxyNotificationService.vb" />
+    <Compile Include="StatoIstanzaDocumentoInfo.vb" />
+    <Compile Include="svrDelibereBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="svrDetermineRegione.vb" />
+    <Compile Include="svrDisposizioniBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="svrDisposizioniRegione.vb" />
+    <Compile Include="svrDocumenti.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TipoPagamentoInfo.vb" />
+    <Compile Include="UpgradeSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web References\DetWs\Reference.vb">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Web References\Protocollows\Reference.vb">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Web References\DetWs\DetermineWs.disco" />
+    <None Include="Web References\DetWs\DetermineWs.wsdl" />
+    <None Include="Web References\DetWs\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\Protocollows\Protocollows.disco" />
+    <None Include="Web References\Protocollows\Protocollows.wsdl" />
+    <None Include="Web References\Protocollows\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <WebReferenceUrl Include="http://172.16.10.1/DetermineWs/DetermineWs.asmx">
+      <RelPath>Web References\DetWs\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://192.168.168.240/Protocollows/Protocollows.asmx">
+      <RelPath>Web References\Protocollows\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

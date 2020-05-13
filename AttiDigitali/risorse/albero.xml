@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<attivita ruoli="DT000;DS000;DT001;DL001;DR001;DO001;DL002;DS012;PU001;DT015;GT002;PU002;AT001;AS002;MT003;MS003;ML004;MT004;MS004;RT001" text="Attività">
+		<determina NavigateUrl="HomePageAction.aspx" ruoli="WL001;WT001;DT001;DL001;DS012">HomePage</determina>
+    <scaricaDetermina NavigateUrl="DownloadModelli.aspx" ruoli="DL001;CL001;DT000;DS000;DT001;DL001;DS012;PU001;DT015;GT002;PU002;AT001;AS002;MT003;MS003;MT004;MS004;RT001">Scarica Modelli</scaricaDetermina>
+    <siccapitoli NavigateUrl="VisibilitaSic.aspx?vis=0"  ruoli="DC001">Disponibilità Capitoli</siccapitoli>
+    <sicpreimpegni NavigateUrl="VisibilitaSic.aspx?vis=2" ruoli="DC001">Disponibilità PreImpegni</sicpreimpegni>
+    <sicimpegni NavigateUrl="VisibilitaSic.aspx?vis=1" ruoli="DC001">Disponibilità Impegni</sicimpegni>
+    <sicliquidazioni NavigateUrl="VisibilitaSic.aspx?vis=3" ruoli="DC001">Disponibilità Liquidazioni</sicliquidazioni>
+    <sicBeneficiari NavigateUrl="GestioneAnagrafica.aspx" ruoli="*">Anagrafica Beneficiari</sicBeneficiari>
+    <sicContratti NavigateUrl="http://oias.rete.basilicata.it/zzhdbzz/f?p=contr_trasp:50:::::PARAMETER_ID,UFFICIO:#codFiscOperatore#,#uffPubblicoOperatore#" Target="_blank" ruoli="*">Anagrafica Contratti</sicContratti>
+
+    <creazione ruoli="DT001;DL001;DS012;DR001;DO001" text="Creazione">
+		  <creaDetermina NavigateUrl="CreaProvvedimento.aspx?tipo=0" ruoli="DT001">Crea Determina</creaDetermina>
+			<creaDisposizione NavigateUrl="CreaProvvedimento.aspx?tipo=2" ruoli="DS012">Crea Disposizione</creaDisposizione>
+      <!--<creaDelibera NavigateUrl="CreaProvvedimento.aspx?tipo=1" ruoli="DL001">Crea Delibera</creaDelibera>-->
+      <!--<creaDecreto NavigateUrl="CreaProvvedimento.aspx?tipo=3" ruoli="DR001">Crea Decreto</creaDecreto>-->
+      <!--<creaOrdinanza NavigateUrl="CreaProvvedimento.aspx?tipo=4" ruoli="DO001">Crea Ordinanza</creaOrdinanza>-->
+		</creazione>
+	  <daarchiviare NavigateUrl="WorklistArchivioAction.aspx?tipo=0" ruoli="DT017">Determine Da Archiviare</daarchiviare>
+		<printUser ruoli="PU001" text="Lista Lavoro PrintUser">
+			<printUserDetermine NavigateUrl="MonitorPrintUfficioAction.aspx?tipo=0" ruoli="PU001">Lista Print Determine</printUserDetermine>
+			<printUserDisposizioni NavigateUrl="MonitorPrintUfficioAction.aspx?tipo=2" ruoli="PU001">Lista Print Disposizioni</printUserDisposizioni>
+		</printUser>
+		<worklist ruoli="WL001;WL002;WL003;WT001;WT002;WT003;WT011;WT012;WT013;WS013;WS012;WS011;WR001;WR002;WR003;WO001;WO002;WO003" text="Lista Lavoro">
+			<determine NavigateUrl="WorklistAction.aspx?tipo=0" ruoli="WT001" >Determine</determine>
+      <determineUrgenti NavigateUrl="WorklistAction.aspx?tipo=0" ruoli="WT001" >> Urgenti #totDetUrgenti#</determineUrgenti>
+			<determineUfficio NavigateUrl="" ruoli="WT002">Determine Ufficio</determineUfficio>
+			<determineTutte NavigateUrl=""  ruoli="WT003">Tutte le determine</determineTutte>
+			<disposizioni NavigateUrl="WorklistAction.aspx?tipo=2" ruoli="WS011">Disposizioni</disposizioni>
+      <disposizioniUrgenti NavigateUrl="WorklistAction.aspx?tipo=2" ruoli="WT001" >> Urgenti #totDispUrgenti#</disposizioniUrgenti>
+			<disposizioniUfficio NavigateUrl="" ruoli="WS012">Disposizioni Ufficio</disposizioniUfficio>
+			<disposizioniTutte NavigateUrl="" ruoli="WS013">Tutte le disposizioni</disposizioniTutte>	
+			<!--<delibere NavigateUrl="WorklistAction.aspx?tipo=1" ruoli="WL001">Delibere</delibere>
+			<delibereUfficio NavigateUrl="" ruoli="WL002">Delibere Ufficio</delibereUfficio>
+			<delibereTutte NavigateUrl="" ruoli="WL003">Tutte le delibere</delibereTutte>-->
+
+      <!--<decreti NavigateUrl="WorklistAction.aspx?tipo=3" ruoli="WR001">Decreti</decreti>
+      <decretiUfficio NavigateUrl="" ruoli="WR002">Decreti Ufficio</decretiUfficio>
+      <decretiTutte NavigateUrl="" ruoli="WR003">Tutti i decreti</decretiTutte>-->
+      
+      <!--<ordinanze NavigateUrl="WorklistAction.aspx?tipo=4" ruoli="WO001">Ordinanze</ordinanze>
+      <ordinanzeUfficio NavigateUrl="" ruoli="WO002">Ordinanze Ufficio</ordinanzeUfficio>
+      <ordinanzeTutte NavigateUrl="" ruoli="WO003">Tutte le ordinanze</ordinanzeTutte>-->
+  
+  
+  </worklist>
+		<monitor ruoli="MT001;MT002;MT003;ML001;ML002;ML003;MS001;MS002;MS003" text="Monitor">
+			<determine NavigateUrl="MonitorAction.aspx?tipo=0" ruoli="MT001">Determine</determine>
+			<determineUfficio NavigateUrl="MonitorUfficioAction.aspx?tipo=0" ruoli="MT002">Determine Ufficio</determineUfficio>
+            <determineEnte NavigateUrl="MonitorEnteAction.aspx?tipo=0" ruoli="MT003">Determine Ente</determineEnte>
+            <disposizioni NavigateUrl="MonitorAction.aspx?tipo=2" ruoli="MS001">Disposizioni</disposizioni>
+			<disposizioniUfficio NavigateUrl="MonitorUfficioAction.aspx?tipo=2" ruoli="MS002">Disposizioni Ufficio</disposizioniUfficio>
+            <disposizioniEnte NavigateUrl="MonitorEnteAction.aspx?tipo=2" ruoli="MS003">Disposizioni Ente</disposizioniEnte>
+            <!--<delibere NavigateUrl="MonitorAction.aspx?tipo=1" ruoli="ML001">Delibere</delibere>
+			<delibereUfficio NavigateUrl="MonitorUfficioAction.aspx?tipo=1" ruoli="ML002">Delibere Ufficio</delibereUfficio>
+            <delibereEnte NavigateUrl="MonitorEnteAction.aspx?tipo=1" ruoli="ML003">Delibere Ente</delibereEnte>-->
+        </monitor>
+		<gestioneUfficio ruoli="DT015;GT001;GT002;ADMUFF;GL001;GL002;GS011;GS015;GS012" text="Gestione Ufficio">
+			<determinePrelazione NavigateUrl="GUPrelazioniAction.aspx?tipo=0" ruoli="GT001;ADMUFF">Prelazione Determine</determinePrelazione>
+			<determineAssegnazione NavigateUrl="GUAssegnazioniAction.aspx?tipo=0" ruoli="GT002;ADMUFF">Assegnazioni Determine</determineAssegnazione>
+			<determinePrelievo NavigateUrl="GUPrelieviAction.aspx?tipo=0" ruoli="DT015">Prelievo Determine</determinePrelievo>
+      <determineUrgentiPrelievo NavigateUrl="GUPrelieviAction.aspx?tipo=0" ruoli="DT015"> > Urgenti #totDetUrgentiPrel#</determineUrgentiPrelievo>
+			<disposizioniPrelazione NavigateUrl="GUPrelazioniAction.aspx?tipo=2" ruoli="GS011;ADMUFF">Prelazione Disposizioni</disposizioniPrelazione>
+			<disposizioniAssegnazione NavigateUrl="GUAssegnazioniAction.aspx?tipo=2" ruoli="GS012;ADMUFF">Assegnazioni Disposizioni</disposizioniAssegnazione>
+			<disposizioniPrelievo NavigateUrl="GUPrelieviAction.aspx?tipo=2" ruoli="GS015">Prelievo Disposizioni</disposizioniPrelievo>
+      <disposizioniUrgentiPrelievo NavigateUrl="GUPrelieviAction.aspx?tipo=2" ruoli="GS015"> > Urgenti #totDispUrgentiPrel#</disposizioniUrgentiPrelievo>
+			<!--<deliberePrelazione NavigateUrl="GUPrelazioniAction.aspx?tipo=1" ruoli="GL001;ADMUFF">Prelazione Delibere</deliberePrelazione>
+			<delibereAssegnazione NavigateUrl="GUAssegnazioniAction.aspx?tipo=1" ruoli="GL002;ADMUFF">Assegnazioni Delibere</delibereAssegnazione>
+			<deliberePrelievo NavigateUrl="GUPrelieviAction.aspx?tipo=1" ruoli="DL015">Prelievo Delibere</deliberePrelievo>-->
+		</gestioneUfficio>
+		<!--<odg ruoli="DL001" text="Sedute di Giunta">
+			<delibere NavigateUrl="SedutediGiuntaAction.Aspx" ruoli="DL001">In attesa di ODG</delibere>
+		</odg>
+		-->
+		<!--<consultazione ruoli="R0001;R0002;R0003" text="Consultazione Altri Uffici">-->
+			<!--<consultazioneDetermine NavigateUrl="MonitorConsultazioneAction.aspx?tipo=0" ruoli="R0001">Consultazione Determine</consultazioneDetermine>-->
+			<!--<consultazioneDelibere NavigateUrl="MonitorConsultazioneAction.aspx?tipo=1" ruoli="R0002">Consultazione Delibere</consultazioneDelibere> -->
+			<!--<consultazioneDisposizioni NavigateUrl="MonitorConsultazioneAction.aspx?tipo=2" ruoli="R0003">Consultazione Disposizioni</consultazioneDisposizioni>-->
+		<!--</consultazione>-->
+    
+    
+    <!--<archivioDetermine NavigateUrl="MonitorArchivioAction.aspx?tipo=0" ruoli="DT000;DT001;PU001;PU002;AT001;MT003;MT004">Archivio Determine</archivioDetermine>-->
+		<archivio ruoli="DT000;DS000;DT001;DL001;DS012;PU001;PU002;AT001;AS001;MT003;MS003;MT004;MS004;DL019;ML003" text="Archivio">
+      <reportistica NavigateUrl="ReportisticaWaiting.aspx" ruoli="RP001">Reportistica</reportistica>
+      <archivioDetermine NavigateUrl="MonitorArchivioWaiting.aspx?tipo=0" ruoli="DT000;DT001;PU001;PU002;AT001;MT003;MT004">Archivio Determine</archivioDetermine>
+			<!--<archivioDelibere NavigateUrl="MonitorArchivioWaiting.aspx?tipo=1" ruoli="DL001;ML004">Archivio Delibere</archivioDelibere>--> 
+			<archivioDisposizioni NavigateUrl="MonitorArchivioWaiting.aspx?tipo=2" ruoli="DS000;DS012;PU001;PU002;AS001;MS003;MS004">Archivio Disposizioni</archivioDisposizioni>
+
+			<archivioDetermine NavigateUrl="MonitorArchivioStampaAction.aspx?tipo=0" ruoli="DT019">Determine Da Stampare</archivioDetermine>
+            <!--<archivioDelibere NavigateUrl="MonitorArchivioStampaAction.aspx?tipo=1" ruoli="DL019">Delibere Da Stampare</archivioDelibere>-->
+            <archivioDisposizioni NavigateUrl="MonitorArchivioStampaAction.aspx?tipo=2" ruoli="DS019">Disposizioni Da Stampare</archivioDisposizioni>
+
+
+            <archivioDetermine NavigateUrl="MonitorArchivioCompetenzaAction.aspx?tipo=0" ruoli="DT001;PU001;PU002;AT001;MT003;MT004">Determine Competenza</archivioDetermine>
+            <!--<archivioDelibere NavigateUrl="MonitorArchivioCompetenzaAction.aspx?tipo=1" ruoli="DL001;PU001;PU002;AL001;ML003;ML004">Delibere Competenza</archivioDelibere>--> 
+            <archivioDetermine NavigateUrl="MonitorArchivioCompetenzaAction.aspx?tipo=2" ruoli="DS012;PU001;PU002;AT001;MS003">Disposizioni Competenza</archivioDetermine>
+		</archivio>
+        <messaggiInviati NavigateUrl="ElencoMessaggiAction.aspx?inv=1" ruoli="DT020">Messaggi Inviati</messaggiInviati>
+        <messaggi NavigateUrl="ElencoMessaggiAction.aspx" ruoli="DT001;DL001;DS012">Messaggi Ricevuti</messaggi>
+        <profilo NavigateUrl="ProfiloOperatoreAction.aspx" ruoli="*">Profilo</profilo>
+		<manuale NavigateUrl="./risorse/Manuale_REGIONE BASILICATA.pdf" Target="_blank" ruoli="*">Manuale utente</manuale>
+        <helpFirma NavigateUrl="./risorse/HELPFIRMAMULTIPLA/Help_FirmaMultipla.htm" Target="_blank" ruoli="*">Help Firma</helpFirma>
+		<logout NavigateUrl="LogoutAction.aspx" ruoli="*">Logout</logout>
+	</attivita>	
+</root>

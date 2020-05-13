@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 (http://www.altova.com) by mazuki (darksiderg) -->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+                  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" 
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+                  xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
+                  xmlns:mnd="http://regione.basilicata.it/provvedimentiamministrativi/servizi" 
+                  xmlns:types="http://regione.basilicata.it/provvedimentiamministrativi/types" 
+                  targetNamespace="http://regione.basilicata.it/provvedimentiamministrativi/servizi">
+	<wsdl:types>
+		<xs:schema>
+			<xs:import namespace="http://regione.basilicata.it/provvedimentiamministrativi/types" schemaLocation="Provvedimenti.xsd"/>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="MessageRequest">
+		<wsdl:part name="Messaggio_Richiesta" element="types:Messaggio_Richiesta"/>
+	</wsdl:message>
+	<wsdl:message name="MessageResponse">
+		<wsdl:part name="Messaggio_Risposta" element="types:Messaggio_Risposta"/>
+	</wsdl:message>
+	<wsdl:portType name="ProvvedimentiPortType">
+		<wsdl:operation name="InserisciMandati">
+			<wsdl:input message="mnd:MessageRequest"/>
+			<wsdl:output message="mnd:MessageResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="CreaDocumento">
+			<wsdl:input message="mnd:MessageRequest"/>
+			<wsdl:output message="mnd:MessageResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="ModificaDocumento">
+			<wsdl:input message="mnd:MessageRequest"/>
+			<wsdl:output message="mnd:MessageResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="InfoDocumento">
+			<wsdl:input message="mnd:MessageRequest"/>
+			<wsdl:output message="mnd:MessageResponse"/>
+		</wsdl:operation>
+    <wsdl:operation name="GetTipologieProvvedimento">
+      <wsdl:input message="mnd:MessageRequest"/>
+      <wsdl:output message="mnd:MessageResponse"/>
+    </wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ProvvedimentiBinding" type="mnd:ProvvedimentiPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="InserisciMandati">
+			<soap:operation soapAction="urn:InserisciMandati"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="CreaDocumento">
+			<soap:operation soapAction="urn:CreaDocumento"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ModificaDocumento">
+			<soap:operation soapAction="urn:ModificaDocumento"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="InfoDocumento">
+			<soap:operation soapAction="urn:InfoDocumento"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+    <wsdl:operation name="GetTipologieProvvedimento">
+      <soap:operation soapAction="urn:GetTipologieProvvedimento"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ProvvedimentiService">
+		<wsdl:port name="ProvvedimentiPort" binding="mnd:ProvvedimentiBinding">
+			<soap:address location="http://127.0.0.1/AttiDigitaliWS/ProvvedimentiService"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
