@@ -18,7 +18,8 @@ description:
     genericName: ProvvedimentiAmministrativi
     longDescription: >
       Provvedimenti Amministrativi è utilizzato dalla Regione Basilicata dal 2008. 
-      Gestisce il flusso degli atti amministrativi: determine, disposizioni e delbiere, partendo dalla fase istruttoria sino ad arrivare alla fase di approvazione e archiviazione.
+      Gestisce il flusso degli atti amministrativi: determine, disposizioni e delbiere. Si parte dalla fase istruttoria sino ad arrivare alla fase di approvazione e archiviazione.
+      Ad ogni step del flusso di approvazione degli atti, questi vengono firmati digitalmente dagli utenti che vi partecipano.
       Grazie alla sua integrazione con il Sistema Informativo Contabile (SIC) della Regione Basilicata permette di gestire anche atti amministrativi che prevedono documenti contabili.
     shortDescription: >-
       E' il sistema per la gestione del flusso documentale degli atti amministrativi 
